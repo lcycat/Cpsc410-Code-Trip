@@ -2,9 +2,9 @@ Cpsc410-Code-Trip
 =================
 Project group members:
 
-James Ma
-Kathy Ye
-Jennifer Leung
+James Ma, 
+Kathy Ye, 
+Jennifer Leung, 
 Chenyang Li
 
 Group meeting: Wensday 11AM-12PM or 4AM-5AM
