@@ -7,7 +7,8 @@ Kathy Ye,
 Jennifer Leung, 
 Chenyang Li
 
-Group meeting: Wensday 11AM-12PM or 4PM-5PM
+Group meeting: Wensday 11AM-12PM
+Next meeting time: Sep 29th(Mon) 11AM
 
 =================
 
