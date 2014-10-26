@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 
 public class codeParser {
@@ -11,17 +12,23 @@ public class codeParser {
 	public codeParser () {
 	}
 
-	public static void main(String [] args) {
+	public static void main(String [] args) throws InterruptedException {
 		
+		//Prompt user to enter full path of code base
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter Code Base full path: ");
+		String pathCodeBase = input.nextLine();
+		input.close();
+
 		// Get path names of tools and code bases and store them as strings
 		String pathLib =  System.getProperty("user.dir") + "/lib";
 		String pathNCSS = pathLib + "/javancss-32.53/bin/javancss";
 		String pathXML = pathLib + "/test.xml";
-		String pathCodeBase1 = pathLib + "/micropolis-java";
+		//String pathCodeBase = pathLib + "/micropolis-java";
 		System.out.println(pathLib);
 		System.out.println(pathNCSS);
 		System.out.println(pathXML);
-		System.out.println(pathCodeBase1);
+		System.out.println(pathCodeBase);
 		
 		// Resets the xml file as a blank xml file
 		File xml = new File(pathXML);
@@ -53,13 +60,18 @@ public class codeParser {
 		commands.add("-all");
 		commands.add("-out");
 		commands.add(pathXML);
-		commands.add(pathCodeBase1);
+		commands.add(pathCodeBase);
 		System.out.println(commands);
 
 		ProcessBuilder pb = new ProcessBuilder(commands);
 
+		// Kill javancss process after it's done
 		try {
 			Process process = pb.start();
+			process.waitFor();
+			if (process.exitValue() == 0){
+				process.destroy();
+			}
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
