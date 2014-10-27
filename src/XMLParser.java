@@ -19,7 +19,7 @@ public class XMLParser {
 	{
 		try {
 			String pathLib =  System.getProperty("user.dir") + "/lib";
-			String pathXML = pathLib + "/test.xml";
+			String pathXML = pathLib + "/TESTFINAL.xml";
 			File xmlFile = new File(pathXML);
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
@@ -48,7 +48,15 @@ public class XMLParser {
 					// get the Class name
 					String x = eElement.getElementsByTagName("name").item(0).getTextContent();
 					String[] pieces = x.split("\\.");
-					String name = pieces[2];
+					
+					// the Main method is only split into two pieces so need to check for this
+					String name;
+					if (pieces[1].equals("Main")) {
+						 name = pieces[1];
+					}
+					else {
+						 name = pieces[2];
+					}
 					
 					// check if we already created this building
 					if (listOfBuildings.size() != 0) {
@@ -117,8 +125,17 @@ public class XMLParser {
 					
 					String x = eElement.getElementsByTagName("name").item(0).getTextContent();
 					String[] pieces = x.split("\\.");
-					String name = pieces[2];
 					
+					// check if it is the Main function
+					String name;
+					if (pieces[1].equals("Main")) {
+						 name = pieces[1];
+					}
+					else {
+						 name = pieces[2];
+					}
+					
+					System.out.println(temp);
 					Building building = FindClassName(listOfBuildings, name);
 					
 					int functionNCSS = Integer.parseInt(eElement.getElementsByTagName("ncss").item(0).getTextContent());
