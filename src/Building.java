@@ -63,7 +63,7 @@ public class Building {
 		this.height = height;
 	}
 	
-	public void CalculateFunctionRatio (int functionNCSS) {
+	public void calculateFunctionRatio (int functionNCSS) {
 		double ratio = functionNCSS/(double)totalNCSS;
 		
 		//convert to three decimals
