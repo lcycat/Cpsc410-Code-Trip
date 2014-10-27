@@ -104,8 +104,8 @@ public class XMLParser {
 				}
 			}
 			
-			SetMaxNCSS(maxNCSS, listOfBuildings);
-			CalculateBuildingHeight(listOfBuildings, maxNCSS);
+			setMaxNCSS(maxNCSS, listOfBuildings);
+			calculateBuildingHeight(listOfBuildings, maxNCSS);
 			
 			
 			// Parse the functions associated with the class
@@ -136,10 +136,10 @@ public class XMLParser {
 					}
 					
 					System.out.println(temp);
-					Building building = FindClassName(listOfBuildings, name);
+					Building building = findClassName(listOfBuildings, name);
 					
 					int functionNCSS = Integer.parseInt(eElement.getElementsByTagName("ncss").item(0).getTextContent());
-					building.CalculateFunctionRatio(functionNCSS);
+					building.calculateFunctionRatio(functionNCSS);
 				
 					System.out.println("Function NCSS : " + eElement.getElementsByTagName("ncss").item(0).getTextContent());
 					System.out.println();
@@ -154,7 +154,7 @@ public class XMLParser {
 	
 	
 	// Calculate the height of each building
-	private static void CalculateBuildingHeight(List<Building> listOfBuildings, int maxNCSS) {
+	private static void calculateBuildingHeight(List<Building> listOfBuildings, int maxNCSS) {
 		for (Building b : listOfBuildings) {
 			int buildingNCSS = b.getTotalNCSS();
 			double tempHeight = (buildingNCSS/(double)maxNCSS);
@@ -164,14 +164,14 @@ public class XMLParser {
 	}
 
 	// Sets the maxNCSS for each Building object in the list
-	private static void SetMaxNCSS(int maxNCSS, List<Building> listOfBuildings) {
+	private static void setMaxNCSS(int maxNCSS, List<Building> listOfBuildings) {
 		for (Building b : listOfBuildings) {
 			b.setMaxNCSS(maxNCSS);
 		}
 	}
 
 	//Find the building with string name in a list of buildings
-	private static Building FindClassName(List<Building> buildingList, String name) {
+	private static Building findClassName(List<Building> buildingList, String name) {
 		for (Building object : buildingList) {
 			if (object.getName().equals(name)) {
 				return object;
