@@ -7,12 +7,12 @@ import java.util.List;
 import java.util.Scanner;
 
 
-public class codeParser {
+public class CodeParser {
 
-	public codeParser () {
+	public CodeParser() {
 	}
 
-	public static void main(String [] args) throws InterruptedException {
+	public void codeParse() throws InterruptedException {
 		
 		//Prompt user to enter full path of code base
 		Scanner input = new Scanner(System.in);
