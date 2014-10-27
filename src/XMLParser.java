@@ -19,7 +19,7 @@ public class XMLParser {
 	{
 		try {
 			String pathLib =  System.getProperty("user.dir") + "/lib";
-			String pathXML = pathLib + "/TESTFINAL.xml";
+			String pathXML = pathLib + "/test.xml";
 			File xmlFile = new File(pathXML);
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
