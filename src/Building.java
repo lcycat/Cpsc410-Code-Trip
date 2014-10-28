@@ -55,7 +55,7 @@ public class Building {
 	}
 	
 
-	public float getHeight() {
+	public int getHeight() {
 		return height;
 	}
 
