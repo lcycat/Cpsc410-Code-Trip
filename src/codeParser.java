@@ -12,7 +12,7 @@ public class CodeParser {
 	public CodeParser() {
 	}
 
-	public void codeParse() throws InterruptedException {
+	public String codeParse() throws InterruptedException {
 		
 		//Prompt user to enter full path of code base
 		Scanner input = new Scanner(System.in);
@@ -76,5 +76,6 @@ public class CodeParser {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		return pathXML;
 	}
 }
