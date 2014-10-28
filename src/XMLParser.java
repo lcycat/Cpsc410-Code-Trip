@@ -22,9 +22,7 @@ public class XMLParser {
 		List<Building> listOfBuildings = new ArrayList<Building>();
 		
 		try {
-			String pathLib =  System.getProperty("user.dir") + "/lib";
-			String pathXML = pathLib + "/TESTFINAL.xml";
-			File xmlFile = new File(pathXML);
+			File xmlFile = new File(fileDirectory);
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			Document doc = dBuilder.parse(xmlFile);
