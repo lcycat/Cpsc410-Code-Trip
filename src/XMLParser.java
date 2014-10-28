@@ -15,11 +15,15 @@ public class XMLParser {
 	public XMLParser(){
 	}
 	
-	public static void main (String arvg[])
+	// returns a list of Buildings to pass into visualizer
+	// requires the filedirectory of the XML file to parse
+	public List<Building> parseXMLFile (String fileDirectory)
 	{
+		List<Building> listOfBuildings = new ArrayList<Building>();
+		
 		try {
 			String pathLib =  System.getProperty("user.dir") + "/lib";
-			String pathXML = pathLib + "/test.xml";
+			String pathXML = pathLib + "/TESTFINAL.xml";
 			File xmlFile = new File(pathXML);
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
@@ -27,10 +31,8 @@ public class XMLParser {
 			
 			doc.getDocumentElement().normalize();
 			
-			List<Building> listOfBuildings = new ArrayList<Building>();
 			int maxNCSS = 0;
-			
-			
+		
 			// Parse the class information
 			NodeList nList = doc.getElementsByTagName("object");
 			
@@ -127,7 +129,7 @@ public class XMLParser {
 					String[] pieces = x.split("\\.");
 					
 					// check if it is the Main function
-					String name;
+					String name	;
 					if (pieces[1].equals("Main")) {
 						 name = pieces[1];
 					}
@@ -150,7 +152,9 @@ public class XMLParser {
 			//TODO catch block
 			e.printStackTrace();
 		    }
-		}
+		
+		return listOfBuildings;
+	}
 	
 	
 	// Calculate the height of each building
@@ -158,7 +162,7 @@ public class XMLParser {
 		for (Building b : listOfBuildings) {
 			int buildingNCSS = b.getTotalNCSS();
 			double tempHeight = (buildingNCSS/(double)maxNCSS);
-			float height = (float)Math.ceil(tempHeight*Building.getMaxHeight());
+			int height = (int)Math.ceil(tempHeight*Building.getMaxHeight());
 			b.setHeight(height);
 		}
 	}
