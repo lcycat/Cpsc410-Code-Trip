@@ -1,3 +1,4 @@
+package ca.ubc.cpsc410.codetrip;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,13 +16,13 @@ public class XMLParser {
 	public XMLParser(){
 	}
 	
-	// returns a list of Buildings to pass into visualizer
-	// requires the filedirectory of the XML file to parse
 	public List<Building> parseXMLFile (String fileDirectory)
 	{
 		List<Building> listOfBuildings = new ArrayList<Building>();
 		
 		try {
+			//String pathLib =  System.getProperty("user.dir") + "/lib";
+			//String pathXML = pathLib + "/TESTFINAL.xml";
 			File xmlFile = new File(fileDirectory);
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
