@@ -1,3 +1,4 @@
+package ca.ubc.cpsc410.codetrip;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,10 +9,10 @@ public class Building {
 	}
 	
 	private final static int MAX_HEIGHT = 100;
+	private static int HEIGHT;
 	
 	private String name;
 	private int maxNCSS ;
-	private int height;
 	private int numberOfFunctions;
 	private int totalNCSS;
 	private List<Double> functionRatios = new ArrayList<Double>();
@@ -55,12 +56,16 @@ public class Building {
 	}
 	
 
-	public int getHeight() {
-		return height;
+	public static int getHeight() {
+		return HEIGHT;
 	}
 
 	public void setHeight(int height) {
-		this.height = height;
+		Building.HEIGHT = height;
+	}
+	
+	public List<Double> getFunctionRatios() {
+		return functionRatios;
 	}
 	
 	public void calculateFunctionRatio (int functionNCSS) {
@@ -70,4 +75,6 @@ public class Building {
 		ratio = Math.round(ratio*1000.0)/1000.0;
 		functionRatios.add(ratio);
 	}
+
+	
 }
