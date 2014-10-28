@@ -9,11 +9,16 @@ Chenyang Li
 
 Group meeting: Wensday 11AM-12PM,
 
-Next meeting time: Sep 29th(Mon) 11AM
+
 
 =================
 
-Current Task ( Due Oct 6th):
+Current Task ( Due Oct 27th 9:00PM):
+
+=================
+sprint1:
+For visualiser, please read the README.pdf in CodeTripVisualizerComponent folder
+
 
 =================
 
