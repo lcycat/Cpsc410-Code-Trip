@@ -11,7 +11,7 @@ public class Building {
 	
 	private String name;
 	private int maxNCSS ;
-	private float height;
+	private int height;
 	private int numberOfFunctions;
 	private int totalNCSS;
 	private List<Double> functionRatios = new ArrayList<Double>();
@@ -59,7 +59,7 @@ public class Building {
 		return height;
 	}
 
-	public void setHeight(float height) {
+	public void setHeight(int height) {
 		this.height = height;
 	}
 	
