@@ -1,0 +1,27 @@
+***************
+*** 2185,2196 ****
+          tessellator.func_78380_c(p_78598_1_.func_71874_e(field_78669_a, p_78598_2_, p_78598_3_, p_78598_4_));
+          int j = p_78598_1_.func_71920_b(field_78669_a, p_78598_2_, p_78598_3_, p_78598_4_);
+          float f1 = (float)(j >> 16 & 0xff) / 255F;
+-         double d = (float)(j >> 8 & 0xff) / 255F;
+          float f2 = (float)(j & 0xff) / 255F;
+-         tessellator.func_78386_a(f * f1, f * d, f * f2);
+          j = (i & 0xf) << 4;
+          f1 = i & 0xf0;
+-         d = (float)j / 256F;
+          double d1 = ((float)j + 15.99F) / 256F;
+          double d2 = (float)f1 / 256F;
+          double d3 = ((float)f1 + 15.99F) / 256F;
+--- 2185,2196 ----
+          tessellator.func_78380_c(p_78598_1_.func_71874_e(field_78669_a, p_78598_2_, p_78598_3_, p_78598_4_));
+          int j = p_78598_1_.func_71920_b(field_78669_a, p_78598_2_, p_78598_3_, p_78598_4_);
+          float f1 = (float)(j >> 16 & 0xff) / 255F;
++         float da = (float)(j >> 8 & 0xff) / 255F;
+          float f2 = (float)(j & 0xff) / 255F;
++         tessellator.func_78386_a(f * f1, f * da, f * f2);
+          j = (i & 0xf) << 4;
+          f1 = i & 0xf0;
++         double d = (float)j / 256F;
+          double d1 = ((float)j + 15.99F) / 256F;
+          double d2 = (float)f1 / 256F;
+          double d3 = ((float)f1 + 15.99F) / 256F;

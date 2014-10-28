@@ -1,0 +1,8 @@
+十月 28, 2014 2:23:01 上午 net.minecraft.src.ModLoader init
+详细: ModLoaderMP 1.3.1v1 Initializing...
+十月 28, 2014 2:23:02 上午 net.minecraft.src.ModLoader readFromClassPath
+较详细: Adding mods from E:\cpsc410\CodeTrip\MCP\bin\minecraft_server
+十月 28, 2014 2:23:02 上午 net.minecraft.src.ModLoader readFromClassPath
+较详细: Directory found.
+十月 28, 2014 2:23:02 上午 net.minecraft.src.ModLoaderMp log
+详细: ModLoaderMP 1.3.1v1 Initialized

@@ -1,0 +1,17 @@
+***************
+*** 421,426 ****
+              {
+                  func_71240_o();
+              }
+              break MISSING_BLOCK_LABEL_502;
+          }
+          try
+--- 425,432 ----
+              {
+                  func_71240_o();
+              }
++         }
++ /*
+              break MISSING_BLOCK_LABEL_502;
+          }
+          try
