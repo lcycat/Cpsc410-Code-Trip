@@ -1,39 +1,48 @@
 package ca.ubc.codetrip.model;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
-
-
+import jdepend.xmlui.*;
 public class CodeParser {
 
 	public CodeParser() {
 	}
 
-	public String codeParse() throws InterruptedException {
+	public String parseToJDepend(String currDir, String pathCodeBase) throws IOException{
+	
+	String pathJDepxml = currDir + "/JDepReport.xml";
+	File file = new File(pathJDepxml);
+	if(file.exists()){
+		if (!file.canExecute()) {
+			file.setExecutable(true);
+		}
+		System.out.println("Is Execute allowed : " + file.canExecute());
+	}
+	
+	JDepend jdepend = new JDepend();
+	PrintWriter writer = new PrintWriter(new File("JDepReport.xml"));
+	jdepend.setWriter(writer);
+	jdepend.addDirectory(pathCodeBase);
+	jdepend.analyze();
+	writer.close();
+	
+	return pathJDepxml;
+}
+	
+	public String parseToNCSS(String currDir, String pathCodeBase) throws InterruptedException {
 		
-		//Prompt user to enter full path of code base
-		Scanner input = new Scanner(System.in);
-		System.out.println("Enter Code Base full path: ");
-		String pathCodeBase = input.nextLine();
-		input.close();
-
 		// Get path names of tools and code bases and store them as strings
-		String pathLib =  System.getProperty("user.dir") + "/lib";
-		String pathNCSS = pathLib + "/javancss-32.53/bin/javancss";
-		String pathXML = pathLib + "/test.xml";
-		//String pathCodeBase = pathLib + "/micropolis-java";
-		System.out.println(pathLib);
+		String pathNCSS = currDir + "/lib/javancss-32.53/bin/javancss";
+		String pathNCSSxml = currDir + "/NCSSReport.xml";
+		System.out.println(currDir);
 		System.out.println(pathNCSS);
-		System.out.println(pathXML);
-		System.out.println(pathCodeBase);
-		
+		System.out.println(pathNCSSxml);
+
 		// Resets the xml file as a blank xml file
-		File xml = new File(pathXML);
+		File xml = new File(pathNCSSxml);
 		PrintWriter writer;
 		try {
 			writer = new PrintWriter(xml);
@@ -61,7 +70,7 @@ public class CodeParser {
 		commands.add("-xml");
 		commands.add("-all");
 		commands.add("-out");
-		commands.add(pathXML);
+		commands.add(pathNCSSxml);
 		commands.add(pathCodeBase);
 		System.out.println(commands);
 
@@ -78,6 +87,6 @@ public class CodeParser {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return pathXML;
+		return pathNCSSxml;
 	}
 }
