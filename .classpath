@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/javancss-32.53/lib/ccl.jar"/>
+	<classpathentry kind="lib" path="lib/javancss-32.53/lib/javacc.jar"/>
+	<classpathentry kind="lib" path="lib/javancss-32.53/lib/javancss.jar"/>
+	<classpathentry kind="lib" path="lib/javancss-32.53/lib/jhbasic.jar"/>
+	<classpathentry kind="lib" path="lib/jdepend-2.9.1/lib/jdepend-2.9.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="CodeTripVisualizerComponent/CodeTrip/bin/minecraft_server"/>
+</classpath>
