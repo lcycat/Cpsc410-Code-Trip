@@ -10,6 +10,7 @@ public class CodeTrip {
 	
 	public static String pathNCSSxml;
 	public static String pathJDepxml;
+    public static String pathFindBugsXML;
 	
 	public static void main(String [] args) throws InterruptedException, IOException {
 		
@@ -27,6 +28,7 @@ public class CodeTrip {
 		CodeParser cp = new CodeParser();
 		pathNCSSxml = cp.parseToNCSS(currDir, pathCodeBase);
 		pathJDepxml = cp.parseToJDepend(currDir, pathCodeBase);
+        pathFindBugsXML = cp.parseToFindBugs(currDir, pathCodeBase);
 		
 		XMLParser xp = new XMLParser();
 		xp.parseXMLFile(pathNCSSxml);	
