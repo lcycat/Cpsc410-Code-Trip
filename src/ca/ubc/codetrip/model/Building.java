@@ -15,6 +15,7 @@ public class Building {
 	private int maxNCSS ;
 	private int numberOfFunctions;
 	private int totalNCSS;
+	private int bugNumber = 0;
 	private List<Double> functionRatios = new ArrayList<Double>();
 	
 	
@@ -74,6 +75,14 @@ public class Building {
 		//convert to three decimals
 		ratio = Math.round(ratio*1000.0)/1000.0;
 		functionRatios.add(ratio);
+	}
+
+	public int getBugNumber() {
+		return bugNumber;
+	}
+
+	public void setBugNumber(int bugNumber) {
+		this.bugNumber = bugNumber;
 	}
 
 	

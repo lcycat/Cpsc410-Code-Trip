@@ -6,7 +6,9 @@ import java.util.List;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.DocumentBuilder;
 
+import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
+import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
 import org.w3c.dom.Element;
@@ -16,7 +18,7 @@ public class XMLParser {
 	public XMLParser(){
 	}
 	
-	public List<Building> parseXMLFile (String fileDirectory)
+	public List<Building> parseNCSS (String fileDirectory)
 	{
 		List<Building> listOfBuildings = new ArrayList<Building>();
 		
@@ -181,5 +183,59 @@ public class XMLParser {
 			}
 		}
 		return null;
+	}
+	
+	public void parseBugFinder (List<Building> listOfBuildings, String fileDirectory)
+
+	//public static void main(String [] args)
+	{
+		try {
+			//String pathLib =  System.getProperty("user.dir") + "/lib";
+			//String pathXML = pathLib + "/findBugs.xml";
+			File xmlFile = new File(fileDirectory);
+				
+			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+			Document doc = dBuilder.parse(xmlFile);
+				
+			doc.getDocumentElement().normalize();
+				
+			//List<Building> listOfBuildings = new ArrayList<Building>();
+			//Building newBuilding = new Building();
+			//newBuilding.setName("micropolisj.build_tool.MakeTiles");
+			//listOfBuildings.add(newBuilding);
+				
+		    NodeList nList = doc.getElementsByTagName("Class");
+
+		    for (int temp = 0; temp < nList.getLength(); temp++) {
+
+		    	Node nNode = nList.item(temp);
+
+			   	if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+			    	
+			    	NamedNodeMap attributes = (NamedNodeMap)nNode.getAttributes();
+			    	Attr attribute = (Attr)attributes.item(0);
+			    	//System.out.println(" Class Name: " + attribute.getValue());
+			    		
+			    	String name = attribute.getValue();
+			    	Building building = findClassName(listOfBuildings, name);
+			    		
+			    		//System.out.println("Class Name found: " + name);
+			    		
+			    	if (building != null) {
+			    		int bugNumber = building.getBugNumber();
+			    		System.out.println("Previous Bug Number: " + bugNumber);
+			    		building.setBugNumber(bugNumber+1);
+			    	}
+			    }
+
+		    }
+
+		}
+
+		catch (Exception e) {
+			//TODO catch block
+			e.printStackTrace();
+		  }
 	}
 }

@@ -1,6 +1,8 @@
 package ca.ubc.codetrip.model;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class CodeTrip {
@@ -11,6 +13,8 @@ public class CodeTrip {
 	public static String pathNCSSxml;
 	public static String pathJDepxml;
     public static String pathFindBugsXML;
+    
+    public static List<Building> listOfBuildings = new ArrayList<Building>();
 	
 	public static void main(String [] args) throws InterruptedException, IOException {
 		
@@ -31,7 +35,8 @@ public class CodeTrip {
         pathFindBugsXML = cp.parseToFindBugs(currDir, pathCodeBase);
 		
 		XMLParser xp = new XMLParser();
-		xp.parseXMLFile(pathNCSSxml);	
+		listOfBuildings = xp.parseNCSS(pathNCSSxml);
+		xp.parseBugFinder(listOfBuildings, pathFindBugsXML);
 		
 	}
 	

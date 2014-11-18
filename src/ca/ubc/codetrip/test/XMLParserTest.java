@@ -25,7 +25,7 @@ public class XMLParserTest {
 	// test the number of buildings created is true from a test.xml file
 	@Test
 	public void testListOfBuildingsSize () {
-		listOfBuildings = xp.parseXMLFile(fileDirectory);
+		listOfBuildings = xp.parseNCSS(fileDirectory);
 		assertTrue(listOfBuildings.size() == 3);
 	}
 
