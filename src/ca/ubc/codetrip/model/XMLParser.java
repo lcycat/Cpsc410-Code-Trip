@@ -5,6 +5,9 @@ import java.util.List;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.DocumentBuilder;
+import javax.xml.xpath.XPath;
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathFactory;
 
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
@@ -18,13 +21,28 @@ public class XMLParser {
 	public XMLParser(){
 	}
 	
-	public List<Building> parseNCSS (String fileDirectory)
+	public static List<Town> listOfTowns = new ArrayList<Town>();
+	
+	public CodeBase runParsing (String NCSS, String BugFinder, String JDepend)
+	{
+		CodeBase codeBase = new CodeBase();
+		this.parseNCSS(codeBase, NCSS);
+		this.parseBugFinder(listOfTowns, BugFinder);
+		this.parseJDepend(listOfTowns, JDepend);
+		
+		codeBase.setListOfTowns(listOfTowns);
+		
+		return codeBase;
+	}
+	
+	public void parseNCSS (CodeBase codeBase, String fileDirectory)
 	{
 		List<Building> listOfBuildings = new ArrayList<Building>();
 		
 		try {
 			//String pathLib =  System.getProperty("user.dir") + "/lib";
 			//String pathXML = pathLib + "/TESTFINAL.xml";
+			//File xmlFile = new File(pathXML);
 			File xmlFile = new File(fileDirectory);
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
@@ -48,18 +66,38 @@ public class XMLParser {
 					
 					System.out.println("Class Name : " + eElement.getElementsByTagName("name").item(0).getTextContent());
 					
-					// get the Class name
+					// get the Package and Class name
 					String x = eElement.getElementsByTagName("name").item(0).getTextContent();
 					String[] pieces = x.split("\\.");
 					
+					// set Code Base name
+					codeBase.setName(pieces[0]);
+					
+					
+					String pname = null;
+					String name = null;
+					
 					// the Main method is only split into two pieces so need to check for this
-					String name;
 					if (pieces[1].equals("Main")) {
 						 name = pieces[1];
+						 pname = pieces[0];
 					}
 					else {
 						 name = pieces[2];
+						 pname = pieces[0] + "." + pieces[1];
 					}
+					
+					
+					
+					// check if already created this town
+					if (!townExists(listOfTowns, pname)) {
+						Town town = new Town();
+						town.setName(pname);
+						listOfTowns.add(town);
+
+						System.out.println("Townnamesaved: " + pname);
+					}
+					
 					
 					// check if we already created this building
 					if (listOfBuildings.size() != 0) {
@@ -68,7 +106,7 @@ public class XMLParser {
 							Building building = new Building();
 							building.setName(name);
 							
-							System.out.println("namesaved: " + name);
+							System.out.println("Class namesaved: " + name);
 							
 							// check if this class's total NCSS is the highest so far
 							int currentNCSS = Integer.parseInt(eElement.getElementsByTagName("ncss").item(0).getTextContent());
@@ -86,12 +124,19 @@ public class XMLParser {
 							
 							listOfBuildings.add(building);
 							
+							// find the town this building belongs to and add
+							Town town = findTown(listOfTowns, pname);
+							List<Building> townBuildings = town.getListOfBuildings();
+							townBuildings.add(building);
+							town.setListOfBuildings(townBuildings);
+							
 						}
 					}
 					if (listOfBuildings.size() == 0) {
 						Building building = new Building();
 						building.setName(name);
 						System.out.println("namesaved: " + name);
+						System.out.println("pname: " + pname);
 						
 						maxNCSS = Integer.parseInt(eElement.getElementsByTagName("ncss").item(0).getTextContent());
 						building.setTotalNCSS(Integer.parseInt(eElement.getElementsByTagName("ncss").item(0).getTextContent()));							
@@ -103,6 +148,12 @@ public class XMLParser {
 						System.out.println();
 						
 						listOfBuildings.add(building);
+						
+						// find the town this building belongs to and add
+						Town town = findTown(listOfTowns, pname);
+						List<Building> townBuildings = town.getListOfBuildings();
+						townBuildings.add(building);
+						town.setListOfBuildings(townBuildings);
 					}
 				}
 			}
@@ -139,13 +190,14 @@ public class XMLParser {
 					}
 					
 					System.out.println(temp);
-					Building building = findClassName(listOfBuildings, name);
+					Building building = findBuildingName(listOfBuildings, name);
 					
 					int functionNCSS = Integer.parseInt(eElement.getElementsByTagName("ncss").item(0).getTextContent());
 					building.calculateFunctionRatio(functionNCSS);
 				
 					System.out.println("Function NCSS : " + eElement.getElementsByTagName("ncss").item(0).getTextContent());
 					System.out.println();
+					
 				}
 			}
 			
@@ -153,45 +205,16 @@ public class XMLParser {
 			//TODO catch block
 			e.printStackTrace();
 		    }
-		
-		return listOfBuildings;
 	}
 	
 	
-	// Calculate the height of each building
-	private static void calculateBuildingHeight(List<Building> listOfBuildings, int maxNCSS) {
-		for (Building b : listOfBuildings) {
-			int buildingNCSS = b.getTotalNCSS();
-			double tempHeight = (buildingNCSS/(double)maxNCSS);
-			int height = (int)Math.ceil(tempHeight*Building.getMaxHeight());
-			b.setHeight(height);
-		}
-	}
-
-	// Sets the maxNCSS for each Building object in the list
-	private static void setMaxNCSS(int maxNCSS, List<Building> listOfBuildings) {
-		for (Building b : listOfBuildings) {
-			b.setMaxNCSS(maxNCSS);
-		}
-	}
-
-	//Find the building with string name in a list of buildings
-	private static Building findClassName(List<Building> buildingList, String name) {
-		for (Building object : buildingList) {
-			if (object.getName().equals(name)) {
-				return object;
-			}
-		}
-		return null;
-	}
 	
-	public void parseBugFinder (List<Building> listOfBuildings, String fileDirectory)
-
-	//public static void main(String [] args)
+	public void parseBugFinder (List<Town> listOfTowns, String fileDirectory)
 	{
 		try {
 			//String pathLib =  System.getProperty("user.dir") + "/lib";
 			//String pathXML = pathLib + "/findBugs.xml";
+			//File xmlFile = new File(pathXML);
 			File xmlFile = new File(fileDirectory);
 				
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
@@ -202,7 +225,7 @@ public class XMLParser {
 				
 			//List<Building> listOfBuildings = new ArrayList<Building>();
 			//Building newBuilding = new Building();
-			//newBuilding.setName("micropolisj.build_tool.MakeTiles");
+			//newBuilding.setName("MakeTiles");
 			//listOfBuildings.add(newBuilding);
 				
 		    NodeList nList = doc.getElementsByTagName("Class");
@@ -217,10 +240,29 @@ public class XMLParser {
 			    	Attr attribute = (Attr)attributes.item(0);
 			    	//System.out.println(" Class Name: " + attribute.getValue());
 			    		
-			    	String name = attribute.getValue();
-			    	Building building = findClassName(listOfBuildings, name);
-			    		
-			    		//System.out.println("Class Name found: " + name);
+			    	// get the class name
+			    	String x = attribute.getValue();
+			    	String[] pieces = x.split("\\.");
+			    	
+			    	// the Main method is only split into two pieces so need to check for this
+					String name;
+					String pname;
+					if (pieces[1].equals("Main")) {
+						 name = pieces[1];
+						 pname = pieces[0];
+					}
+					else {
+						 name = pieces[2];
+						 pname = pieces[0] + "." + pieces[1];
+					}
+					
+			    	
+			    	System.out.println("ClassName: "+ name);
+			    	Town town = findTown(listOfTowns, pname);
+			    	
+			    	List<Building> listOfBuildings = town.getListOfBuildings();
+			    	Building building = findBuildingName(listOfBuildings, name);
+		
 			    		
 			    	if (building != null) {
 			    		int bugNumber = building.getBugNumber();
@@ -228,14 +270,124 @@ public class XMLParser {
 			    		building.setBugNumber(bugNumber+1);
 			    	}
 			    }
-
 		    }
-
 		}
-
 		catch (Exception e) {
 			//TODO catch block
 			e.printStackTrace();
 		  }
 	}
+	
+	
+	 public void parseJDepend (List<Town> townList, String fileDirectory)
+	 {
+		try
+		{
+			/*String pathLib =  System.getProperty("user.dir") + "/lib";
+			String pathXML = pathLib + "/JDepReportMicropolis.xml";
+			File xmlFile = new File(pathXML);*/
+			File xmlFile = new File(fileDirectory);
+		
+			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+			Document doc = dBuilder.parse(xmlFile);
+			
+			doc.getDocumentElement().normalize(); 
+		    
+			XPathFactory xpathFactory = XPathFactory.newInstance();
+			XPath xpath = xpathFactory.newXPath();
+			NodeList nList = (NodeList) xpath.evaluate("JDepend/Packages/Package", doc,
+			    XPathConstants.NODESET);
+			
+			
+			for (int temp = 0; temp < nList.getLength(); temp++) {
+
+		    	Node nNode = nList.item(temp);
+		    	
+		    	Element eElement = (Element) nNode;
+		    	
+			   	if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+			   		
+			   		NamedNodeMap attributes = (NamedNodeMap)nNode.getAttributes();
+			    	Attr attribute = (Attr)attributes.item(0);
+			    	String pname = attribute.getValue();
+			    	
+			    	System.out.println(pname);
+			    	
+			    	Town townFound = findTown(townList, pname);
+			    	
+			    	if (townFound != null) {
+			    		
+			    		String x = eElement.getElementsByTagName("DependsUpon").item(0).getTextContent();
+			    		String[] pieces = x.split("\\s+");
+			    		
+			    		for (int i = 0; i < pieces.length; i++) {
+			    			
+			    			if (townExists(townList, pieces[i])) {
+			    				Town dependTown = new Town();
+			    				dependTown = findTown(townList, pieces[i]);
+			    				List<Town> dependencies = townFound.getDependenciesTowns();
+			    				dependencies.add(dependTown);
+			    				townFound.setDependenciesTowns(dependencies);
+			    			}
+			    		}
+			    	}
+			   	}
+			}
+		}
+		catch (Exception e) {
+		//TODO catch block
+		e.printStackTrace();
+	  }
+	}
+	 
+	 
+
+		// Calculate the height of each building
+		private static void calculateBuildingHeight(List<Building> listOfBuildings, int maxNCSS) {
+			for (Building b : listOfBuildings) {
+				int buildingNCSS = b.getTotalNCSS();
+				double tempHeight = (buildingNCSS/(double)maxNCSS);
+				int height = (int)Math.ceil(tempHeight*Building.getMaxHeight());
+				b.setHeight(height);
+			}
+		}
+
+		// Sets the maxNCSS for each Building object in the list
+		private static void setMaxNCSS(int maxNCSS, List<Building> listOfBuildings) {
+			for (Building b : listOfBuildings) {
+				b.setMaxNCSS(maxNCSS);
+			}
+		}
+
+		//Find the building with string name in a list of buildings
+		private static Building findBuildingName(List<Building> buildingList, String name) {
+			for (Building object : buildingList) {
+				if (object.getName().equals(name)) {
+					return object;
+				}
+			}
+			return null;
+		}
+		
+		//Determine if this town already exists
+		private static boolean townExists(List<Town> townList, String name) {
+			for (Town object : townList) {
+				if (object.getName().equals(name)) {
+					return true;
+				}
+			}
+			return false;
+		}
+		
+		//Find the town with this string name in a list of towns
+		private static Town findTown(List<Town> townList, String name) {
+			for (Town object : townList) {
+				if (object.getName().equals(name)) {
+					return object;
+				}
+			}
+			return null;
+		}	 
+	 
 }

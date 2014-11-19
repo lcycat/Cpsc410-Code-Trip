@@ -98,7 +98,6 @@ public class CodeParser {
         String pathFindBugsXML = currDir + "/FindBugsReport.xml";
         
         String[] split = pathCodeBase.split("/");
-        System.out.println(split);
         String codeBaseName = split[split.length-1];
         
         String pathFBP = pathCodeBase + "/" + codeBaseName + ".fbp";

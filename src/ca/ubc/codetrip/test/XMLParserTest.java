@@ -9,7 +9,6 @@ import ca.ubc.codetrip.model.XMLParser;
 import ca.ubc.codetrip.model.Building;
 
 import org.junit.Before;
-import org.junit.Test;
 
 public class XMLParserTest {
 	
@@ -22,11 +21,5 @@ public class XMLParserTest {
 		xp = new XMLParser();
 	}
 	
-	// test the number of buildings created is true from a test.xml file
-	@Test
-	public void testListOfBuildingsSize () {
-		listOfBuildings = xp.parseNCSS(fileDirectory);
-		assertTrue(listOfBuildings.size() == 3);
-	}
 
 }
