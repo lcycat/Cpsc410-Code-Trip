@@ -11,6 +11,7 @@ public class CodeTrip {
 	public static String pathNCSSxml;
 	public static String pathJDepxml;
     public static String pathFindBugsXML;
+    public static CodeBase codebase;
     
 	
 	public static void main(String [] args) throws InterruptedException, IOException {
@@ -24,16 +25,19 @@ public class CodeTrip {
 		String currDir = System.getProperty("user.dir");
 		
 		// Temp value
-		//pathCodeBase = currDir + "/CodeBases/JavaGame";
+		pathCodeBase = currDir + "/lib/JavaGame-master";
+		
 		
 		CodeParser cp = new CodeParser();
 		pathNCSSxml = cp.parseToNCSS(currDir, pathCodeBase);
 		pathJDepxml = cp.parseToJDepend(currDir, pathCodeBase);
         pathFindBugsXML = cp.parseToFindBugs(currDir, pathCodeBase);
 		
+        // Call the Parser to parse the output XML Files
+        // Creates and populates the CodeBase
 		XMLParser xp = new XMLParser();
-		xp.runParsing(pathNCSSxml, pathFindBugsXML, pathJDepxml);
-		
+		codebase = new CodeBase();
+		codebase = xp.runParsing(codebase, pathNCSSxml, pathFindBugsXML, pathJDepxml);
 		
 	}
 	

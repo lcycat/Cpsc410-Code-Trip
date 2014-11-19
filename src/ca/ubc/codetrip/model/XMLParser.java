@@ -23,9 +23,9 @@ public class XMLParser {
 	
 	public static List<Town> listOfTowns = new ArrayList<Town>();
 	
-	public CodeBase runParsing (String NCSS, String BugFinder, String JDepend)
+	// Function to call all the parsers and return the CodeBase  
+	public CodeBase runParsing (CodeBase codeBase, String NCSS, String BugFinder, String JDepend)
 	{
-		CodeBase codeBase = new CodeBase();
 		this.parseNCSS(codeBase, NCSS);
 		this.parseBugFinder(listOfTowns, BugFinder);
 		this.parseJDepend(listOfTowns, JDepend);
@@ -35,14 +35,20 @@ public class XMLParser {
 		return codeBase;
 	}
 	
+	// Function to parse the NCSS XML Output 
+	// It will create a list the initial list of Towns aka Packages as well as the Buildings aka Classes
+	// It requires a CodeBase and the file directory to access the XML
 	public void parseNCSS (CodeBase codeBase, String fileDirectory)
 	{
 		List<Building> listOfBuildings = new ArrayList<Building>();
 		
 		try {
+			
+			// Uncomment below portion to test the parser separately without running the analyzer 
 			//String pathLib =  System.getProperty("user.dir") + "/lib";
-			//String pathXML = pathLib + "/TESTFINAL.xml";
+			//String pathXML = pathLib + "/NCSSTEST.xml";
 			//File xmlFile = new File(pathXML);
+			
 			File xmlFile = new File(fileDirectory);
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
@@ -89,17 +95,15 @@ public class XMLParser {
 					
 					
 					
-					// check if already created this town
+					// check if already created this town, if not, create
 					if (!townExists(listOfTowns, pname)) {
 						Town town = new Town();
 						town.setName(pname);
 						listOfTowns.add(town);
-
-						System.out.println("Townnamesaved: " + pname);
 					}
 					
 					
-					// check if we already created this building
+					// check if we already created this building, if not, create
 					if (listOfBuildings.size() != 0) {
 						Building previousBuilding = listOfBuildings.get(listOfBuildings.size() - 1);
 						if (!previousBuilding.getName().equals(name)) {
@@ -124,7 +128,7 @@ public class XMLParser {
 							
 							listOfBuildings.add(building);
 							
-							// find the town this building belongs to and add
+							// find the town this building belongs to and add it to the town
 							Town town = findTown(listOfTowns, pname);
 							List<Building> townBuildings = town.getListOfBuildings();
 							townBuildings.add(building);
@@ -149,7 +153,7 @@ public class XMLParser {
 						
 						listOfBuildings.add(building);
 						
-						// find the town this building belongs to and add
+						// find the town this building belongs to and add to the town
 						Town town = findTown(listOfTowns, pname);
 						List<Building> townBuildings = town.getListOfBuildings();
 						townBuildings.add(building);
@@ -197,24 +201,26 @@ public class XMLParser {
 				
 					System.out.println("Function NCSS : " + eElement.getElementsByTagName("ncss").item(0).getTextContent());
 					System.out.println();
-					
 				}
 			}
-			
 		} catch (Exception e) {
-			//TODO catch block
 			e.printStackTrace();
 		    }
 	}
 	
 	
-	
+	// Function to parse the FindBugs XML Output
+	// It will add the number of bugs in the provided List<Town>
+	// Requires the List<Town> and the file directory of the XML
 	public void parseBugFinder (List<Town> listOfTowns, String fileDirectory)
 	{
 		try {
+			
+			//Uncomment below to test locally 
 			//String pathLib =  System.getProperty("user.dir") + "/lib";
-			//String pathXML = pathLib + "/findBugs.xml";
+			//String pathXML = pathLib + "/findBugsTEST.xml";
 			//File xmlFile = new File(pathXML);
+			
 			File xmlFile = new File(fileDirectory);
 				
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
@@ -238,9 +244,8 @@ public class XMLParser {
 			    	
 			    	NamedNodeMap attributes = (NamedNodeMap)nNode.getAttributes();
 			    	Attr attribute = (Attr)attributes.item(0);
-			    	//System.out.println(" Class Name: " + attribute.getValue());
 			    		
-			    	// get the class name
+			    	// get the package and class name
 			    	String x = attribute.getValue();
 			    	String[] pieces = x.split("\\.");
 			    	
@@ -255,15 +260,13 @@ public class XMLParser {
 						 name = pieces[2];
 						 pname = pieces[0] + "." + pieces[1];
 					}
-					
-			    	
-			    	System.out.println("ClassName: "+ name);
+				
 			    	Town town = findTown(listOfTowns, pname);
 			    	
 			    	List<Building> listOfBuildings = town.getListOfBuildings();
 			    	Building building = findBuildingName(listOfBuildings, name);
-		
-			    		
+			    	
+			    	// if building exists, set the bug number
 			    	if (building != null) {
 			    		int bugNumber = building.getBugNumber();
 			    		System.out.println("Previous Bug Number: " + bugNumber);
@@ -278,7 +281,9 @@ public class XMLParser {
 		  }
 	}
 	
-	
+	// Function to parse the JDepend XML Output
+	// It will set the dependencies for the Towns 
+	// Requires the List<Town> and the file directory of the XML
 	 public void parseJDepend (List<Town> townList, String fileDirectory)
 	 {
 		try
@@ -286,6 +291,7 @@ public class XMLParser {
 			/*String pathLib =  System.getProperty("user.dir") + "/lib";
 			String pathXML = pathLib + "/JDepReportMicropolis.xml";
 			File xmlFile = new File(pathXML);*/
+			
 			File xmlFile = new File(fileDirectory);
 		
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
@@ -336,12 +342,13 @@ public class XMLParser {
 			}
 		}
 		catch (Exception e) {
-		//TODO catch block
 		e.printStackTrace();
 	  }
 	}
 	 
 	 
+	 
+	    // BELOW ARE PRIVATE HELPER FUNCTIONS
 
 		// Calculate the height of each building
 		private static void calculateBuildingHeight(List<Building> listOfBuildings, int maxNCSS) {
