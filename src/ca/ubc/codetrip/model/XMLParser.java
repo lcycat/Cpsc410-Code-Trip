@@ -23,24 +23,27 @@ public class XMLParser {
 	
 	public static List<Town> listOfTowns = new ArrayList<Town>();
 	
-	public List<Town> runParsing (String NCSS, String BugFinder, String JDepend)
+	public CodeBase runParsing (String NCSS, String BugFinder, String JDepend)
 	{
-		this.parseNCSS(NCSS);
+		CodeBase codeBase = new CodeBase();
+		this.parseNCSS(codeBase, NCSS);
 		this.parseBugFinder(listOfTowns, BugFinder);
 		this.parseJDepend(listOfTowns, JDepend);
 		
-		return listOfTowns;
+		codeBase.setListOfTowns(listOfTowns);
+		
+		return codeBase;
 	}
 	
-	public void parseNCSS (String fileDirectory)
+	public void parseNCSS (CodeBase codeBase, String fileDirectory)
 	{
 		List<Building> listOfBuildings = new ArrayList<Building>();
 		
 		try {
-			String pathLib =  System.getProperty("user.dir") + "/lib";
-			String pathXML = pathLib + "/TESTFINAL.xml";
-			File xmlFile = new File(pathXML);
-			//File xmlFile = new File(fileDirectory);
+			//String pathLib =  System.getProperty("user.dir") + "/lib";
+			//String pathXML = pathLib + "/TESTFINAL.xml";
+			//File xmlFile = new File(pathXML);
+			File xmlFile = new File(fileDirectory);
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			Document doc = dBuilder.parse(xmlFile);
@@ -66,6 +69,10 @@ public class XMLParser {
 					// get the Package and Class name
 					String x = eElement.getElementsByTagName("name").item(0).getTextContent();
 					String[] pieces = x.split("\\.");
+					
+					// set Code Base name
+					codeBase.setName(pieces[0]);
+					
 					
 					String pname = null;
 					String name = null;
@@ -201,56 +208,8 @@ public class XMLParser {
 	}
 	
 	
-	// Calculate the height of each building
-	private static void calculateBuildingHeight(List<Building> listOfBuildings, int maxNCSS) {
-		for (Building b : listOfBuildings) {
-			int buildingNCSS = b.getTotalNCSS();
-			double tempHeight = (buildingNCSS/(double)maxNCSS);
-			int height = (int)Math.ceil(tempHeight*Building.getMaxHeight());
-			b.setHeight(height);
-		}
-	}
-
-	// Sets the maxNCSS for each Building object in the list
-	private static void setMaxNCSS(int maxNCSS, List<Building> listOfBuildings) {
-		for (Building b : listOfBuildings) {
-			b.setMaxNCSS(maxNCSS);
-		}
-	}
-
-	//Find the building with string name in a list of buildings
-	private static Building findBuildingName(List<Building> buildingList, String name) {
-		for (Building object : buildingList) {
-			if (object.getName().equals(name)) {
-				return object;
-			}
-		}
-		return null;
-	}
-	
-	//Determine if this town already exists
-	private static boolean townExists(List<Town> townList, String name) {
-		for (Town object : townList) {
-			if (object.getName().equals(name)) {
-				return true;
-			}
-		}
-		return false;
-	}
-	
-	//Find the town with this string name in a list of towns
-	private static Town findTown(List<Town> townList, String name) {
-		for (Town object : townList) {
-			if (object.getName().equals(name)) {
-				return object;
-			}
-		}
-		return null;
-	}
 	
 	public void parseBugFinder (List<Town> listOfTowns, String fileDirectory)
-
-	//public static void main(String [] args)
 	{
 		try {
 			//String pathLib =  System.getProperty("user.dir") + "/lib";
@@ -313,12 +272,12 @@ public class XMLParser {
 			    }
 		    }
 		}
-
 		catch (Exception e) {
 			//TODO catch block
 			e.printStackTrace();
 		  }
 	}
+	
 	
 	 public void parseJDepend (List<Town> townList, String fileDirectory)
 	 {
@@ -381,4 +340,54 @@ public class XMLParser {
 		e.printStackTrace();
 	  }
 	}
+	 
+	 
+
+		// Calculate the height of each building
+		private static void calculateBuildingHeight(List<Building> listOfBuildings, int maxNCSS) {
+			for (Building b : listOfBuildings) {
+				int buildingNCSS = b.getTotalNCSS();
+				double tempHeight = (buildingNCSS/(double)maxNCSS);
+				int height = (int)Math.ceil(tempHeight*Building.getMaxHeight());
+				b.setHeight(height);
+			}
+		}
+
+		// Sets the maxNCSS for each Building object in the list
+		private static void setMaxNCSS(int maxNCSS, List<Building> listOfBuildings) {
+			for (Building b : listOfBuildings) {
+				b.setMaxNCSS(maxNCSS);
+			}
+		}
+
+		//Find the building with string name in a list of buildings
+		private static Building findBuildingName(List<Building> buildingList, String name) {
+			for (Building object : buildingList) {
+				if (object.getName().equals(name)) {
+					return object;
+				}
+			}
+			return null;
+		}
+		
+		//Determine if this town already exists
+		private static boolean townExists(List<Town> townList, String name) {
+			for (Town object : townList) {
+				if (object.getName().equals(name)) {
+					return true;
+				}
+			}
+			return false;
+		}
+		
+		//Find the town with this string name in a list of towns
+		private static Town findTown(List<Town> townList, String name) {
+			for (Town object : townList) {
+				if (object.getName().equals(name)) {
+					return object;
+				}
+			}
+			return null;
+		}	 
+	 
 }
