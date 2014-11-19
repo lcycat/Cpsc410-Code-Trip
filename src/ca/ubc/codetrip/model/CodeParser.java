@@ -36,7 +36,7 @@ public class CodeParser {
 	public String parseToNCSS(String currDir, String pathCodeBase) throws InterruptedException {
 		
 		// Get path names of tools and code bases and store them as strings
-		String pathNCSS = currDir + "/lib/javancss-32.53/bin/javancss";
+		String pathNCSS = currDir + "/lib/javancss-32.53/bin/javancss.bat";
 		String pathNCSSxml = currDir + "/NCSSReport.xml";
 		System.out.println(currDir);
 		System.out.println(pathNCSS);
@@ -55,6 +55,7 @@ public class CodeParser {
 		}
 
 		// Checks to see if javancss tool is executable; if not then set setExecutable to true
+		
 		File file = new File(pathNCSS);
 		if(file.exists()){
 			if (!file.canExecute()) {
@@ -74,10 +75,10 @@ public class CodeParser {
 		commands.add(pathNCSSxml);
 		commands.add(pathCodeBase);
 		System.out.println(commands);
-
-		ProcessBuilder pb = new ProcessBuilder(commands);
-
+		
 		// Kill javancss process after it's done
+		ProcessBuilder pb = new ProcessBuilder(commands);
+		
 		try {
 			Process process = pb.start();
 			process.waitFor();
