@@ -16,7 +16,7 @@ public class Building {
 	private int numberOfFunctions;
 	private int totalNCSS;
 	private int bugNumber = 0;
-	private List<Double> functionRatios = new ArrayList<Double>();
+	public List<Double> functionRatios = new ArrayList<Double>();
 	
 	
 	public int getMaxNCSS() {
