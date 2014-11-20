@@ -229,11 +229,6 @@ public class XMLParser {
 				
 			doc.getDocumentElement().normalize();
 				
-			//List<Building> listOfBuildings = new ArrayList<Building>();
-			//Building newBuilding = new Building();
-			//newBuilding.setName("MakeTiles");
-			//listOfBuildings.add(newBuilding);
-				
 		    NodeList nList = doc.getElementsByTagName("Class");
 
 		    for (int temp = 0; temp < nList.getLength(); temp++) {
