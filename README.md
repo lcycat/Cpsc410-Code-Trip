@@ -7,8 +7,9 @@ Kathy Ye,
 Jennifer Leung, 
 Chenyang Li
 
-=================
 Works are mainly in classes of:
+=================
+
 
 src/minecraft/net.mincraft.src package-
 
