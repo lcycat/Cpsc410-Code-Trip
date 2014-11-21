@@ -39,9 +39,11 @@ Block,
 
 blockTNT,
 
-TitleEntitySign,
-================================================================
+TitleEntitySign.
+
 How to run the code:
+================================================================
+
 Pre-process:
 1.Compile the code base and obtain a .jar file.
 
