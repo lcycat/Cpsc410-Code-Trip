@@ -1,0 +1,4136 @@
+09:01:58 - == MCP 7.0 (data: 7.0a, client: 1.3.1, server: 1.3.1) ==
+09:01:58 - OS : win32
+09:01:58 - runmc: '"C:\Program Files\Java\jdk1.8.0_25\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\lib;..\lib\*;..\jars\bin\minecraft.jar;..\jars\bin\jinput.jar;..\jars\bin\lwjgl.jar;..\jars\bin\lwjgl_util.jar" -Djava.library.path=..\jars\bin\natives Start'
+09:01:58 - shlex: ['C:\\Program Files\\Java\\jdk1.8.0_25\\bin\\java', '-Xincgc', '-Xms1024M', '-Xmx1024M', '-cp', '..\\bin\\minecraft;..\\lib;..\\lib\\*;..\\jars\\bin\\minecraft.jar;..\\jars\\bin\\jinput.jar;..\\jars\\bin\\lwjgl.jar;..\\jars\\bin\\lwjgl_util.jar', '-Djava.library.path=..\\jars\\bin\\natives', 'Start']
+09:01:59 - 27 achievements
+09:01:59 - 195 recipes
+09:01:59 - Setting user: Player606, -
+09:01:59 - Client asked for parameter: server
+09:01:59 - LWJGL Version: 2.8.3
+09:01:59 - ModLoader 1.3.1 Initializing...
+09:01:59 - Mod Initialized: mod_codeTrip 1.0.0
+09:01:59 - Mod Initialized: mod_ModLoaderMp 1.3.1v1
+09:01:59 - Overriding /terrain.png with /CODEBASE1.png @ 26. 31 left.
+09:01:59 - Overriding /terrain.png with /CODEBASE2.png @ 27. 30 left.
+09:01:59 - Mod Loaded: mod_codeTrip 1.0.0
+09:01:59 - Mod Loaded: mod_ModLoaderMp 1.3.1v1
+09:01:59 - ModLoaderMP 1.3.1v1 Initialized
+09:01:59 - Done.
+09:01:59 - 
+09:01:59 - Starting up SoundSystem...
+09:02:00 - Initializing LWJGL OpenAL
+09:02:00 -     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+09:02:00 - OpenAL initialized.
+09:02:00 - 
+09:02:05 - Deleting .\saves\New World---\data
+09:02:05 - Deleting .\saves\New World---\DIM-1
+09:02:05 - Deleting .\saves\New World---\DIM1
+09:02:05 - Deleting .\saves\New World---\players
+09:02:05 - Deleting .\saves\New World---\region
+09:02:07 - Deleting .\saves\New World-\data
+09:02:07 - Deleting .\saves\New World-\DIM-1
+09:02:07 - Deleting .\saves\New World-\DIM1
+09:02:07 - Deleting .\saves\New World-\players
+09:02:07 - Deleting .\saves\New World-\region
+09:02:09 - Deleting .\saves\New World--\data
+09:02:09 - Deleting .\saves\New World--\DIM-1
+09:02:09 - Deleting .\saves\New World--\DIM1
+09:02:09 - Deleting .\saves\New World--\players
+09:02:09 - Deleting .\saves\New World--\region
+09:02:11 - Deleting .\saves\New World\data
+09:02:11 - Deleting .\saves\New World\DIM-1
+09:02:11 - Deleting .\saves\New World\DIM1
+09:02:11 - Deleting .\saves\New World\players
+09:02:11 - Deleting .\saves\New World\region
+09:02:15 - 十一月 21, 2014 9:02:15 上午 net.minecraft.src.IntegratedServer startServer
+09:02:15 - 信息: Starting integrated minecraft server version 1.3.1
+09:02:15 - 十一月 21, 2014 9:02:15 上午 net.minecraft.src.IntegratedServer startServer
+09:02:15 - 信息: Generating keypair
+09:02:15 - 十一月 21, 2014 9:02:15 上午 net.minecraft.server.MinecraftServer convertMapIfNeeded
+09:02:15 - 信息: Converting map!
+09:02:15 - Scanning folders...
+09:02:15 - Total conversion count is 0
+09:02:16 - 十一月 21, 2014 9:02:16 上午 net.minecraft.server.MinecraftServer initialWorldChunkLoad
+09:02:16 - 信息: Preparing start region for level 0
+09:02:16 - 十一月 21, 2014 9:02:16 上午 net.minecraft.src.ServerConfigurationManager initializeConnectionToPlayer
+09:02:16 - 信息: Player606[/127.0.0.1:0] logged in with entity id 0 at (-788.5, 5.620000004768372, 342.5)
+09:02:33 - Class Name : micropolisj.build_tool.MakeTiles
+09:02:33 - namesaved: MakeTiles
+09:02:33 - pname: micropolisj.build_tool
+09:02:33 - Class NCSS : 140
+09:02:33 - Number of Functions: 9
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.build_tool.MakeTiles.FrameSpec
+09:02:33 - Class namesaved: FrameSpec
+09:02:33 - Class NCSS : 5
+09:02:33 - Number of Functions: 0
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.build_tool.MakeTiles.SourceImage
+09:02:33 - Class namesaved: SourceImage
+09:02:33 - Class NCSS : 6
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.build_tool.RearrangeTiles
+09:02:33 - Class namesaved: RearrangeTiles
+09:02:33 - Class NCSS : 21
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.AirplaneSprite
+09:02:33 - Class namesaved: AirplaneSprite
+09:02:33 - Class NCSS : 45
+09:02:33 - Number of Functions: 2
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.BudgetNumbers
+09:02:33 - Class namesaved: BudgetNumbers
+09:02:33 - Class NCSS : 15
+09:02:33 - Number of Functions: 0
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.BuildingTool
+09:02:33 - Class namesaved: BuildingTool
+09:02:33 - Class NCSS : 26
+09:02:33 - Number of Functions: 3
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.Bulldozer
+09:02:33 - Class namesaved: Bulldozer
+09:02:33 - Class NCSS : 51
+09:02:33 - Number of Functions: 5
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.CityBudget
+09:02:33 - Class namesaved: CityBudget
+09:02:33 - Class NCSS : 9
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.CityDimension
+09:02:33 - Class namesaved: CityDimension
+09:02:33 - Class NCSS : 16
+09:02:33 - Number of Functions: 4
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.CityEval
+09:02:33 - Class namesaved: CityEval
+09:02:33 - Class NCSS : 167
+09:02:33 - Number of Functions: 13
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.CityEval.Comparator
+09:02:33 - Class namesaved: Comparator
+09:02:33 - Class NCSS : 2
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.CityLocation
+09:02:33 - Class namesaved: CityLocation
+09:02:33 - Class NCSS : 16
+09:02:33 - Number of Functions: 4
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.CityProblem
+09:02:33 - Class namesaved: CityProblem
+09:02:33 - Class NCSS : 1
+09:02:33 - Number of Functions: 0
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.CityRect
+09:02:33 - Class namesaved: CityRect
+09:02:33 - Class NCSS : 19
+09:02:33 - Number of Functions: 4
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.Disaster
+09:02:33 - Class namesaved: Disaster
+09:02:33 - Class NCSS : 1
+09:02:33 - Number of Functions: 0
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.EarthquakeListener
+09:02:33 - Class namesaved: EarthquakeListener
+09:02:33 - Class NCSS : 2
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.ExplosionSprite
+09:02:33 - Class namesaved: ExplosionSprite
+09:02:33 - Class NCSS : 33
+09:02:33 - Number of Functions: 3
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.GameLevel
+09:02:33 - Class namesaved: GameLevel
+09:02:33 - Class NCSS : 16
+09:02:33 - Number of Functions: 3
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.HelicopterSprite
+09:02:33 - Class namesaved: HelicopterSprite
+09:02:33 - Class NCSS : 55
+09:02:33 - Number of Functions: 2
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.MapGenerator
+09:02:33 - Class namesaved: MapGenerator
+09:02:33 - Class NCSS : 252
+09:02:33 - Number of Functions: 23
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.MapListener
+09:02:33 - Class namesaved: MapListener
+09:02:33 - Class NCSS : 5
+09:02:33 - Number of Functions: 4
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.MapScanner
+09:02:33 - Class namesaved: MapScanner
+09:02:33 - Class NCSS : 470
+09:02:33 - Number of Functions: 37
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.MapState
+09:02:33 - Class namesaved: MapState
+09:02:33 - Class NCSS : 1
+09:02:33 - Number of Functions: 0
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.Micropolis
+09:02:33 - Class namesaved: Micropolis
+09:02:33 - Class NCSS : 1547
+09:02:33 - Number of Functions: 123
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.Micropolis.FinancialHistory
+09:02:33 - Class namesaved: FinancialHistory
+09:02:33 - Class NCSS : 5
+09:02:33 - Number of Functions: 0
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.Micropolis.History
+09:02:33 - Class namesaved: History
+09:02:33 - Class NCSS : 11
+09:02:33 - Number of Functions: 0
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.Micropolis.Listener
+09:02:33 - Class namesaved: Listener
+09:02:33 - Class NCSS : 8
+09:02:33 - Number of Functions: 7
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.MicropolisMessage
+09:02:33 - Class namesaved: MicropolisMessage
+09:02:33 - Class NCSS : 18
+09:02:33 - Number of Functions: 0
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.MicropolisTool
+09:02:33 - Class namesaved: MicropolisTool
+09:02:33 - Class NCSS : 30
+09:02:33 - Number of Functions: 6
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.MonsterSprite
+09:02:33 - Class namesaved: MonsterSprite
+09:02:33 - Class NCSS : 93
+09:02:33 - Number of Functions: 2
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.RoadLikeTool
+09:02:33 - Class namesaved: RoadLikeTool
+09:02:33 - Class NCSS : 223
+09:02:33 - Number of Functions: 12
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.ShipSprite
+09:02:33 - Class namesaved: ShipSprite
+09:02:33 - Class NCSS : 85
+09:02:33 - Number of Functions: 4
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.Sound
+09:02:33 - Class namesaved: Sound
+09:02:33 - Class NCSS : 7
+09:02:33 - Number of Functions: 2
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.Speed
+09:02:33 - Class namesaved: Speed
+09:02:33 - Class NCSS : 4
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.Sprite
+09:02:33 - Class namesaved: Sprite
+09:02:33 - Class NCSS : 116
+09:02:33 - Number of Functions: 11
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.SpriteKind
+09:02:33 - Class namesaved: SpriteKind
+09:02:33 - Class NCSS : 4
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.TerrainBehavior
+09:02:33 - Class namesaved: TerrainBehavior
+09:02:33 - Class NCSS : 163
+09:02:33 - Number of Functions: 11
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.TileBehavior
+09:02:33 - Class namesaved: TileBehavior
+09:02:33 - Class NCSS : 15
+09:02:33 - Number of Functions: 3
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.TileConstants
+09:02:33 - Class namesaved: TileConstants
+09:02:33 - Class NCSS : 301
+09:02:33 - Number of Functions: 48
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.Tiles
+09:02:33 - Class namesaved: Tiles
+09:02:33 - Class NCSS : 44
+09:02:33 - Number of Functions: 4
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.TileSpec
+09:02:33 - Class namesaved: TileSpec
+09:02:33 - Class NCSS : 211
+09:02:33 - Number of Functions: 17
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.TileSpec.BuildingInfo
+09:02:33 - Class namesaved: BuildingInfo
+09:02:33 - Class NCSS : 4
+09:02:33 - Number of Functions: 0
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.TileSpec.Scanner
+09:02:33 - Class namesaved: Scanner
+09:02:33 - Class NCSS : 52
+09:02:33 - Number of Functions: 9
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.ToolEffect
+09:02:33 - Class namesaved: ToolEffect
+09:02:33 - Class NCSS : 47
+09:02:33 - Number of Functions: 8
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.ToolEffectIfc
+09:02:33 - Class namesaved: ToolEffectIfc
+09:02:33 - Class NCSS : 6
+09:02:33 - Number of Functions: 5
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.ToolPreview
+09:02:33 - Class namesaved: ToolPreview
+09:02:33 - Class NCSS : 85
+09:02:33 - Number of Functions: 11
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.ToolPreview.SoundInfo
+09:02:33 - Class namesaved: SoundInfo
+09:02:33 - Class NCSS : 8
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.ToolResult
+09:02:33 - Class namesaved: ToolResult
+09:02:33 - Class NCSS : 1
+09:02:33 - Number of Functions: 0
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.ToolStroke
+09:02:33 - Class namesaved: ToolStroke
+09:02:33 - Class NCSS : 173
+09:02:33 - Number of Functions: 15
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.TornadoSprite
+09:02:33 - Class namesaved: TornadoSprite
+09:02:33 - Class NCSS : 41
+09:02:33 - Number of Functions: 2
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.TrafficGen
+09:02:33 - Class namesaved: TrafficGen
+09:02:33 - Class NCSS : 117
+09:02:33 - Number of Functions: 8
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.TrainSprite
+09:02:33 - Class namesaved: TrainSprite
+09:02:33 - Class NCSS : 56
+09:02:33 - Number of Functions: 2
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.TranslatedToolEffect
+09:02:33 - Class namesaved: TranslatedToolEffect
+09:02:33 - Class NCSS : 18
+09:02:33 - Number of Functions: 6
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.engine.ZoneStatus
+09:02:33 - Class namesaved: ZoneStatus
+09:02:33 - Class NCSS : 7
+09:02:33 - Number of Functions: 0
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.BudgetDialog
+09:02:33 - Class namesaved: BudgetDialog
+09:02:33 - Class NCSS : 260
+09:02:33 - Number of Functions: 11
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.BudgetDialog.ActionListener
+09:02:33 - Class namesaved: ActionListener
+09:02:33 - Class NCSS : 2
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.BudgetDialog.ActionListener
+09:02:33 - Class Name : micropolisj.gui.BudgetDialog.ActionListener
+09:02:33 - Class Name : micropolisj.gui.BudgetDialog.ChangeListener
+09:02:33 - Class namesaved: ChangeListener
+09:02:33 - Class NCSS : 2
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.ColorParser
+09:02:33 - Class namesaved: ColorParser
+09:02:33 - Class NCSS : 16
+09:02:33 - Number of Functions: 2
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.DemandIndicator
+09:02:33 - Class namesaved: DemandIndicator
+09:02:33 - Class NCSS : 76
+09:02:33 - Number of Functions: 14
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.EvaluationPane
+09:02:33 - Class namesaved: EvaluationPane
+09:02:33 - Class NCSS : 193
+09:02:33 - Number of Functions: 15
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.EvaluationPane.ActionListener
+09:02:33 - Class namesaved: ActionListener
+09:02:33 - Class NCSS : 2
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.GraphsPane
+09:02:33 - Class namesaved: GraphsPane
+09:02:33 - Class NCSS : 204
+09:02:33 - Number of Functions: 14
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.GraphsPane.ActionListener
+09:02:33 - Class namesaved: ActionListener
+09:02:33 - Class NCSS : 2
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.GraphsPane.ActionListener
+09:02:33 - Class Name : micropolisj.gui.GraphsPane.ActionListener
+09:02:33 - Class Name : micropolisj.gui.GraphsPane.ActionListener
+09:02:33 - Class Name : micropolisj.gui.GraphsPane.GraphArea
+09:02:33 - Class namesaved: GraphArea
+09:02:33 - Class NCSS : 74
+09:02:33 - Number of Functions: 2
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.GraphsPane.GraphArea.Comparator
+09:02:33 - Class namesaved: Comparator
+09:02:33 - Class NCSS : 4
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.MainWindow
+09:02:33 - Class namesaved: MainWindow
+09:02:33 - Class NCSS : 995
+09:02:33 - Number of Functions: 69
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.MainWindow.AbstractAction
+09:02:33 - Class namesaved: AbstractAction
+09:02:33 - Class NCSS : 2
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.MainWindow.AbstractAction
+09:02:33 - Class Name : micropolisj.gui.MainWindow.AbstractAction
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class namesaved: ActionListener
+09:02:33 - Class NCSS : 2
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:02:33 - Class Name : micropolisj.gui.MainWindow.EarthquakeStepper
+09:02:33 - Class namesaved: EarthquakeStepper
+09:02:33 - Class NCSS : 5
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.MainWindow.MouseAdapter
+09:02:33 - Class namesaved: MouseAdapter
+09:02:33 - Class NCSS : 24
+09:02:33 - Number of Functions: 6
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.MainWindow.WindowAdapter
+09:02:33 - Class namesaved: WindowAdapter
+09:02:33 - Class NCSS : 4
+09:02:33 - Number of Functions: 2
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.MessagesPane
+09:02:33 - Class namesaved: MessagesPane
+09:02:33 - Class NCSS : 13
+09:02:33 - Number of Functions: 3
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.MicropolisDrawingArea
+09:02:33 - Class namesaved: MicropolisDrawingArea
+09:02:33 - Class NCSS : 213
+09:02:33 - Number of Functions: 30
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.MicropolisDrawingArea.ActionListener
+09:02:33 - Class namesaved: ActionListener
+09:02:33 - Class NCSS : 2
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.MicropolisDrawingArea.AncestorListener
+09:02:33 - Class namesaved: AncestorListener
+09:02:33 - Class NCSS : 5
+09:02:33 - Number of Functions: 3
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.MicropolisDrawingArea.MouseListener
+09:02:33 - Class namesaved: MouseListener
+09:02:33 - Class NCSS : 9
+09:02:33 - Number of Functions: 5
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.MicropolisDrawingArea.MouseMotionListener
+09:02:33 - Class namesaved: MouseMotionListener
+09:02:33 - Class NCSS : 4
+09:02:33 - Number of Functions: 2
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.MicropolisDrawingArea.ToolCursor
+09:02:33 - Class namesaved: ToolCursor
+09:02:33 - Class NCSS : 4
+09:02:33 - Number of Functions: 0
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.NewCityDialog
+09:02:33 - Class namesaved: NewCityDialog
+09:02:33 - Class NCSS : 133
+09:02:33 - Number of Functions: 10
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:02:33 - Class namesaved: ActionListener
+09:02:33 - Class NCSS : 2
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:02:33 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:02:33 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:02:33 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:02:33 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:02:33 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:02:33 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:02:33 - Class Name : micropolisj.gui.NotificationPane
+09:02:33 - Class namesaved: NotificationPane
+09:02:33 - Class NCSS : 102
+09:02:33 - Number of Functions: 5
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.NotificationPane.ActionListener
+09:02:33 - Class namesaved: ActionListener
+09:02:33 - Class NCSS : 2
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.OverlayMapView
+09:02:33 - Class namesaved: OverlayMapView
+09:02:33 - Class NCSS : 295
+09:02:33 - Number of Functions: 36
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.OverlayMapView.ConnectedView
+09:02:33 - Class namesaved: ConnectedView
+09:02:33 - Class NCSS : 9
+09:02:33 - Number of Functions: 2
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.OverlayMapView.MouseAdapter
+09:02:33 - Class namesaved: MouseAdapter
+09:02:33 - Class NCSS : 4
+09:02:33 - Number of Functions: 2
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.gui.TileImages
+09:02:33 - Class namesaved: TileImages
+09:02:33 - Class NCSS : 62
+09:02:33 - Number of Functions: 7
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.Main
+09:02:33 - Class namesaved: Main
+09:02:33 - Class NCSS : 9
+09:02:33 - Number of Functions: 2
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.Main.Runnable
+09:02:33 - Class namesaved: Runnable
+09:02:33 - Class NCSS : 2
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.util.StringsModel
+09:02:33 - Class namesaved: StringsModel
+09:02:33 - Class NCSS : 110
+09:02:33 - Number of Functions: 15
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.util.StringsModel.MyLocaleInfo
+09:02:33 - Class namesaved: MyLocaleInfo
+09:02:33 - Class NCSS : 6
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.util.StringsModel.StringInfo
+09:02:33 - Class namesaved: StringInfo
+09:02:33 - Class NCSS : 6
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.util.TranslatedStringsTable
+09:02:33 - Class namesaved: TranslatedStringsTable
+09:02:33 - Class NCSS : 4
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.util.TranslationTool
+09:02:33 - Class namesaved: TranslationTool
+09:02:33 - Class NCSS : 150
+09:02:33 - Number of Functions: 11
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.util.TranslationTool.ActionListener
+09:02:33 - Class namesaved: ActionListener
+09:02:33 - Class NCSS : 2
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Class Name : micropolisj.util.TranslationTool.ActionListener
+09:02:33 - Class Name : micropolisj.util.TranslationTool.ActionListener
+09:02:33 - Class Name : micropolisj.util.TranslationTool.ActionListener
+09:02:33 - Class Name : micropolisj.util.TranslationTool.WindowAdapter
+09:02:33 - Class namesaved: WindowAdapter
+09:02:33 - Class NCSS : 2
+09:02:33 - Number of Functions: 1
+09:02:33 - 
+09:02:33 - Function Name : micropolisj.build_tool.MakeTiles.main(String[])
+09:02:33 - 0
+09:02:33 - java.lang.NullPointerException
+09:02:33 - 	at net.minecraft.src.XMLParser.parseNCSS(XMLParser.java:220)
+09:02:33 - 	at net.minecraft.src.XMLParser.runParsing(XMLParser.java:31)
+09:02:33 - 	at net.minecraft.src.codebase1Block.generateCodeBase(codebase1Block.java:593)
+09:02:33 - 	at net.minecraft.src.codebase1Block.onBlockActivated(codebase1Block.java:41)
+09:02:33 - 	at net.minecraft.src.PlayerControllerMP.onPlayerRightClick(PlayerControllerMP.java:306)
+09:02:33 - 	at net.minecraft.client.Minecraft.clickMouse(Minecraft.java:1260)
+09:02:33 - 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1651)
+09:02:33 - 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:771)
+09:02:33 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:704)
+09:02:33 - 	at java.lang.Thread.run(Thread.java:745)
+09:02:33 - check the value: micropolisj.build_tool.MakeTiles
+09:02:33 - ClassName: MakeTiles
+09:02:33 - Previous Bug Number: 2
+09:02:33 - check the value: micropolisj.build_tool.MakeTiles
+09:02:33 - ClassName: MakeTiles
+09:02:33 - Previous Bug Number: 3
+09:02:33 - check the value: micropolisj.build_tool.MakeTiles
+09:02:33 - ClassName: MakeTiles
+09:02:33 - Previous Bug Number: 4
+09:02:33 - check the value: micropolisj.build_tool.MakeTiles
+09:02:33 - ClassName: MakeTiles
+09:02:33 - Previous Bug Number: 5
+09:02:33 - check the value: micropolisj.build_tool.MakeTiles
+09:02:33 - ClassName: MakeTiles
+09:02:33 - Previous Bug Number: 6
+09:02:33 - check the value: micropolisj.build_tool.MakeTiles
+09:02:33 - ClassName: MakeTiles
+09:02:33 - Previous Bug Number: 7
+09:02:33 - check the value: micropolisj.build_tool.MakeTiles
+09:02:33 - ClassName: MakeTiles
+09:02:33 - Previous Bug Number: 8
+09:02:33 - check the value: micropolisj.build_tool.MakeTiles
+09:02:33 - ClassName: MakeTiles
+09:02:33 - Previous Bug Number: 9
+09:02:33 - check the value: micropolisj.build_tool.MakeTiles
+09:02:33 - ClassName: MakeTiles
+09:02:33 - Previous Bug Number: 10
+09:02:33 - check the value: micropolisj.engine.BudgetNumbers
+09:02:33 - ClassName: BudgetNumbers
+09:02:34 - Previous Bug Number: 2
+09:02:34 - check the value: micropolisj.engine.CityEval$1
+09:02:34 - ClassName: CityEval$1
+09:02:34 - check the value: micropolisj.engine.CityRect
+09:02:34 - ClassName: CityRect
+09:02:34 - Previous Bug Number: 2
+09:02:34 - check the value: micropolisj.engine.MapScanner
+09:02:34 - ClassName: MapScanner
+09:02:34 - Previous Bug Number: 2
+09:02:34 - check the value: micropolisj.engine.MapScanner
+09:02:34 - ClassName: MapScanner
+09:02:34 - Previous Bug Number: 3
+09:02:34 - check the value: micropolisj.engine.MapScanner
+09:02:34 - ClassName: MapScanner
+09:02:34 - Previous Bug Number: 4
+09:02:34 - check the value: micropolisj.engine.MapScanner
+09:02:34 - ClassName: MapScanner
+09:02:34 - Previous Bug Number: 5
+09:02:34 - check the value: micropolisj.engine.MapScanner
+09:02:34 - ClassName: MapScanner
+09:02:34 - Previous Bug Number: 6
+09:02:34 - check the value: micropolisj.engine.Micropolis
+09:02:34 - ClassName: Micropolis
+09:02:34 - Previous Bug Number: 2
+09:02:34 - check the value: micropolisj.engine.Micropolis
+09:02:34 - ClassName: Micropolis
+09:02:34 - Previous Bug Number: 3
+09:02:34 - check the value: micropolisj.engine.Micropolis
+09:02:34 - ClassName: Micropolis
+09:02:34 - Previous Bug Number: 4
+09:02:34 - check the value: java.io.OutputStream
+09:02:34 - ClassName: OutputStream
+09:02:34 - check the value: micropolisj.engine.Micropolis
+09:02:34 - ClassName: Micropolis
+09:02:34 - Previous Bug Number: 5
+09:02:34 - check the value: micropolisj.engine.Micropolis
+09:02:34 - ClassName: Micropolis
+09:02:34 - Previous Bug Number: 6
+09:02:34 - check the value: micropolisj.engine.Micropolis
+09:02:34 - ClassName: Micropolis
+09:02:34 - Previous Bug Number: 7
+09:02:34 - check the value: micropolisj.engine.Micropolis$History
+09:02:34 - ClassName: Micropolis$History
+09:02:34 - check the value: micropolisj.engine.Micropolis$History
+09:02:34 - ClassName: Micropolis$History
+09:02:34 - check the value: micropolisj.engine.Micropolis$History
+09:02:34 - ClassName: Micropolis$History
+09:02:34 - check the value: micropolisj.engine.Sprite
+09:02:34 - ClassName: Sprite
+09:02:34 - Previous Bug Number: 2
+09:02:34 - check the value: micropolisj.engine.Sprite
+09:02:34 - ClassName: Sprite
+09:02:34 - Previous Bug Number: 3
+09:02:34 - check the value: micropolisj.engine.Tiles
+09:02:34 - ClassName: Tiles
+09:02:34 - Previous Bug Number: 2
+09:02:34 - check the value: micropolisj.engine.Tiles
+09:02:34 - ClassName: Tiles
+09:02:34 - Previous Bug Number: 3
+09:02:34 - check the value: micropolisj.engine.TrafficGen
+09:02:34 - ClassName: TrafficGen
+09:02:34 - Previous Bug Number: 2
+09:02:34 - check the value: micropolisj.gui.GraphsPane$GraphArea
+09:02:34 - ClassName: GraphsPane$GraphArea
+09:02:34 - check the value: micropolisj.gui.GraphsPane$GraphArea$1
+09:02:34 - ClassName: GraphsPane$GraphArea$1
+09:02:34 - check the value: micropolisj.gui.MainWindow
+09:02:34 - ClassName: MainWindow
+09:02:34 - Previous Bug Number: 2
+09:02:34 - check the value: micropolisj.gui.MicropolisDrawingArea
+09:02:34 - ClassName: MicropolisDrawingArea
+09:02:34 - Previous Bug Number: 2
+09:02:34 - check the value: micropolisj.gui.NewCityDialog
+09:02:34 - ClassName: NewCityDialog
+09:02:34 - Previous Bug Number: 2
+09:02:34 - check the value: micropolisj.gui.OverlayMapView
+09:02:34 - ClassName: OverlayMapView
+09:02:34 - Previous Bug Number: 2
+09:02:34 - check the value: micropolisj.util.StringsModel
+09:02:34 - ClassName: StringsModel
+09:02:34 - Previous Bug Number: 2
+09:02:34 - check the value: java.io.InputStream
+09:02:34 - ClassName: InputStream
+09:02:34 - check the value: micropolisj.util.StringsModel
+09:02:34 - ClassName: StringsModel
+09:02:34 - Previous Bug Number: 3
+09:02:34 - check the value: micropolisj.util.StringsModel
+09:02:34 - ClassName: StringsModel
+09:02:34 - Previous Bug Number: 4
+09:02:34 - check the value: micropolisj.util.StringsModel
+09:02:34 - ClassName: StringsModel
+09:02:34 - Previous Bug Number: 5
+09:02:34 - check the value: micropolisj.util.StringsModel
+09:02:34 - ClassName: StringsModel
+09:02:34 - Previous Bug Number: 6
+09:02:34 - check the value: micropolisj.util.TranslationTool
+09:02:34 - ClassName: TranslationTool
+09:02:34 - Previous Bug Number: 2
+09:02:34 - check the value: micropolisj.util.TranslationTool
+09:02:34 - ClassName: TranslationTool
+09:02:34 - Previous Bug Number: 3
+09:02:34 - micropolisj.build_tool
+09:02:34 - test codebase: micropolisj.build_tool
+09:02:34 - test townSize: 2
+09:02:34 - test buildings: MakeTiles
+09:02:34 - test buildings: RearrangeTiles
+09:02:34 - test codebase: micropolisj.build_tool.MakeTiles
+09:02:34 - test townSize: 2
+09:02:34 - test buildings: FrameSpec
+09:02:34 - test buildings: SourceImage
+09:02:34 - test codebase: micropolisj.engine
+09:02:34 - test townSize: 44
+09:02:34 - test buildings: AirplaneSprite
+09:02:34 - test buildings: BudgetNumbers
+09:02:34 - test buildings: BuildingTool
+09:02:34 - test buildings: Bulldozer
+09:02:34 - test buildings: CityBudget
+09:02:34 - test buildings: CityDimension
+09:02:34 - test buildings: CityEval
+09:02:34 - test buildings: CityLocation
+09:02:34 - test buildings: CityProblem
+09:02:34 - test buildings: CityRect
+09:02:34 - test buildings: Disaster
+09:02:34 - test buildings: EarthquakeListener
+09:02:34 - test buildings: ExplosionSprite
+09:02:34 - test buildings: GameLevel
+09:02:34 - test buildings: HelicopterSprite
+09:02:34 - test buildings: MapGenerator
+09:02:34 - test buildings: MapListener
+09:02:34 - test buildings: MapScanner
+09:02:34 - test buildings: MapState
+09:02:34 - test buildings: Micropolis
+09:02:34 - test buildings: MicropolisMessage
+09:02:34 - test buildings: MicropolisTool
+09:02:34 - test buildings: MonsterSprite
+09:02:34 - test buildings: RoadLikeTool
+09:02:34 - test buildings: ShipSprite
+09:02:34 - test buildings: Sound
+09:02:34 - test buildings: Speed
+09:02:34 - test buildings: Sprite
+09:02:34 - test buildings: SpriteKind
+09:02:34 - test buildings: TerrainBehavior
+09:02:34 - test buildings: TileBehavior
+09:02:34 - test buildings: TileConstants
+09:02:34 - test buildings: Tiles
+09:02:34 - test buildings: TileSpec
+09:02:34 - test buildings: ToolEffect
+09:02:34 - test buildings: ToolEffectIfc
+09:02:34 - test buildings: ToolPreview
+09:02:34 - test buildings: ToolResult
+09:02:34 - test buildings: ToolStroke
+09:02:34 - test buildings: TornadoSprite
+09:02:34 - test buildings: TrafficGen
+09:02:34 - test buildings: TrainSprite
+09:02:34 - test buildings: TranslatedToolEffect
+09:02:34 - test buildings: ZoneStatus
+09:02:34 - test codebase: micropolisj.engine.CityEval
+09:02:34 - test townSize: 1
+09:02:34 - test buildings: Comparator
+09:02:34 - test codebase: micropolisj.engine.Micropolis
+09:02:34 - test townSize: 3
+09:02:34 - test buildings: FinancialHistory
+09:02:34 - test buildings: History
+09:02:34 - test buildings: Listener
+09:02:34 - test codebase: micropolisj.engine.TileSpec
+09:02:34 - test townSize: 2
+09:02:34 - test buildings: BuildingInfo
+09:02:34 - test buildings: Scanner
+09:02:34 - test codebase: micropolisj.engine.ToolPreview
+09:02:34 - test townSize: 1
+09:02:34 - test buildings: SoundInfo
+09:02:34 - test codebase: micropolisj.gui
+09:02:34 - test townSize: 12
+09:02:34 - test buildings: BudgetDialog
+09:02:34 - test buildings: ColorParser
+09:02:34 - test buildings: DemandIndicator
+09:02:34 - test buildings: EvaluationPane
+09:02:34 - test buildings: GraphsPane
+09:02:34 - test buildings: MainWindow
+09:02:34 - test buildings: MessagesPane
+09:02:34 - test buildings: MicropolisDrawingArea
+09:02:34 - test buildings: NewCityDialog
+09:02:34 - test buildings: NotificationPane
+09:02:34 - test buildings: OverlayMapView
+09:02:34 - test buildings: TileImages
+09:02:34 - test codebase: micropolisj.gui.BudgetDialog
+09:02:34 - test townSize: 2
+09:02:34 - test buildings: ActionListener
+09:02:34 - test buildings: ChangeListener
+09:02:34 - test codebase: micropolisj.gui.EvaluationPane
+09:02:34 - test townSize: 1
+09:02:34 - test buildings: ActionListener
+09:02:34 - test codebase: micropolisj.gui.GraphsPane
+09:02:34 - test townSize: 2
+09:02:34 - test buildings: ActionListener
+09:02:34 - test buildings: GraphArea
+09:02:34 - test codebase: micropolisj.gui.GraphsPane.GraphArea
+09:02:34 - test townSize: 1
+09:02:34 - test buildings: Comparator
+09:02:34 - test codebase: micropolisj.gui.MainWindow
+09:02:34 - test townSize: 5
+09:02:34 - test buildings: AbstractAction
+09:02:34 - test buildings: ActionListener
+09:02:34 - test buildings: EarthquakeStepper
+09:02:34 - test buildings: MouseAdapter
+09:02:34 - test buildings: WindowAdapter
+09:02:34 - test codebase: micropolisj.gui.MicropolisDrawingArea
+09:02:34 - test townSize: 5
+09:02:34 - test buildings: ActionListener
+09:02:34 - test buildings: AncestorListener
+09:02:34 - test buildings: MouseListener
+09:02:34 - test buildings: MouseMotionListener
+09:02:34 - test buildings: ToolCursor
+09:02:34 - test codebase: micropolisj.gui.NewCityDialog
+09:02:34 - test townSize: 1
+09:02:34 - test buildings: ActionListener
+09:02:34 - test codebase: micropolisj.gui.NotificationPane
+09:02:34 - test townSize: 1
+09:02:34 - test buildings: ActionListener
+09:02:34 - test codebase: micropolisj.gui.OverlayMapView
+09:02:34 - test townSize: 2
+09:02:34 - test buildings: ConnectedView
+09:02:34 - test buildings: MouseAdapter
+09:02:34 - test codebase: micropolisj
+09:02:34 - test townSize: 1
+09:02:34 - test buildings: Main
+09:02:34 - test codebase: micropolisj.Main
+09:02:34 - test townSize: 1
+09:02:34 - test buildings: Runnable
+09:02:34 - test codebase: micropolisj.util
+09:02:34 - test townSize: 3
+09:02:34 - test buildings: StringsModel
+09:02:34 - test buildings: TranslatedStringsTable
+09:02:34 - test buildings: TranslationTool
+09:02:34 - test codebase: micropolisj.util.StringsModel
+09:02:34 - test townSize: 2
+09:02:34 - test buildings: MyLocaleInfo
+09:02:34 - test buildings: StringInfo
+09:02:34 - test codebase: micropolisj.util.TranslationTool
+09:02:34 - test townSize: 2
+09:02:34 - test buildings: ActionListener
+09:02:34 - test buildings: WindowAdapter
+09:02:48 - Someone is closing me!
+09:02:48 - 十一月 21, 2014 9:02:48 上午 net.minecraft.server.MinecraftServer stopServer
+09:02:48 - 信息: Stopping server
+09:02:48 - 十一月 21, 2014 9:02:48 上午 net.minecraft.server.MinecraftServer stopServer
+09:02:48 - 信息: Saving players
+09:02:49 - AL lib: ReleaseALC: 1 device not closed
+09:02:49 - Java HotSpot(TM) 64-Bit Server VM warning: Using incremental CMS is deprecated and will likely be removed in a future release
+09:02:49 - '"C:\Program Files\Java\jdk1.8.0_25\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\li...' failed : 1
+09:02:49 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime\startclient.py", line 30, in startclient
+  File "E:\cpsc410\CodeTrip\MCP\runtime\commands.py", line 1077, in startclient
+    self.runmc(forkcmd)
+  File "E:\cpsc410\CodeTrip\MCP\runtime\commands.py", line 1117, in runmc
+    raise CalledProcessError(process.returncode, forkcmd, output)
+CalledProcessError: Command '"C:\Program Files\Java\jdk1.8.0_25\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\lib;..\lib\*;..\jars\bin\minecraft.jar;..\jars\bin\jinput.jar;..\jars\bin\lwjgl.jar;..\jars\bin\lwjgl_util.jar" -Djava.library.path=..\jars\bin\natives Start' returned non-zero exit status 1
+09:08:39 - == MCP 7.0 (data: 7.0a, client: 1.3.1, server: 1.3.1) ==
+09:08:39 - OS : win32
+09:08:40 - runmc: '"C:\Program Files\Java\jdk1.8.0_25\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\lib;..\lib\*;..\jars\bin\minecraft.jar;..\jars\bin\jinput.jar;..\jars\bin\lwjgl.jar;..\jars\bin\lwjgl_util.jar" -Djava.library.path=..\jars\bin\natives Start'
+09:08:40 - shlex: ['C:\\Program Files\\Java\\jdk1.8.0_25\\bin\\java', '-Xincgc', '-Xms1024M', '-Xmx1024M', '-cp', '..\\bin\\minecraft;..\\lib;..\\lib\\*;..\\jars\\bin\\minecraft.jar;..\\jars\\bin\\jinput.jar;..\\jars\\bin\\lwjgl.jar;..\\jars\\bin\\lwjgl_util.jar', '-Djava.library.path=..\\jars\\bin\\natives', 'Start']
+09:08:40 - 27 achievements
+09:08:41 - 195 recipes
+09:08:41 - Setting user: Player365, -
+09:08:41 - Client asked for parameter: server
+09:08:41 - LWJGL Version: 2.8.3
+09:08:41 - ModLoader 1.3.1 Initializing...
+09:08:41 - Mod Initialized: mod_codeTrip 1.0.0
+09:08:41 - Mod Initialized: mod_ModLoaderMp 1.3.1v1
+09:08:41 - Overriding /terrain.png with /CODEBASE1.png @ 26. 31 left.
+09:08:41 - Overriding /terrain.png with /CODEBASE2.png @ 27. 30 left.
+09:08:41 - Mod Loaded: mod_codeTrip 1.0.0
+09:08:41 - Mod Loaded: mod_ModLoaderMp 1.3.1v1
+09:08:41 - ModLoaderMP 1.3.1v1 Initialized
+09:08:41 - Done.
+09:08:41 - 
+09:08:41 - Starting up SoundSystem...
+09:08:41 - Initializing LWJGL OpenAL
+09:08:41 -     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+09:08:41 - OpenAL initialized.
+09:08:42 - 
+09:08:46 - Deleting .\saves\New World\data
+09:08:46 - Deleting .\saves\New World\DIM-1
+09:08:46 - Deleting .\saves\New World\DIM1
+09:08:46 - Deleting .\saves\New World\players
+09:08:46 - Deleting .\saves\New World\region
+09:08:50 - 十一月 21, 2014 9:08:50 上午 net.minecraft.src.IntegratedServer startServer
+09:08:50 - 信息: Starting integrated minecraft server version 1.3.1
+09:08:50 - 十一月 21, 2014 9:08:50 上午 net.minecraft.src.IntegratedServer startServer
+09:08:50 - 信息: Generating keypair
+09:08:50 - 十一月 21, 2014 9:08:50 上午 net.minecraft.server.MinecraftServer convertMapIfNeeded
+09:08:50 - 信息: Converting map!
+09:08:50 - Scanning folders...
+09:08:50 - Total conversion count is 0
+09:08:51 - 十一月 21, 2014 9:08:51 上午 net.minecraft.server.MinecraftServer initialWorldChunkLoad
+09:08:51 - 信息: Preparing start region for level 0
+09:08:51 - 十一月 21, 2014 9:08:51 上午 net.minecraft.src.ServerConfigurationManager initializeConnectionToPlayer
+09:08:51 - 信息: Player365[/127.0.0.1:0] logged in with entity id 0 at (232.5, 5.620000004768372, -527.5)
+09:09:00 - Class Name : micropolisj.build_tool.MakeTiles
+09:09:00 - namesaved: MakeTiles
+09:09:00 - pname: micropolisj.build_tool
+09:09:00 - Class NCSS : 140
+09:09:00 - Number of Functions: 9
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.build_tool.MakeTiles.FrameSpec
+09:09:00 - Class namesaved: FrameSpec
+09:09:00 - Class NCSS : 5
+09:09:00 - Number of Functions: 0
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.build_tool.MakeTiles.SourceImage
+09:09:00 - Class namesaved: SourceImage
+09:09:00 - Class NCSS : 6
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.build_tool.RearrangeTiles
+09:09:00 - Class namesaved: RearrangeTiles
+09:09:00 - Class NCSS : 21
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.AirplaneSprite
+09:09:00 - Class namesaved: AirplaneSprite
+09:09:00 - Class NCSS : 45
+09:09:00 - Number of Functions: 2
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.BudgetNumbers
+09:09:00 - Class namesaved: BudgetNumbers
+09:09:00 - Class NCSS : 15
+09:09:00 - Number of Functions: 0
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.BuildingTool
+09:09:00 - Class namesaved: BuildingTool
+09:09:00 - Class NCSS : 26
+09:09:00 - Number of Functions: 3
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.Bulldozer
+09:09:00 - Class namesaved: Bulldozer
+09:09:00 - Class NCSS : 51
+09:09:00 - Number of Functions: 5
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.CityBudget
+09:09:00 - Class namesaved: CityBudget
+09:09:00 - Class NCSS : 9
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.CityDimension
+09:09:00 - Class namesaved: CityDimension
+09:09:00 - Class NCSS : 16
+09:09:00 - Number of Functions: 4
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.CityEval
+09:09:00 - Class namesaved: CityEval
+09:09:00 - Class NCSS : 167
+09:09:00 - Number of Functions: 13
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.CityEval.Comparator
+09:09:00 - Class namesaved: Comparator
+09:09:00 - Class NCSS : 2
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.CityLocation
+09:09:00 - Class namesaved: CityLocation
+09:09:00 - Class NCSS : 16
+09:09:00 - Number of Functions: 4
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.CityProblem
+09:09:00 - Class namesaved: CityProblem
+09:09:00 - Class NCSS : 1
+09:09:00 - Number of Functions: 0
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.CityRect
+09:09:00 - Class namesaved: CityRect
+09:09:00 - Class NCSS : 19
+09:09:00 - Number of Functions: 4
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.Disaster
+09:09:00 - Class namesaved: Disaster
+09:09:00 - Class NCSS : 1
+09:09:00 - Number of Functions: 0
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.EarthquakeListener
+09:09:00 - Class namesaved: EarthquakeListener
+09:09:00 - Class NCSS : 2
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.ExplosionSprite
+09:09:00 - Class namesaved: ExplosionSprite
+09:09:00 - Class NCSS : 33
+09:09:00 - Number of Functions: 3
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.GameLevel
+09:09:00 - Class namesaved: GameLevel
+09:09:00 - Class NCSS : 16
+09:09:00 - Number of Functions: 3
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.HelicopterSprite
+09:09:00 - Class namesaved: HelicopterSprite
+09:09:00 - Class NCSS : 55
+09:09:00 - Number of Functions: 2
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.MapGenerator
+09:09:00 - Class namesaved: MapGenerator
+09:09:00 - Class NCSS : 252
+09:09:00 - Number of Functions: 23
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.MapListener
+09:09:00 - Class namesaved: MapListener
+09:09:00 - Class NCSS : 5
+09:09:00 - Number of Functions: 4
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.MapScanner
+09:09:00 - Class namesaved: MapScanner
+09:09:00 - Class NCSS : 470
+09:09:00 - Number of Functions: 37
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.MapState
+09:09:00 - Class namesaved: MapState
+09:09:00 - Class NCSS : 1
+09:09:00 - Number of Functions: 0
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.Micropolis
+09:09:00 - Class namesaved: Micropolis
+09:09:00 - Class NCSS : 1547
+09:09:00 - Number of Functions: 123
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.Micropolis.FinancialHistory
+09:09:00 - Class namesaved: FinancialHistory
+09:09:00 - Class NCSS : 5
+09:09:00 - Number of Functions: 0
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.Micropolis.History
+09:09:00 - Class namesaved: History
+09:09:00 - Class NCSS : 11
+09:09:00 - Number of Functions: 0
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.Micropolis.Listener
+09:09:00 - Class namesaved: Listener
+09:09:00 - Class NCSS : 8
+09:09:00 - Number of Functions: 7
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.MicropolisMessage
+09:09:00 - Class namesaved: MicropolisMessage
+09:09:00 - Class NCSS : 18
+09:09:00 - Number of Functions: 0
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.MicropolisTool
+09:09:00 - Class namesaved: MicropolisTool
+09:09:00 - Class NCSS : 30
+09:09:00 - Number of Functions: 6
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.MonsterSprite
+09:09:00 - Class namesaved: MonsterSprite
+09:09:00 - Class NCSS : 93
+09:09:00 - Number of Functions: 2
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.RoadLikeTool
+09:09:00 - Class namesaved: RoadLikeTool
+09:09:00 - Class NCSS : 223
+09:09:00 - Number of Functions: 12
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.ShipSprite
+09:09:00 - Class namesaved: ShipSprite
+09:09:00 - Class NCSS : 85
+09:09:00 - Number of Functions: 4
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.Sound
+09:09:00 - Class namesaved: Sound
+09:09:00 - Class NCSS : 7
+09:09:00 - Number of Functions: 2
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.Speed
+09:09:00 - Class namesaved: Speed
+09:09:00 - Class NCSS : 4
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.Sprite
+09:09:00 - Class namesaved: Sprite
+09:09:00 - Class NCSS : 116
+09:09:00 - Number of Functions: 11
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.SpriteKind
+09:09:00 - Class namesaved: SpriteKind
+09:09:00 - Class NCSS : 4
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.TerrainBehavior
+09:09:00 - Class namesaved: TerrainBehavior
+09:09:00 - Class NCSS : 163
+09:09:00 - Number of Functions: 11
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.TileBehavior
+09:09:00 - Class namesaved: TileBehavior
+09:09:00 - Class NCSS : 15
+09:09:00 - Number of Functions: 3
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.TileConstants
+09:09:00 - Class namesaved: TileConstants
+09:09:00 - Class NCSS : 301
+09:09:00 - Number of Functions: 48
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.Tiles
+09:09:00 - Class namesaved: Tiles
+09:09:00 - Class NCSS : 44
+09:09:00 - Number of Functions: 4
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.TileSpec
+09:09:00 - Class namesaved: TileSpec
+09:09:00 - Class NCSS : 211
+09:09:00 - Number of Functions: 17
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.TileSpec.BuildingInfo
+09:09:00 - Class namesaved: BuildingInfo
+09:09:00 - Class NCSS : 4
+09:09:00 - Number of Functions: 0
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.TileSpec.Scanner
+09:09:00 - Class namesaved: Scanner
+09:09:00 - Class NCSS : 52
+09:09:00 - Number of Functions: 9
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.ToolEffect
+09:09:00 - Class namesaved: ToolEffect
+09:09:00 - Class NCSS : 47
+09:09:00 - Number of Functions: 8
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.ToolEffectIfc
+09:09:00 - Class namesaved: ToolEffectIfc
+09:09:00 - Class NCSS : 6
+09:09:00 - Number of Functions: 5
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.ToolPreview
+09:09:00 - Class namesaved: ToolPreview
+09:09:00 - Class NCSS : 85
+09:09:00 - Number of Functions: 11
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.ToolPreview.SoundInfo
+09:09:00 - Class namesaved: SoundInfo
+09:09:00 - Class NCSS : 8
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.ToolResult
+09:09:00 - Class namesaved: ToolResult
+09:09:00 - Class NCSS : 1
+09:09:00 - Number of Functions: 0
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.ToolStroke
+09:09:00 - Class namesaved: ToolStroke
+09:09:00 - Class NCSS : 173
+09:09:00 - Number of Functions: 15
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.TornadoSprite
+09:09:00 - Class namesaved: TornadoSprite
+09:09:00 - Class NCSS : 41
+09:09:00 - Number of Functions: 2
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.TrafficGen
+09:09:00 - Class namesaved: TrafficGen
+09:09:00 - Class NCSS : 117
+09:09:00 - Number of Functions: 8
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.TrainSprite
+09:09:00 - Class namesaved: TrainSprite
+09:09:00 - Class NCSS : 56
+09:09:00 - Number of Functions: 2
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.TranslatedToolEffect
+09:09:00 - Class namesaved: TranslatedToolEffect
+09:09:00 - Class NCSS : 18
+09:09:00 - Number of Functions: 6
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.engine.ZoneStatus
+09:09:00 - Class namesaved: ZoneStatus
+09:09:00 - Class NCSS : 7
+09:09:00 - Number of Functions: 0
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.BudgetDialog
+09:09:00 - Class namesaved: BudgetDialog
+09:09:00 - Class NCSS : 260
+09:09:00 - Number of Functions: 11
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.BudgetDialog.ActionListener
+09:09:00 - Class namesaved: ActionListener
+09:09:00 - Class NCSS : 2
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.BudgetDialog.ActionListener
+09:09:00 - Class Name : micropolisj.gui.BudgetDialog.ActionListener
+09:09:00 - Class Name : micropolisj.gui.BudgetDialog.ChangeListener
+09:09:00 - Class namesaved: ChangeListener
+09:09:00 - Class NCSS : 2
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.ColorParser
+09:09:00 - Class namesaved: ColorParser
+09:09:00 - Class NCSS : 16
+09:09:00 - Number of Functions: 2
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.DemandIndicator
+09:09:00 - Class namesaved: DemandIndicator
+09:09:00 - Class NCSS : 76
+09:09:00 - Number of Functions: 14
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.EvaluationPane
+09:09:00 - Class namesaved: EvaluationPane
+09:09:00 - Class NCSS : 193
+09:09:00 - Number of Functions: 15
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.EvaluationPane.ActionListener
+09:09:00 - Class namesaved: ActionListener
+09:09:00 - Class NCSS : 2
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.GraphsPane
+09:09:00 - Class namesaved: GraphsPane
+09:09:00 - Class NCSS : 204
+09:09:00 - Number of Functions: 14
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.GraphsPane.ActionListener
+09:09:00 - Class namesaved: ActionListener
+09:09:00 - Class NCSS : 2
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.GraphsPane.ActionListener
+09:09:00 - Class Name : micropolisj.gui.GraphsPane.ActionListener
+09:09:00 - Class Name : micropolisj.gui.GraphsPane.ActionListener
+09:09:00 - Class Name : micropolisj.gui.GraphsPane.GraphArea
+09:09:00 - Class namesaved: GraphArea
+09:09:00 - Class NCSS : 74
+09:09:00 - Number of Functions: 2
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.GraphsPane.GraphArea.Comparator
+09:09:00 - Class namesaved: Comparator
+09:09:00 - Class NCSS : 4
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.MainWindow
+09:09:00 - Class namesaved: MainWindow
+09:09:00 - Class NCSS : 995
+09:09:00 - Number of Functions: 69
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.MainWindow.AbstractAction
+09:09:00 - Class namesaved: AbstractAction
+09:09:00 - Class NCSS : 2
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.MainWindow.AbstractAction
+09:09:00 - Class Name : micropolisj.gui.MainWindow.AbstractAction
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class namesaved: ActionListener
+09:09:00 - Class NCSS : 2
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:09:00 - Class Name : micropolisj.gui.MainWindow.EarthquakeStepper
+09:09:00 - Class namesaved: EarthquakeStepper
+09:09:00 - Class NCSS : 5
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.MainWindow.MouseAdapter
+09:09:00 - Class namesaved: MouseAdapter
+09:09:00 - Class NCSS : 24
+09:09:00 - Number of Functions: 6
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.MainWindow.WindowAdapter
+09:09:00 - Class namesaved: WindowAdapter
+09:09:00 - Class NCSS : 4
+09:09:00 - Number of Functions: 2
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.MessagesPane
+09:09:00 - Class namesaved: MessagesPane
+09:09:00 - Class NCSS : 13
+09:09:00 - Number of Functions: 3
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.MicropolisDrawingArea
+09:09:00 - Class namesaved: MicropolisDrawingArea
+09:09:00 - Class NCSS : 213
+09:09:00 - Number of Functions: 30
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.MicropolisDrawingArea.ActionListener
+09:09:00 - Class namesaved: ActionListener
+09:09:00 - Class NCSS : 2
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.MicropolisDrawingArea.AncestorListener
+09:09:00 - Class namesaved: AncestorListener
+09:09:00 - Class NCSS : 5
+09:09:00 - Number of Functions: 3
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.MicropolisDrawingArea.MouseListener
+09:09:00 - Class namesaved: MouseListener
+09:09:00 - Class NCSS : 9
+09:09:00 - Number of Functions: 5
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.MicropolisDrawingArea.MouseMotionListener
+09:09:00 - Class namesaved: MouseMotionListener
+09:09:00 - Class NCSS : 4
+09:09:00 - Number of Functions: 2
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.MicropolisDrawingArea.ToolCursor
+09:09:00 - Class namesaved: ToolCursor
+09:09:00 - Class NCSS : 4
+09:09:00 - Number of Functions: 0
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.NewCityDialog
+09:09:00 - Class namesaved: NewCityDialog
+09:09:00 - Class NCSS : 133
+09:09:00 - Number of Functions: 10
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:09:00 - Class namesaved: ActionListener
+09:09:00 - Class NCSS : 2
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:09:00 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:09:00 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:09:00 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:09:00 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:09:00 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:09:00 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:09:00 - Class Name : micropolisj.gui.NotificationPane
+09:09:00 - Class namesaved: NotificationPane
+09:09:00 - Class NCSS : 102
+09:09:00 - Number of Functions: 5
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.NotificationPane.ActionListener
+09:09:00 - Class namesaved: ActionListener
+09:09:00 - Class NCSS : 2
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.OverlayMapView
+09:09:00 - Class namesaved: OverlayMapView
+09:09:00 - Class NCSS : 295
+09:09:00 - Number of Functions: 36
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.OverlayMapView.ConnectedView
+09:09:00 - Class namesaved: ConnectedView
+09:09:00 - Class NCSS : 9
+09:09:00 - Number of Functions: 2
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.OverlayMapView.MouseAdapter
+09:09:00 - Class namesaved: MouseAdapter
+09:09:00 - Class NCSS : 4
+09:09:00 - Number of Functions: 2
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.gui.TileImages
+09:09:00 - Class namesaved: TileImages
+09:09:00 - Class NCSS : 62
+09:09:00 - Number of Functions: 7
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.Main
+09:09:00 - Class namesaved: Main
+09:09:00 - Class NCSS : 9
+09:09:00 - Number of Functions: 2
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.Main.Runnable
+09:09:00 - Class namesaved: Runnable
+09:09:00 - Class NCSS : 2
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.util.StringsModel
+09:09:00 - Class namesaved: StringsModel
+09:09:00 - Class NCSS : 110
+09:09:00 - Number of Functions: 15
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.util.StringsModel.MyLocaleInfo
+09:09:00 - Class namesaved: MyLocaleInfo
+09:09:00 - Class NCSS : 6
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.util.StringsModel.StringInfo
+09:09:00 - Class namesaved: StringInfo
+09:09:00 - Class NCSS : 6
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.util.TranslatedStringsTable
+09:09:00 - Class namesaved: TranslatedStringsTable
+09:09:00 - Class NCSS : 4
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.util.TranslationTool
+09:09:00 - Class namesaved: TranslationTool
+09:09:00 - Class NCSS : 150
+09:09:00 - Number of Functions: 11
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.util.TranslationTool.ActionListener
+09:09:00 - Class namesaved: ActionListener
+09:09:00 - Class NCSS : 2
+09:09:00 - Number of Functions: 1
+09:09:00 - 
+09:09:00 - Class Name : micropolisj.util.TranslationTool.ActionListener
+09:09:00 - Class Name : micropolisj.util.TranslationTool.ActionListener
+09:09:01 - Class Name : micropolisj.util.TranslationTool.ActionListener
+09:09:01 - Class Name : micropolisj.util.TranslationTool.WindowAdapter
+09:09:01 - Class namesaved: WindowAdapter
+09:09:01 - Class NCSS : 2
+09:09:01 - Number of Functions: 1
+09:09:01 - 
+09:09:01 - Function Name : micropolisj.build_tool.MakeTiles.main(String[])
+09:09:01 - 0
+09:09:01 - java.lang.NullPointerException
+09:09:01 - 	at net.minecraft.src.XMLParser.parseNCSS(XMLParser.java:220)
+09:09:01 - 	at net.minecraft.src.XMLParser.runParsing(XMLParser.java:31)
+09:09:01 - 	at net.minecraft.src.codebase1Block.generateCodeBase(codebase1Block.java:593)
+09:09:01 - 	at net.minecraft.src.codebase1Block.onBlockActivated(codebase1Block.java:41)
+09:09:01 - 	at net.minecraft.src.PlayerControllerMP.onPlayerRightClick(PlayerControllerMP.java:306)
+09:09:01 - 	at net.minecraft.client.Minecraft.clickMouse(Minecraft.java:1260)
+09:09:01 - 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1651)
+09:09:01 - 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:771)
+09:09:01 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:704)
+09:09:01 - 	at java.lang.Thread.run(Thread.java:745)
+09:09:01 - check the value: micropolisj.build_tool.MakeTiles
+09:09:01 - ClassName: MakeTiles
+09:09:01 - Previous Bug Number: 2
+09:09:01 - check the value: micropolisj.build_tool.MakeTiles
+09:09:01 - ClassName: MakeTiles
+09:09:01 - Previous Bug Number: 3
+09:09:01 - check the value: micropolisj.build_tool.MakeTiles
+09:09:01 - ClassName: MakeTiles
+09:09:01 - Previous Bug Number: 4
+09:09:01 - check the value: micropolisj.build_tool.MakeTiles
+09:09:01 - ClassName: MakeTiles
+09:09:01 - Previous Bug Number: 5
+09:09:01 - check the value: micropolisj.build_tool.MakeTiles
+09:09:01 - ClassName: MakeTiles
+09:09:01 - Previous Bug Number: 6
+09:09:01 - check the value: micropolisj.build_tool.MakeTiles
+09:09:01 - ClassName: MakeTiles
+09:09:01 - Previous Bug Number: 7
+09:09:01 - check the value: micropolisj.build_tool.MakeTiles
+09:09:01 - ClassName: MakeTiles
+09:09:01 - Previous Bug Number: 8
+09:09:01 - check the value: micropolisj.build_tool.MakeTiles
+09:09:01 - ClassName: MakeTiles
+09:09:01 - Previous Bug Number: 9
+09:09:01 - check the value: micropolisj.build_tool.MakeTiles
+09:09:01 - ClassName: MakeTiles
+09:09:01 - Previous Bug Number: 10
+09:09:01 - check the value: micropolisj.engine.BudgetNumbers
+09:09:01 - ClassName: BudgetNumbers
+09:09:01 - Previous Bug Number: 2
+09:09:01 - check the value: micropolisj.engine.CityEval$1
+09:09:01 - ClassName: CityEval$1
+09:09:01 - check the value: micropolisj.engine.CityRect
+09:09:01 - ClassName: CityRect
+09:09:01 - Previous Bug Number: 2
+09:09:01 - check the value: micropolisj.engine.MapScanner
+09:09:01 - ClassName: MapScanner
+09:09:01 - Previous Bug Number: 2
+09:09:01 - check the value: micropolisj.engine.MapScanner
+09:09:01 - ClassName: MapScanner
+09:09:01 - Previous Bug Number: 3
+09:09:01 - check the value: micropolisj.engine.MapScanner
+09:09:01 - ClassName: MapScanner
+09:09:01 - Previous Bug Number: 4
+09:09:01 - check the value: micropolisj.engine.MapScanner
+09:09:01 - ClassName: MapScanner
+09:09:01 - Previous Bug Number: 5
+09:09:01 - check the value: micropolisj.engine.MapScanner
+09:09:01 - ClassName: MapScanner
+09:09:01 - Previous Bug Number: 6
+09:09:01 - check the value: micropolisj.engine.Micropolis
+09:09:01 - ClassName: Micropolis
+09:09:01 - Previous Bug Number: 2
+09:09:01 - check the value: micropolisj.engine.Micropolis
+09:09:01 - ClassName: Micropolis
+09:09:01 - Previous Bug Number: 3
+09:09:01 - check the value: micropolisj.engine.Micropolis
+09:09:01 - ClassName: Micropolis
+09:09:01 - Previous Bug Number: 4
+09:09:01 - check the value: java.io.OutputStream
+09:09:01 - ClassName: OutputStream
+09:09:01 - check the value: micropolisj.engine.Micropolis
+09:09:01 - ClassName: Micropolis
+09:09:01 - Previous Bug Number: 5
+09:09:01 - check the value: micropolisj.engine.Micropolis
+09:09:01 - ClassName: Micropolis
+09:09:01 - Previous Bug Number: 6
+09:09:01 - check the value: micropolisj.engine.Micropolis
+09:09:01 - ClassName: Micropolis
+09:09:01 - Previous Bug Number: 7
+09:09:01 - check the value: micropolisj.engine.Micropolis$History
+09:09:01 - ClassName: Micropolis$History
+09:09:01 - check the value: micropolisj.engine.Micropolis$History
+09:09:01 - ClassName: Micropolis$History
+09:09:01 - check the value: micropolisj.engine.Micropolis$History
+09:09:01 - ClassName: Micropolis$History
+09:09:01 - check the value: micropolisj.engine.Sprite
+09:09:01 - ClassName: Sprite
+09:09:01 - Previous Bug Number: 2
+09:09:01 - check the value: micropolisj.engine.Sprite
+09:09:01 - ClassName: Sprite
+09:09:01 - Previous Bug Number: 3
+09:09:01 - check the value: micropolisj.engine.Tiles
+09:09:01 - ClassName: Tiles
+09:09:01 - Previous Bug Number: 2
+09:09:01 - check the value: micropolisj.engine.Tiles
+09:09:01 - ClassName: Tiles
+09:09:01 - Previous Bug Number: 3
+09:09:01 - check the value: micropolisj.engine.TrafficGen
+09:09:01 - ClassName: TrafficGen
+09:09:01 - Previous Bug Number: 2
+09:09:01 - check the value: micropolisj.gui.GraphsPane$GraphArea
+09:09:01 - ClassName: GraphsPane$GraphArea
+09:09:01 - check the value: micropolisj.gui.GraphsPane$GraphArea$1
+09:09:01 - ClassName: GraphsPane$GraphArea$1
+09:09:01 - check the value: micropolisj.gui.MainWindow
+09:09:01 - ClassName: MainWindow
+09:09:01 - Previous Bug Number: 2
+09:09:01 - check the value: micropolisj.gui.MicropolisDrawingArea
+09:09:01 - ClassName: MicropolisDrawingArea
+09:09:01 - Previous Bug Number: 2
+09:09:01 - check the value: micropolisj.gui.NewCityDialog
+09:09:01 - ClassName: NewCityDialog
+09:09:01 - Previous Bug Number: 2
+09:09:01 - check the value: micropolisj.gui.OverlayMapView
+09:09:01 - ClassName: OverlayMapView
+09:09:01 - Previous Bug Number: 2
+09:09:01 - check the value: micropolisj.util.StringsModel
+09:09:01 - ClassName: StringsModel
+09:09:01 - Previous Bug Number: 2
+09:09:01 - check the value: java.io.InputStream
+09:09:01 - ClassName: InputStream
+09:09:01 - check the value: micropolisj.util.StringsModel
+09:09:01 - ClassName: StringsModel
+09:09:01 - Previous Bug Number: 3
+09:09:01 - check the value: micropolisj.util.StringsModel
+09:09:01 - ClassName: StringsModel
+09:09:01 - Previous Bug Number: 4
+09:09:01 - check the value: micropolisj.util.StringsModel
+09:09:01 - ClassName: StringsModel
+09:09:01 - Previous Bug Number: 5
+09:09:01 - check the value: micropolisj.util.StringsModel
+09:09:01 - ClassName: StringsModel
+09:09:01 - Previous Bug Number: 6
+09:09:01 - check the value: micropolisj.util.TranslationTool
+09:09:01 - ClassName: TranslationTool
+09:09:01 - Previous Bug Number: 2
+09:09:01 - check the value: micropolisj.util.TranslationTool
+09:09:01 - ClassName: TranslationTool
+09:09:01 - Previous Bug Number: 3
+09:09:01 - micropolisj.build_tool
+09:09:01 - test codebase: micropolisj.build_tool
+09:09:01 - test townSize: 2
+09:09:01 - test buildings: MakeTiles
+09:09:01 - test buildings: RearrangeTiles
+09:09:01 - test codebase: micropolisj.build_tool.MakeTiles
+09:09:01 - test townSize: 2
+09:09:01 - test buildings: FrameSpec
+09:09:01 - test buildings: SourceImage
+09:09:01 - test codebase: micropolisj.engine
+09:09:01 - test townSize: 44
+09:09:01 - test buildings: AirplaneSprite
+09:09:01 - test buildings: BudgetNumbers
+09:09:01 - test buildings: BuildingTool
+09:09:01 - test buildings: Bulldozer
+09:09:01 - test buildings: CityBudget
+09:09:01 - test buildings: CityDimension
+09:09:01 - test buildings: CityEval
+09:09:01 - test buildings: CityLocation
+09:09:01 - test buildings: CityProblem
+09:09:01 - test buildings: CityRect
+09:09:01 - test buildings: Disaster
+09:09:01 - test buildings: EarthquakeListener
+09:09:01 - test buildings: ExplosionSprite
+09:09:01 - test buildings: GameLevel
+09:09:01 - test buildings: HelicopterSprite
+09:09:01 - test buildings: MapGenerator
+09:09:01 - test buildings: MapListener
+09:09:01 - test buildings: MapScanner
+09:09:01 - test buildings: MapState
+09:09:01 - test buildings: Micropolis
+09:09:01 - test buildings: MicropolisMessage
+09:09:01 - test buildings: MicropolisTool
+09:09:01 - test buildings: MonsterSprite
+09:09:01 - test buildings: RoadLikeTool
+09:09:01 - test buildings: ShipSprite
+09:09:01 - test buildings: Sound
+09:09:01 - test buildings: Speed
+09:09:01 - test buildings: Sprite
+09:09:01 - test buildings: SpriteKind
+09:09:01 - test buildings: TerrainBehavior
+09:09:01 - test buildings: TileBehavior
+09:09:01 - test buildings: TileConstants
+09:09:01 - test buildings: Tiles
+09:09:01 - test buildings: TileSpec
+09:09:01 - test buildings: ToolEffect
+09:09:01 - test buildings: ToolEffectIfc
+09:09:01 - test buildings: ToolPreview
+09:09:01 - test buildings: ToolResult
+09:09:01 - test buildings: ToolStroke
+09:09:01 - test buildings: TornadoSprite
+09:09:01 - test buildings: TrafficGen
+09:09:01 - test buildings: TrainSprite
+09:09:01 - test buildings: TranslatedToolEffect
+09:09:01 - test buildings: ZoneStatus
+09:09:01 - test codebase: micropolisj.engine.CityEval
+09:09:01 - test townSize: 1
+09:09:01 - test buildings: Comparator
+09:09:01 - test codebase: micropolisj.engine.Micropolis
+09:09:01 - test townSize: 3
+09:09:01 - test buildings: FinancialHistory
+09:09:01 - test buildings: History
+09:09:01 - test buildings: Listener
+09:09:01 - test codebase: micropolisj.engine.TileSpec
+09:09:01 - test townSize: 2
+09:09:01 - test buildings: BuildingInfo
+09:09:01 - test buildings: Scanner
+09:09:01 - test codebase: micropolisj.engine.ToolPreview
+09:09:01 - test townSize: 1
+09:09:01 - test buildings: SoundInfo
+09:09:01 - test codebase: micropolisj.gui
+09:09:01 - test townSize: 12
+09:09:01 - test buildings: BudgetDialog
+09:09:01 - test buildings: ColorParser
+09:09:01 - test buildings: DemandIndicator
+09:09:01 - test buildings: EvaluationPane
+09:09:01 - test buildings: GraphsPane
+09:09:01 - test buildings: MainWindow
+09:09:01 - test buildings: MessagesPane
+09:09:01 - test buildings: MicropolisDrawingArea
+09:09:01 - test buildings: NewCityDialog
+09:09:01 - test buildings: NotificationPane
+09:09:01 - test buildings: OverlayMapView
+09:09:01 - test buildings: TileImages
+09:09:01 - test codebase: micropolisj.gui.BudgetDialog
+09:09:01 - test townSize: 2
+09:09:01 - test buildings: ActionListener
+09:09:01 - test buildings: ChangeListener
+09:09:01 - test codebase: micropolisj.gui.EvaluationPane
+09:09:01 - test townSize: 1
+09:09:01 - test buildings: ActionListener
+09:09:01 - test codebase: micropolisj.gui.GraphsPane
+09:09:01 - test townSize: 2
+09:09:01 - test buildings: ActionListener
+09:09:01 - test buildings: GraphArea
+09:09:01 - test codebase: micropolisj.gui.GraphsPane.GraphArea
+09:09:01 - test townSize: 1
+09:09:01 - test buildings: Comparator
+09:09:01 - test codebase: micropolisj.gui.MainWindow
+09:09:01 - test townSize: 5
+09:09:01 - test buildings: AbstractAction
+09:09:01 - test buildings: ActionListener
+09:09:01 - test buildings: EarthquakeStepper
+09:09:01 - test buildings: MouseAdapter
+09:09:01 - test buildings: WindowAdapter
+09:09:01 - test codebase: micropolisj.gui.MicropolisDrawingArea
+09:09:01 - test townSize: 5
+09:09:01 - test buildings: ActionListener
+09:09:01 - test buildings: AncestorListener
+09:09:01 - test buildings: MouseListener
+09:09:01 - test buildings: MouseMotionListener
+09:09:01 - test buildings: ToolCursor
+09:09:01 - test codebase: micropolisj.gui.NewCityDialog
+09:09:01 - test townSize: 1
+09:09:01 - test buildings: ActionListener
+09:09:01 - test codebase: micropolisj.gui.NotificationPane
+09:09:01 - test townSize: 1
+09:09:01 - test buildings: ActionListener
+09:09:01 - test codebase: micropolisj.gui.OverlayMapView
+09:09:01 - test townSize: 2
+09:09:01 - test buildings: ConnectedView
+09:09:01 - test buildings: MouseAdapter
+09:09:01 - test codebase: micropolisj
+09:09:01 - test townSize: 1
+09:09:01 - test buildings: Main
+09:09:01 - test codebase: micropolisj.Main
+09:09:01 - test townSize: 1
+09:09:01 - test buildings: Runnable
+09:09:01 - test codebase: micropolisj.util
+09:09:01 - test townSize: 3
+09:09:01 - test buildings: StringsModel
+09:09:01 - test buildings: TranslatedStringsTable
+09:09:01 - test buildings: TranslationTool
+09:09:01 - test codebase: micropolisj.util.StringsModel
+09:09:01 - test townSize: 2
+09:09:01 - test buildings: MyLocaleInfo
+09:09:01 - test buildings: StringInfo
+09:09:01 - test codebase: micropolisj.util.TranslationTool
+09:09:01 - test townSize: 2
+09:09:01 - test buildings: ActionListener
+09:09:01 - test buildings: WindowAdapter
+09:09:25 - Class Name : com.redomar.game.entities.Dummy
+09:09:25 - namesaved: Dummy
+09:09:25 - pname: com.redomar.game.entities
+09:09:25 - Class NCSS : 77
+09:09:25 - Number of Functions: 5
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.entities.efx.Swim
+09:09:25 - Class namesaved: Swim
+09:09:25 - Class NCSS : 59
+09:09:25 - Number of Functions: 7
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.entities.Entity
+09:09:25 - Class namesaved: Entity
+09:09:25 - Class NCSS : 22
+09:09:25 - Number of Functions: 10
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.entities.Mob
+09:09:25 - Class namesaved: Mob
+09:09:25 - Class NCSS : 170
+09:09:25 - Number of Functions: 17
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.entities.Player
+09:09:25 - Class namesaved: Player
+09:09:25 - Class NCSS : 141
+09:09:25 - Number of Functions: 10
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.entities.PlayerMP
+09:09:25 - Class namesaved: PlayerMP
+09:09:25 - Class NCSS : 13
+09:09:25 - Number of Functions: 3
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.entities.projectiles.Medium
+09:09:25 - Class namesaved: Medium
+09:09:25 - Class NCSS : 22
+09:09:25 - Number of Functions: 4
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.entities.projectiles.Projectile
+09:09:25 - Class namesaved: Projectile
+09:09:25 - Class NCSS : 47
+09:09:25 - Number of Functions: 7
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.entities.projectiles.Small
+09:09:25 - Class namesaved: Small
+09:09:25 - Class NCSS : 22
+09:09:25 - Number of Functions: 4
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.entities.Vendor
+09:09:25 - Class namesaved: Vendor
+09:09:25 - Class NCSS : 91
+09:09:25 - Number of Functions: 9
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.Game
+09:09:25 - Class namesaved: Game
+09:09:25 - Class NCSS : 356
+09:09:25 - Number of Functions: 64
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.gfx.Colours
+09:09:25 - Class namesaved: Colours
+09:09:25 - Class NCSS : 10
+09:09:25 - Number of Functions: 2
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.gfx.Screen
+09:09:25 - Class namesaved: Screen
+09:09:25 - Class NCSS : 61
+09:09:25 - Number of Functions: 10
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.gfx.SpriteSheet
+09:09:25 - Class namesaved: SpriteSheet
+09:09:25 - Class NCSS : 27
+09:09:25 - Number of Functions: 5
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.InputHandler
+09:09:25 - Class namesaved: InputHandler
+09:09:25 - Class NCSS : 137
+09:09:25 - Number of Functions: 20
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.InputHandler.Key
+09:09:25 - Class namesaved: Key
+09:09:25 - Class NCSS : 14
+09:09:25 - Number of Functions: 4
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.Launcher
+09:09:25 - Class namesaved: Launcher
+09:09:25 - Class NCSS : 3
+09:09:25 - Number of Functions: 1
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.level.LevelHandler
+09:09:25 - Class namesaved: LevelHandler
+09:09:25 - Class NCSS : 210
+09:09:25 - Number of Functions: 29
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.level.LevelHandler.Comparator
+09:09:25 - Class namesaved: Comparator
+09:09:25 - Class NCSS : 6
+09:09:25 - Number of Functions: 1
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.level.Node
+09:09:25 - Class namesaved: Node
+09:09:25 - Class NCSS : 10
+09:09:25 - Number of Functions: 1
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.level.tiles.AnimatedTile
+09:09:25 - Class namesaved: AnimatedTile
+09:09:25 - Class NCSS : 16
+09:09:25 - Number of Functions: 2
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.level.tiles.BasicSolidTile
+09:09:25 - Class namesaved: BasicSolidTile
+09:09:25 - Class NCSS : 4
+09:09:25 - Number of Functions: 1
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.level.tiles.BasicTile
+09:09:25 - Class namesaved: BasicTile
+09:09:25 - Class NCSS : 10
+09:09:25 - Number of Functions: 3
+09:09:25 - 
+09:09:25 - Class Name : com.redomar.game.level.tiles.Tile
+09:09:25 - Class namesaved: Tile
+09:09:25 - Class NCSS : 71
+09:09:25 - Number of Functions: 23
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.lib.Font
+09:09:26 - Class namesaved: Font
+09:09:26 - Class NCSS : 21
+09:09:26 - Number of Functions: 6
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.lib.Keys
+09:09:26 - Class namesaved: Keys
+09:09:26 - Class NCSS : 32
+09:09:26 - Number of Functions: 9
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.lib.Keys.Key
+09:09:26 - Class namesaved: Key
+09:09:26 - Class NCSS : 11
+09:09:26 - Number of Functions: 3
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.lib.Mouse
+09:09:26 - Class namesaved: Mouse
+09:09:26 - Class NCSS : 31
+09:09:26 - Number of Functions: 7
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.lib.Music
+09:09:26 - Class namesaved: Music
+09:09:26 - Class NCSS : 36
+09:09:26 - Number of Functions: 9
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.lib.Name
+09:09:26 - Class namesaved: Name
+09:09:26 - Class NCSS : 12
+09:09:26 - Number of Functions: 4
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.lib.SleepThread
+09:09:26 - Class namesaved: SleepThread
+09:09:26 - Class NCSS : 7
+09:09:26 - Number of Functions: 1
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.lib.Time
+09:09:26 - Class namesaved: Time
+09:09:26 - Class NCSS : 7
+09:09:26 - Number of Functions: 2
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.lib.utils.Vector2i
+09:09:26 - Class namesaved: Vector2i
+09:09:26 - Class NCSS : 36
+09:09:26 - Number of Functions: 11
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.menu.DedicatedJFrame
+09:09:26 - Class namesaved: DedicatedJFrame
+09:09:26 - Class NCSS : 22
+09:09:26 - Number of Functions: 5
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.menu.Menu
+09:09:26 - Class namesaved: Menu
+09:09:26 - Class NCSS : 193
+09:09:26 - Number of Functions: 22
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.menu.MenuInput
+09:09:26 - Class namesaved: MenuInput
+09:09:26 - Class NCSS : 29
+09:09:26 - Number of Functions: 4
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.MouseHandler
+09:09:26 - Class namesaved: MouseHandler
+09:09:26 - Class NCSS : 26
+09:09:26 - Number of Functions: 11
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.net.GameClient
+09:09:26 - Class namesaved: GameClient
+09:09:26 - Class NCSS : 57
+09:09:26 - Number of Functions: 8
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.net.GameServer
+09:09:26 - Class namesaved: GameServer
+09:09:26 - Class NCSS : 93
+09:09:26 - Number of Functions: 12
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.net.packets.Packet
+09:09:26 - Class namesaved: Packet
+09:09:26 - Class NCSS : 24
+09:09:26 - Number of Functions: 7
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.net.packets.Packet00Login
+09:09:26 - Class namesaved: Packet00Login
+09:09:26 - Class NCSS : 26
+09:09:26 - Number of Functions: 8
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.net.packets.Packet01Disconnect
+09:09:26 - Class namesaved: Packet01Disconnect
+09:09:26 - Class NCSS : 16
+09:09:26 - Number of Functions: 6
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.net.packets.Packet02Move
+09:09:26 - Class namesaved: Packet02Move
+09:09:26 - Class NCSS : 41
+09:09:26 - Number of Functions: 11
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.objects.Inventory
+09:09:26 - Class namesaved: Inventory
+09:09:26 - Class NCSS : 40
+09:09:26 - Number of Functions: 2
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.objects.InventoryHandler
+09:09:26 - Class namesaved: InventoryHandler
+09:09:26 - Class NCSS : 14
+09:09:26 - Number of Functions: 8
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.objects.InventoryWindow
+09:09:26 - Class namesaved: InventoryWindow
+09:09:26 - Class NCSS : 62
+09:09:26 - Number of Functions: 8
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.objects.Items
+09:09:26 - Class namesaved: Items
+09:09:26 - Class NCSS : 1
+09:09:26 - Number of Functions: 0
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.scenes.Scene
+09:09:26 - Class namesaved: Scene
+09:09:26 - Class NCSS : 21
+09:09:26 - Number of Functions: 2
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.script.PopUp
+09:09:26 - Class namesaved: PopUp
+09:09:26 - Class NCSS : 7
+09:09:26 - Number of Functions: 2
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.script.Printing
+09:09:26 - Class namesaved: Printing
+09:09:26 - Class NCSS : 27
+09:09:26 - Number of Functions: 6
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.script.PrintTypes
+09:09:26 - Class namesaved: PrintTypes
+09:09:26 - Class NCSS : 1
+09:09:26 - Number of Functions: 0
+09:09:26 - 
+09:09:26 - Class Name : com.redomar.game.WindowHandler
+09:09:26 - Class namesaved: WindowHandler
+09:09:26 - Class NCSS : 14
+09:09:26 - Number of Functions: 8
+09:09:26 - 
+09:09:26 - Function Name : com.redomar.game.entities.Dummy.Dummy(LevelHandler,String,int,int,int,int)
+09:09:26 - 0
+09:09:26 - java.lang.NullPointerException
+09:09:26 - 	at net.minecraft.src.XMLParser.parseNCSS(XMLParser.java:220)
+09:09:26 - 	at net.minecraft.src.XMLParser.runParsing(XMLParser.java:31)
+09:09:26 - 	at net.minecraft.src.codebase2Block.generateCodeBase(codebase2Block.java:602)
+09:09:26 - 	at net.minecraft.src.codebase2Block.onBlockActivated(codebase2Block.java:39)
+09:09:26 - 	at net.minecraft.src.PlayerControllerMP.onPlayerRightClick(PlayerControllerMP.java:306)
+09:09:26 - 	at net.minecraft.client.Minecraft.clickMouse(Minecraft.java:1260)
+09:09:26 - 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1651)
+09:09:26 - 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:771)
+09:09:26 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:704)
+09:09:26 - 	at java.lang.Thread.run(Thread.java:745)
+09:09:26 - check the value: com.redomar.game.Game
+09:09:26 - ClassName: Game
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.Game
+09:09:26 - ClassName: Game
+09:09:26 - Previous Bug Number: 3
+09:09:26 - check the value: com.redomar.game.Game
+09:09:26 - ClassName: Game
+09:09:26 - Previous Bug Number: 4
+09:09:26 - check the value: com.redomar.game.Game
+09:09:26 - ClassName: Game
+09:09:26 - Previous Bug Number: 5
+09:09:26 - check the value: com.redomar.game.Game
+09:09:26 - ClassName: Game
+09:09:26 - Previous Bug Number: 6
+09:09:26 - check the value: com.redomar.game.Game
+09:09:26 - ClassName: Game
+09:09:26 - Previous Bug Number: 7
+09:09:26 - check the value: com.redomar.game.Game
+09:09:26 - ClassName: Game
+09:09:26 - Previous Bug Number: 8
+09:09:26 - check the value: com.redomar.game.Game
+09:09:26 - ClassName: Game
+09:09:26 - Previous Bug Number: 9
+09:09:26 - check the value: com.redomar.game.Game
+09:09:26 - ClassName: Game
+09:09:26 - Previous Bug Number: 10
+09:09:26 - check the value: com.redomar.game.Game
+09:09:26 - ClassName: Game
+09:09:26 - Previous Bug Number: 11
+09:09:26 - check the value: com.redomar.game.InputHandler
+09:09:26 - ClassName: InputHandler
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.InputHandler
+09:09:26 - ClassName: InputHandler
+09:09:26 - Previous Bug Number: 3
+09:09:26 - check the value: com.redomar.game.InputHandler$Key
+09:09:26 - ClassName: InputHandler$Key
+09:09:26 - check the value: com.redomar.game.MouseHandler
+09:09:26 - ClassName: MouseHandler
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.MouseHandler
+09:09:26 - ClassName: MouseHandler
+09:09:26 - Previous Bug Number: 3
+09:09:26 - check the value: com.redomar.game.MouseHandler
+09:09:26 - ClassName: MouseHandler
+09:09:26 - Previous Bug Number: 4
+09:09:26 - check the value: com.redomar.game.MouseHandler
+09:09:26 - ClassName: MouseHandler
+09:09:26 - Previous Bug Number: 5
+09:09:26 - check the value: com.redomar.game.MouseHandler
+09:09:26 - ClassName: MouseHandler
+09:09:26 - Previous Bug Number: 6
+09:09:26 - check the value: com.redomar.game.MouseHandler
+09:09:26 - ClassName: MouseHandler
+09:09:26 - Previous Bug Number: 7
+09:09:26 - check the value: com.redomar.game.entities.Dummy
+09:09:26 - ClassName: Dummy
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.entities.Mob
+09:09:26 - ClassName: Mob
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.entities.Mob
+09:09:26 - ClassName: Mob
+09:09:26 - Previous Bug Number: 3
+09:09:26 - check the value: com.redomar.game.entities.Mob
+09:09:26 - ClassName: Mob
+09:09:26 - Previous Bug Number: 4
+09:09:26 - check the value: com.redomar.game.entities.Player
+09:09:26 - ClassName: Player
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.entities.efx.Swim
+09:09:26 - ClassName: Swim
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.entities.efx.Swim
+09:09:26 - ClassName: Swim
+09:09:26 - Previous Bug Number: 3
+09:09:26 - check the value: com.redomar.game.entities.projectiles.Projectile
+09:09:26 - ClassName: Projectile
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.gfx.Screen
+09:09:26 - ClassName: Screen
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.gfx.Screen
+09:09:26 - ClassName: Screen
+09:09:26 - Previous Bug Number: 3
+09:09:26 - check the value: com.redomar.game.gfx.Screen
+09:09:26 - ClassName: Screen
+09:09:26 - Previous Bug Number: 4
+09:09:26 - check the value: com.redomar.game.level.tiles.AnimatedTile
+09:09:26 - ClassName: AnimatedTile
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.level.tiles.Tile
+09:09:26 - ClassName: Tile
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.lib.Keys$Key
+09:09:26 - ClassName: Keys$Key
+09:09:26 - check the value: com.redomar.game.lib.Music
+09:09:26 - ClassName: Music
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.lib.Music
+09:09:26 - ClassName: Music
+09:09:26 - Previous Bug Number: 3
+09:09:26 - check the value: com.redomar.game.lib.Music
+09:09:26 - ClassName: Music
+09:09:26 - Previous Bug Number: 4
+09:09:26 - check the value: com.redomar.game.lib.Music
+09:09:26 - ClassName: Music
+09:09:26 - Previous Bug Number: 5
+09:09:26 - check the value: com.redomar.game.lib.utils.Vector2i
+09:09:26 - ClassName: Vector2i
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.menu.DedicatedJFrame
+09:09:26 - ClassName: DedicatedJFrame
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.menu.Menu
+09:09:26 - ClassName: Menu
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.menu.Menu
+09:09:26 - ClassName: Menu
+09:09:26 - Previous Bug Number: 3
+09:09:26 - check the value: com.redomar.game.menu.MenuInput
+09:09:26 - ClassName: MenuInput
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.net.GameClient
+09:09:26 - ClassName: GameClient
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.net.GameServer
+09:09:26 - ClassName: GameServer
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.net.packets.Packet
+09:09:26 - ClassName: Packet
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.net.packets.Packet
+09:09:26 - ClassName: Packet
+09:09:26 - Previous Bug Number: 3
+09:09:26 - check the value: com.redomar.game.net.packets.Packet00Login
+09:09:26 - ClassName: Packet00Login
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.net.packets.Packet01Disconnect
+09:09:26 - ClassName: Packet01Disconnect
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.net.packets.Packet02Move
+09:09:26 - ClassName: Packet02Move
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.objects.Inventory
+09:09:26 - ClassName: Inventory
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.objects.Inventory
+09:09:26 - ClassName: Inventory
+09:09:26 - Previous Bug Number: 3
+09:09:26 - check the value: com.redomar.game.objects.Inventory
+09:09:26 - ClassName: Inventory
+09:09:26 - Previous Bug Number: 4
+09:09:26 - check the value: com.redomar.game.objects.Inventory
+09:09:26 - ClassName: Inventory
+09:09:26 - Previous Bug Number: 5
+09:09:26 - check the value: com.redomar.game.objects.Inventory
+09:09:26 - ClassName: Inventory
+09:09:26 - Previous Bug Number: 6
+09:09:26 - check the value: com.redomar.game.objects.Inventory
+09:09:26 - ClassName: Inventory
+09:09:26 - Previous Bug Number: 7
+09:09:26 - check the value: com.redomar.game.objects.Inventory
+09:09:26 - ClassName: Inventory
+09:09:26 - Previous Bug Number: 8
+09:09:26 - check the value: com.redomar.game.objects.InventoryHandler
+09:09:26 - ClassName: InventoryHandler
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.objects.InventoryHandler
+09:09:26 - ClassName: InventoryHandler
+09:09:26 - Previous Bug Number: 3
+09:09:26 - check the value: com.redomar.game.objects.InventoryWindow
+09:09:26 - ClassName: InventoryWindow
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.redomar.game.objects.InventoryWindow
+09:09:26 - ClassName: InventoryWindow
+09:09:26 - Previous Bug Number: 3
+09:09:26 - check the value: com.redomar.game.script.PopUp
+09:09:26 - ClassName: PopUp
+09:09:26 - Previous Bug Number: 2
+09:09:26 - check the value: com.thehowtotutorial.splashscreen.JSplashLabel
+09:09:26 - ClassName: JSplashLabel
+09:09:26 - check the value: javazoom.jl.converter.Converter$PrintWriterProgressListener
+09:09:26 - ClassName: Converter$PrintWriterProgressListener
+09:09:26 - check the value: javazoom.jl.converter.RiffFile
+09:09:26 - ClassName: RiffFile
+09:09:26 - check the value: javazoom.jl.converter.RiffFile
+09:09:26 - ClassName: RiffFile
+09:09:26 - check the value: javazoom.jl.converter.RiffFile$RiffChunkHeader
+09:09:26 - ClassName: RiffFile$RiffChunkHeader
+09:09:26 - check the value: javazoom.jl.converter.WaveFile$WaveFileSample
+09:09:26 - ClassName: WaveFile$WaveFileSample
+09:09:26 - check the value: javazoom.jl.converter.WaveFile$WaveFileSample
+09:09:26 - ClassName: WaveFile$WaveFileSample
+09:09:26 - check the value: javazoom.jl.converter.WaveFile$WaveFormat_ChunkData
+09:09:26 - ClassName: WaveFile$WaveFormat_ChunkData
+09:09:26 - check the value: javazoom.jl.converter.WaveFileObuffer
+09:09:26 - ClassName: WaveFileObuffer
+09:09:26 - check the value: javazoom.jl.converter.jlc
+09:09:26 - ClassName: jlc
+09:09:26 - check the value: javazoom.jl.converter.jlc
+09:09:26 - ClassName: jlc
+09:09:26 - check the value: javazoom.jl.converter.jlc$jlcArgs
+09:09:26 - ClassName: jlc$jlcArgs
+09:09:26 - check the value: javazoom.jl.converter.jlc$jlcArgs
+09:09:26 - ClassName: jlc$jlcArgs
+09:09:26 - check the value: javazoom.jl.converter.jlc$jlcArgs
+09:09:26 - ClassName: jlc$jlcArgs
+09:09:26 - check the value: javazoom.jl.converter.jlc$jlcArgs
+09:09:26 - ClassName: jlc$jlcArgs
+09:09:26 - check the value: javazoom.jl.converter.jlc$jlcArgs
+09:09:26 - ClassName: jlc$jlcArgs
+09:09:26 - check the value: javazoom.jl.decoder.BitReserve
+09:09:26 - ClassName: BitReserve
+09:09:26 - check the value: javazoom.jl.decoder.Bitstream
+09:09:26 - ClassName: Bitstream
+09:09:26 - check the value: javazoom.jl.decoder.Bitstream
+09:09:26 - ClassName: Bitstream
+09:09:26 - check the value: javazoom.jl.decoder.Header
+09:09:26 - ClassName: Header
+09:09:26 - check the value: javazoom.jl.decoder.Header
+09:09:26 - ClassName: Header
+09:09:26 - check the value: javazoom.jl.decoder.Header
+09:09:26 - ClassName: Header
+09:09:26 - check the value: javazoom.jl.decoder.Header
+09:09:26 - ClassName: Header
+09:09:26 - check the value: javazoom.jl.decoder.Header
+09:09:26 - ClassName: Header
+09:09:26 - check the value: javazoom.jl.decoder.JavaLayerUtils
+09:09:26 - ClassName: JavaLayerUtils
+09:09:26 - check the value: javazoom.jl.decoder.LayerIIIDecoder
+09:09:26 - ClassName: LayerIIIDecoder
+09:09:26 - check the value: javazoom.jl.decoder.LayerIIIDecoder
+09:09:26 - ClassName: LayerIIIDecoder
+09:09:26 - check the value: javazoom.jl.decoder.LayerIIIDecoder
+09:09:26 - ClassName: LayerIIIDecoder
+09:09:26 - check the value: javazoom.jl.decoder.LayerIIIDecoder$III_side_info_t
+09:09:26 - ClassName: LayerIIIDecoder$III_side_info_t
+09:09:26 - check the value: javazoom.jl.decoder.LayerIIIDecoder$Sftable
+09:09:26 - ClassName: LayerIIIDecoder$Sftable
+09:09:26 - check the value: javazoom.jl.decoder.LayerIIIDecoder$Sftable
+09:09:26 - ClassName: LayerIIIDecoder$Sftable
+09:09:26 - check the value: javazoom.jl.decoder.LayerIIIDecoder$Sftable
+09:09:26 - ClassName: LayerIIIDecoder$Sftable
+09:09:26 - check the value: javazoom.jl.decoder.SampleBuffer
+09:09:26 - ClassName: SampleBuffer
+09:09:26 - check the value: javazoom.jl.decoder.SynthesisFilter
+09:09:26 - ClassName: SynthesisFilter
+09:09:26 - check the value: javazoom.jl.decoder.SynthesisFilter
+09:09:26 - ClassName: SynthesisFilter
+09:09:26 - check the value: javazoom.jl.decoder.huffcodetab
+09:09:26 - ClassName: huffcodetab
+09:09:26 - check the value: javazoom.jl.decoder.huffcodetab
+09:09:26 - ClassName: huffcodetab
+09:09:26 - check the value: javazoom.jl.decoder.huffcodetab
+09:09:26 - ClassName: huffcodetab
+09:09:26 - check the value: javazoom.jl.decoder.huffcodetab
+09:09:26 - ClassName: huffcodetab
+09:09:26 - check the value: javazoom.jl.decoder.huffcodetab
+09:09:26 - ClassName: huffcodetab
+09:09:26 - check the value: javazoom.jl.decoder.huffcodetab
+09:09:26 - ClassName: huffcodetab
+09:09:26 - check the value: javazoom.jl.player.Player
+09:09:26 - ClassName: Player
+09:09:26 - check the value: javazoom.jl.player.advanced.AdvancedPlayer
+09:09:26 - ClassName: AdvancedPlayer
+09:09:26 - check the value: javazoom.jl.player.advanced.AdvancedPlayer
+09:09:26 - ClassName: AdvancedPlayer
+09:09:26 - check the value: javazoom.jl.player.advanced.PlaybackEvent
+09:09:26 - ClassName: PlaybackEvent
+09:09:26 - check the value: javazoom.jl.player.advanced.PlaybackEvent
+09:09:26 - ClassName: PlaybackEvent
+09:09:26 - check the value: javazoom.jl.player.advanced.jlap
+09:09:26 - ClassName: jlap
+09:09:26 - check the value: javazoom.jl.player.advanced.jlap$InfoListener
+09:09:26 - ClassName: jlap$InfoListener
+09:09:26 - check the value: javazoom.jl.player.advanced.jlap$InfoListener
+09:09:26 - ClassName: jlap$InfoListener
+09:09:26 - check the value: javazoom.jl.player.jlp
+09:09:26 - ClassName: jlp
+09:09:26 - check the value: org.apache.commons.lang3.BooleanUtils
+09:09:26 - ClassName: BooleanUtils
+09:09:26 - check the value: org.apache.commons.lang3.BooleanUtils
+09:09:26 - ClassName: BooleanUtils
+09:09:26 - check the value: org.apache.commons.lang3.BooleanUtils
+09:09:26 - ClassName: BooleanUtils
+09:09:26 - check the value: org.apache.commons.lang3.BooleanUtils
+09:09:26 - ClassName: BooleanUtils
+09:09:26 - check the value: org.apache.commons.lang3.BooleanUtils
+09:09:26 - ClassName: BooleanUtils
+09:09:26 - check the value: org.apache.commons.lang3.BooleanUtils
+09:09:26 - ClassName: BooleanUtils
+09:09:26 - check the value: org.apache.commons.lang3.BooleanUtils
+09:09:26 - ClassName: BooleanUtils
+09:09:26 - check the value: org.apache.commons.lang3.BooleanUtils
+09:09:26 - ClassName: BooleanUtils
+09:09:26 - check the value: org.apache.commons.lang3.StringUtils
+09:09:26 - ClassName: StringUtils
+09:09:26 - check the value: org.apache.commons.lang3.math.NumberUtils
+09:09:26 - ClassName: NumberUtils
+09:09:26 - check the value: org.apache.commons.lang3.math.NumberUtils
+09:09:26 - ClassName: NumberUtils
+09:09:26 - check the value: org.apache.commons.lang3.text.ExtendedMessageFormat
+09:09:26 - ClassName: ExtendedMessageFormat
+09:09:26 - check the value: org.apache.commons.lang3.text.ExtendedMessageFormat
+09:09:26 - ClassName: ExtendedMessageFormat
+09:09:26 - check the value: org.apache.commons.lang3.text.StrTokenizer
+09:09:26 - ClassName: StrTokenizer
+09:09:26 - check the value: org.apache.commons.lang3.text.StrBuilder$StrBuilderTokenizer
+09:09:26 - ClassName: StrBuilder$StrBuilderTokenizer
+09:09:26 - check the value: org.apache.commons.lang3.time.DateUtils
+09:09:26 - ClassName: DateUtils
+09:09:26 - check the value: org.apache.commons.lang3.time.DateUtils
+09:09:26 - ClassName: DateUtils
+09:09:26 - check the value: org.apache.commons.lang3.time.DateUtils
+09:09:26 - ClassName: DateUtils
+09:09:26 - check the value: org.apache.commons.lang3.time.DateUtils
+09:09:26 - ClassName: DateUtils
+09:09:26 - check the value: org.apache.commons.lang3.time.DurationFormatUtils
+09:09:26 - ClassName: DurationFormatUtils
+09:09:26 - check the value: org.apache.commons.lang3.time.DurationFormatUtils
+09:09:26 - ClassName: DurationFormatUtils
+09:09:26 - check the value: org.apache.commons.lang3.time.DurationFormatUtils
+09:09:26 - ClassName: DurationFormatUtils
+09:09:26 - check the value: org.apache.commons.lang3.time.DurationFormatUtils
+09:09:26 - ClassName: DurationFormatUtils
+09:09:26 - check the value: org.apache.commons.lang3.time.DurationFormatUtils
+09:09:26 - ClassName: DurationFormatUtils
+09:09:26 - check the value: org.apache.commons.lang3.time.DurationFormatUtils
+09:09:26 - ClassName: DurationFormatUtils
+09:09:26 - check the value: org.apache.commons.lang3.time.DurationFormatUtils
+09:09:26 - ClassName: DurationFormatUtils
+09:09:26 - check the value: org.apache.commons.lang3.time.DurationFormatUtils
+09:09:26 - ClassName: DurationFormatUtils
+09:09:26 - com.redomar.game
+09:09:26 - com.redomar.game.entities
+09:09:26 - com.redomar.game.entities.efx
+09:09:26 - com.redomar.game.entities.projectiles
+09:09:26 - com.redomar.game.gfx
+09:09:26 - com.redomar.game.level
+09:09:26 - com.redomar.game.level.tiles
+09:09:26 - com.redomar.game.lib
+09:09:26 - com.redomar.game.lib.utils
+09:09:26 - com.redomar.game.menu
+09:09:26 - com.redomar.game.net
+09:09:26 - com.redomar.game.net.packets
+09:09:26 - com.redomar.game.objects
+09:09:26 - com.redomar.game.scenes
+09:09:26 - com.redomar.game.script
+09:09:26 - com.thehowtotutorial.splashscreen
+09:09:26 - java.applet
+09:09:26 - java.awt
+09:09:26 - java.awt.event
+09:09:26 - java.awt.im
+09:09:26 - java.awt.image
+09:09:26 - java.io
+09:09:26 - java.lang
+09:09:26 - java.lang.annotation
+09:09:26 - java.lang.reflect
+09:09:26 - java.math
+09:09:26 - java.net
+09:09:26 - java.nio.charset
+09:09:26 - java.text
+09:09:26 - java.util
+09:09:26 - java.util.concurrent
+09:09:26 - java.util.concurrent.atomic
+09:09:26 - java.util.jar
+09:09:26 - java.util.logging
+09:09:26 - java.util.regex
+09:09:26 - javax.imageio
+09:09:26 - javax.sound.sampled
+09:09:26 - javax.swing
+09:09:26 - javazoom.jl.converter
+09:09:26 - javazoom.jl.decoder
+09:09:26 - javazoom.jl.player
+09:09:26 - javazoom.jl.player.advanced
+09:09:26 - org.apache.commons.lang3
+09:09:26 - org.apache.commons.lang3.builder
+09:09:26 - org.apache.commons.lang3.concurrent
+09:09:26 - org.apache.commons.lang3.event
+09:09:26 - org.apache.commons.lang3.exception
+09:09:26 - org.apache.commons.lang3.math
+09:09:26 - org.apache.commons.lang3.mutable
+09:09:26 - org.apache.commons.lang3.reflect
+09:09:26 - org.apache.commons.lang3.text
+09:09:26 - org.apache.commons.lang3.text.translate
+09:09:26 - org.apache.commons.lang3.time
+09:09:26 - org.apache.commons.lang3.tuple
+09:09:26 - org.eclipse.jdt.internal.jarinjarloader
+09:09:26 - test codebase: com.redomar.game.entities
+09:09:26 - test townSize: 6
+09:09:26 - test buildings: Dummy
+09:09:26 - test buildings: Entity
+09:09:26 - test buildings: Mob
+09:09:26 - test buildings: Player
+09:09:26 - test buildings: PlayerMP
+09:09:26 - test buildings: Vendor
+09:09:26 - test codebase: com.redomar.game.entities.efx
+09:09:26 - test townSize: 1
+09:09:26 - test buildings: Swim
+09:09:26 - test codebase: com.redomar.game.entities.projectiles
+09:09:26 - test townSize: 3
+09:09:26 - test buildings: Medium
+09:09:26 - test buildings: Projectile
+09:09:26 - test buildings: Small
+09:09:26 - test codebase: com.redomar.game
+09:09:26 - test townSize: 5
+09:09:26 - test buildings: Game
+09:09:26 - test buildings: InputHandler
+09:09:26 - test buildings: Launcher
+09:09:26 - test buildings: MouseHandler
+09:09:26 - test buildings: WindowHandler
+09:09:26 - test codebase: com.redomar.game.gfx
+09:09:26 - test townSize: 3
+09:09:26 - test buildings: Colours
+09:09:26 - test buildings: Screen
+09:09:26 - test buildings: SpriteSheet
+09:09:26 - test codebase: com.redomar.game.InputHandler
+09:09:26 - test townSize: 1
+09:09:26 - test buildings: Key
+09:09:26 - test codebase: com.redomar.game.level
+09:09:26 - test townSize: 2
+09:09:26 - test buildings: LevelHandler
+09:09:26 - test buildings: Node
+09:09:26 - test codebase: com.redomar.game.level.LevelHandler
+09:09:26 - test townSize: 1
+09:09:26 - test buildings: Comparator
+09:09:26 - test codebase: com.redomar.game.level.tiles
+09:09:26 - test townSize: 4
+09:09:26 - test buildings: AnimatedTile
+09:09:26 - test buildings: BasicSolidTile
+09:09:26 - test buildings: BasicTile
+09:09:26 - test buildings: Tile
+09:09:26 - test codebase: com.redomar.game.lib
+09:09:26 - test townSize: 7
+09:09:26 - test buildings: Font
+09:09:26 - test buildings: Keys
+09:09:26 - test buildings: Mouse
+09:09:26 - test buildings: Music
+09:09:26 - test buildings: Name
+09:09:26 - test buildings: SleepThread
+09:09:26 - test buildings: Time
+09:09:26 - test codebase: com.redomar.game.lib.Keys
+09:09:26 - test townSize: 1
+09:09:26 - test buildings: Key
+09:09:26 - test codebase: com.redomar.game.lib.utils
+09:09:26 - test townSize: 1
+09:09:26 - test buildings: Vector2i
+09:09:26 - test codebase: com.redomar.game.menu
+09:09:26 - test townSize: 3
+09:09:26 - test buildings: DedicatedJFrame
+09:09:26 - test buildings: Menu
+09:09:26 - test buildings: MenuInput
+09:09:26 - test codebase: com.redomar.game.net
+09:09:26 - test townSize: 2
+09:09:26 - test buildings: GameClient
+09:09:26 - test buildings: GameServer
+09:09:26 - test codebase: com.redomar.game.net.packets
+09:09:26 - test townSize: 4
+09:09:26 - test buildings: Packet
+09:09:26 - test buildings: Packet00Login
+09:09:26 - test buildings: Packet01Disconnect
+09:09:26 - test buildings: Packet02Move
+09:09:26 - test codebase: com.redomar.game.objects
+09:09:26 - test townSize: 4
+09:09:26 - test buildings: Inventory
+09:09:26 - test buildings: InventoryHandler
+09:09:26 - test buildings: InventoryWindow
+09:09:26 - test buildings: Items
+09:09:26 - test codebase: com.redomar.game.scenes
+09:09:26 - test townSize: 1
+09:09:26 - test buildings: Scene
+09:09:26 - test codebase: com.redomar.game.script
+09:09:26 - test townSize: 3
+09:09:26 - test buildings: PopUp
+09:09:26 - test buildings: Printing
+09:09:26 - test buildings: PrintTypes
+09:09:41 - Someone is closing me!
+09:09:41 - 十一月 21, 2014 9:09:41 上午 net.minecraft.server.MinecraftServer stopServer
+09:09:41 - 信息: Stopping server
+09:09:42 - AL lib: ReleaseALC: 1 device not closed
+09:09:42 - Java HotSpot(TM) 64-Bit Server VM warning: Using incremental CMS is deprecated and will likely be removed in a future release
+09:09:43 - '"C:\Program Files\Java\jdk1.8.0_25\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\li...' failed : 1
+09:09:43 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime\startclient.py", line 30, in startclient
+  File "E:\cpsc410\CodeTrip\MCP\runtime\commands.py", line 1077, in startclient
+    self.runmc(forkcmd)
+  File "E:\cpsc410\CodeTrip\MCP\runtime\commands.py", line 1117, in runmc
+    raise CalledProcessError(process.returncode, forkcmd, output)
+CalledProcessError: Command '"C:\Program Files\Java\jdk1.8.0_25\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\lib;..\lib\*;..\jars\bin\minecraft.jar;..\jars\bin\jinput.jar;..\jars\bin\lwjgl.jar;..\jars\bin\lwjgl_util.jar" -Djava.library.path=..\jars\bin\natives Start' returned non-zero exit status 1
+09:29:54 - == MCP 7.0 (data: 7.0a, client: 1.3.1, server: 1.3.1) ==
+09:29:54 - OS : win32
+09:29:54 - runmc: '"C:\Program Files\Java\jdk1.8.0_25\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\lib;..\lib\*;..\jars\bin\minecraft.jar;..\jars\bin\jinput.jar;..\jars\bin\lwjgl.jar;..\jars\bin\lwjgl_util.jar" -Djava.library.path=..\jars\bin\natives Start'
+09:29:54 - shlex: ['C:\\Program Files\\Java\\jdk1.8.0_25\\bin\\java', '-Xincgc', '-Xms1024M', '-Xmx1024M', '-cp', '..\\bin\\minecraft;..\\lib;..\\lib\\*;..\\jars\\bin\\minecraft.jar;..\\jars\\bin\\jinput.jar;..\\jars\\bin\\lwjgl.jar;..\\jars\\bin\\lwjgl_util.jar', '-Djava.library.path=..\\jars\\bin\\natives', 'Start']
+09:29:55 - 27 achievements
+09:29:56 - 195 recipes
+09:29:56 - Setting user: Player158, -
+09:29:56 - Client asked for parameter: server
+09:29:56 - LWJGL Version: 2.8.3
+09:29:57 - ModLoader 1.3.1 Initializing...
+09:29:57 - Mod Initialized: mod_codeTrip 1.0.0
+09:29:57 - Mod Initialized: mod_ModLoaderMp 1.3.1v1
+09:29:57 - Overriding /terrain.png with /CODEBASE1.png @ 26. 31 left.
+09:29:57 - Overriding /terrain.png with /CODEBASE2.png @ 27. 30 left.
+09:29:57 - Mod Loaded: mod_codeTrip 1.0.0
+09:29:57 - Mod Loaded: mod_ModLoaderMp 1.3.1v1
+09:29:57 - ModLoaderMP 1.3.1v1 Initialized
+09:29:57 - Done.
+09:29:57 - 
+09:29:57 - Starting up SoundSystem...
+09:29:57 - Initializing LWJGL OpenAL
+09:29:57 -     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+09:29:57 - OpenAL initialized.
+09:29:57 - 
+09:30:01 - Deleting .\saves\New World\data
+09:30:01 - Deleting .\saves\New World\DIM-1
+09:30:01 - Deleting .\saves\New World\DIM1
+09:30:01 - Deleting .\saves\New World\players
+09:30:01 - Deleting .\saves\New World\region
+09:30:04 - 十一月 21, 2014 9:30:04 上午 net.minecraft.src.IntegratedServer startServer
+09:30:04 - 信息: Starting integrated minecraft server version 1.3.1
+09:30:04 - 十一月 21, 2014 9:30:04 上午 net.minecraft.src.IntegratedServer startServer
+09:30:04 - 信息: Generating keypair
+09:30:05 - 十一月 21, 2014 9:30:05 上午 net.minecraft.server.MinecraftServer convertMapIfNeeded
+09:30:05 - 信息: Converting map!
+09:30:05 - Scanning folders...
+09:30:05 - Total conversion count is 0
+09:30:05 - 十一月 21, 2014 9:30:05 上午 net.minecraft.server.MinecraftServer initialWorldChunkLoad
+09:30:05 - 信息: Preparing start region for level 0
+09:30:06 - 十一月 21, 2014 9:30:06 上午 net.minecraft.src.ServerConfigurationManager initializeConnectionToPlayer
+09:30:06 - 信息: Player158[/127.0.0.1:0] logged in with entity id 0 at (896.5, 5.620000004768372, 495.5)
+09:31:52 - Class Name : micropolisj.build_tool.MakeTiles
+09:31:52 - namesaved: MakeTiles
+09:31:52 - pname: micropolisj.build_tool
+09:31:52 - Class NCSS : 140
+09:31:52 - Number of Functions: 9
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.build_tool.MakeTiles.FrameSpec
+09:31:52 - Class namesaved: FrameSpec
+09:31:52 - Class NCSS : 5
+09:31:52 - Number of Functions: 0
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.build_tool.MakeTiles.SourceImage
+09:31:52 - Class namesaved: SourceImage
+09:31:52 - Class NCSS : 6
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.build_tool.RearrangeTiles
+09:31:52 - Class namesaved: RearrangeTiles
+09:31:52 - Class NCSS : 21
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.AirplaneSprite
+09:31:52 - Class namesaved: AirplaneSprite
+09:31:52 - Class NCSS : 45
+09:31:52 - Number of Functions: 2
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.BudgetNumbers
+09:31:52 - Class namesaved: BudgetNumbers
+09:31:52 - Class NCSS : 15
+09:31:52 - Number of Functions: 0
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.BuildingTool
+09:31:52 - Class namesaved: BuildingTool
+09:31:52 - Class NCSS : 26
+09:31:52 - Number of Functions: 3
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.Bulldozer
+09:31:52 - Class namesaved: Bulldozer
+09:31:52 - Class NCSS : 51
+09:31:52 - Number of Functions: 5
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.CityBudget
+09:31:52 - Class namesaved: CityBudget
+09:31:52 - Class NCSS : 9
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.CityDimension
+09:31:52 - Class namesaved: CityDimension
+09:31:52 - Class NCSS : 16
+09:31:52 - Number of Functions: 4
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.CityEval
+09:31:52 - Class namesaved: CityEval
+09:31:52 - Class NCSS : 167
+09:31:52 - Number of Functions: 13
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.CityEval.Comparator
+09:31:52 - Class namesaved: Comparator
+09:31:52 - Class NCSS : 2
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.CityLocation
+09:31:52 - Class namesaved: CityLocation
+09:31:52 - Class NCSS : 16
+09:31:52 - Number of Functions: 4
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.CityProblem
+09:31:52 - Class namesaved: CityProblem
+09:31:52 - Class NCSS : 1
+09:31:52 - Number of Functions: 0
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.CityRect
+09:31:52 - Class namesaved: CityRect
+09:31:52 - Class NCSS : 19
+09:31:52 - Number of Functions: 4
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.Disaster
+09:31:52 - Class namesaved: Disaster
+09:31:52 - Class NCSS : 1
+09:31:52 - Number of Functions: 0
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.EarthquakeListener
+09:31:52 - Class namesaved: EarthquakeListener
+09:31:52 - Class NCSS : 2
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.ExplosionSprite
+09:31:52 - Class namesaved: ExplosionSprite
+09:31:52 - Class NCSS : 33
+09:31:52 - Number of Functions: 3
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.GameLevel
+09:31:52 - Class namesaved: GameLevel
+09:31:52 - Class NCSS : 16
+09:31:52 - Number of Functions: 3
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.HelicopterSprite
+09:31:52 - Class namesaved: HelicopterSprite
+09:31:52 - Class NCSS : 55
+09:31:52 - Number of Functions: 2
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.MapGenerator
+09:31:52 - Class namesaved: MapGenerator
+09:31:52 - Class NCSS : 252
+09:31:52 - Number of Functions: 23
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.MapListener
+09:31:52 - Class namesaved: MapListener
+09:31:52 - Class NCSS : 5
+09:31:52 - Number of Functions: 4
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.MapScanner
+09:31:52 - Class namesaved: MapScanner
+09:31:52 - Class NCSS : 470
+09:31:52 - Number of Functions: 37
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.MapState
+09:31:52 - Class namesaved: MapState
+09:31:52 - Class NCSS : 1
+09:31:52 - Number of Functions: 0
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.Micropolis
+09:31:52 - Class namesaved: Micropolis
+09:31:52 - Class NCSS : 1547
+09:31:52 - Number of Functions: 123
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.Micropolis.FinancialHistory
+09:31:52 - Class namesaved: FinancialHistory
+09:31:52 - Class NCSS : 5
+09:31:52 - Number of Functions: 0
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.Micropolis.History
+09:31:52 - Class namesaved: History
+09:31:52 - Class NCSS : 11
+09:31:52 - Number of Functions: 0
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.Micropolis.Listener
+09:31:52 - Class namesaved: Listener
+09:31:52 - Class NCSS : 8
+09:31:52 - Number of Functions: 7
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.MicropolisMessage
+09:31:52 - Class namesaved: MicropolisMessage
+09:31:52 - Class NCSS : 18
+09:31:52 - Number of Functions: 0
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.MicropolisTool
+09:31:52 - Class namesaved: MicropolisTool
+09:31:52 - Class NCSS : 30
+09:31:52 - Number of Functions: 6
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.MonsterSprite
+09:31:52 - Class namesaved: MonsterSprite
+09:31:52 - Class NCSS : 93
+09:31:52 - Number of Functions: 2
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.RoadLikeTool
+09:31:52 - Class namesaved: RoadLikeTool
+09:31:52 - Class NCSS : 223
+09:31:52 - Number of Functions: 12
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.ShipSprite
+09:31:52 - Class namesaved: ShipSprite
+09:31:52 - Class NCSS : 85
+09:31:52 - Number of Functions: 4
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.Sound
+09:31:52 - Class namesaved: Sound
+09:31:52 - Class NCSS : 7
+09:31:52 - Number of Functions: 2
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.Speed
+09:31:52 - Class namesaved: Speed
+09:31:52 - Class NCSS : 4
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.Sprite
+09:31:52 - Class namesaved: Sprite
+09:31:52 - Class NCSS : 116
+09:31:52 - Number of Functions: 11
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.SpriteKind
+09:31:52 - Class namesaved: SpriteKind
+09:31:52 - Class NCSS : 4
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.TerrainBehavior
+09:31:52 - Class namesaved: TerrainBehavior
+09:31:52 - Class NCSS : 163
+09:31:52 - Number of Functions: 11
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.TileBehavior
+09:31:52 - Class namesaved: TileBehavior
+09:31:52 - Class NCSS : 15
+09:31:52 - Number of Functions: 3
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.TileConstants
+09:31:52 - Class namesaved: TileConstants
+09:31:52 - Class NCSS : 301
+09:31:52 - Number of Functions: 48
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.Tiles
+09:31:52 - Class namesaved: Tiles
+09:31:52 - Class NCSS : 44
+09:31:52 - Number of Functions: 4
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.TileSpec
+09:31:52 - Class namesaved: TileSpec
+09:31:52 - Class NCSS : 211
+09:31:52 - Number of Functions: 17
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.TileSpec.BuildingInfo
+09:31:52 - Class namesaved: BuildingInfo
+09:31:52 - Class NCSS : 4
+09:31:52 - Number of Functions: 0
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.TileSpec.Scanner
+09:31:52 - Class namesaved: Scanner
+09:31:52 - Class NCSS : 52
+09:31:52 - Number of Functions: 9
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.ToolEffect
+09:31:52 - Class namesaved: ToolEffect
+09:31:52 - Class NCSS : 47
+09:31:52 - Number of Functions: 8
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.ToolEffectIfc
+09:31:52 - Class namesaved: ToolEffectIfc
+09:31:52 - Class NCSS : 6
+09:31:52 - Number of Functions: 5
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.ToolPreview
+09:31:52 - Class namesaved: ToolPreview
+09:31:52 - Class NCSS : 85
+09:31:52 - Number of Functions: 11
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.ToolPreview.SoundInfo
+09:31:52 - Class namesaved: SoundInfo
+09:31:52 - Class NCSS : 8
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.ToolResult
+09:31:52 - Class namesaved: ToolResult
+09:31:52 - Class NCSS : 1
+09:31:52 - Number of Functions: 0
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.ToolStroke
+09:31:52 - Class namesaved: ToolStroke
+09:31:52 - Class NCSS : 173
+09:31:52 - Number of Functions: 15
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.TornadoSprite
+09:31:52 - Class namesaved: TornadoSprite
+09:31:52 - Class NCSS : 41
+09:31:52 - Number of Functions: 2
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.TrafficGen
+09:31:52 - Class namesaved: TrafficGen
+09:31:52 - Class NCSS : 117
+09:31:52 - Number of Functions: 8
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.TrainSprite
+09:31:52 - Class namesaved: TrainSprite
+09:31:52 - Class NCSS : 56
+09:31:52 - Number of Functions: 2
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.TranslatedToolEffect
+09:31:52 - Class namesaved: TranslatedToolEffect
+09:31:52 - Class NCSS : 18
+09:31:52 - Number of Functions: 6
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.engine.ZoneStatus
+09:31:52 - Class namesaved: ZoneStatus
+09:31:52 - Class NCSS : 7
+09:31:52 - Number of Functions: 0
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.BudgetDialog
+09:31:52 - Class namesaved: BudgetDialog
+09:31:52 - Class NCSS : 260
+09:31:52 - Number of Functions: 11
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.BudgetDialog.ActionListener
+09:31:52 - Class namesaved: ActionListener
+09:31:52 - Class NCSS : 2
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.BudgetDialog.ActionListener
+09:31:52 - Class Name : micropolisj.gui.BudgetDialog.ActionListener
+09:31:52 - Class Name : micropolisj.gui.BudgetDialog.ChangeListener
+09:31:52 - Class namesaved: ChangeListener
+09:31:52 - Class NCSS : 2
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.ColorParser
+09:31:52 - Class namesaved: ColorParser
+09:31:52 - Class NCSS : 16
+09:31:52 - Number of Functions: 2
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.DemandIndicator
+09:31:52 - Class namesaved: DemandIndicator
+09:31:52 - Class NCSS : 76
+09:31:52 - Number of Functions: 14
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.EvaluationPane
+09:31:52 - Class namesaved: EvaluationPane
+09:31:52 - Class NCSS : 193
+09:31:52 - Number of Functions: 15
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.EvaluationPane.ActionListener
+09:31:52 - Class namesaved: ActionListener
+09:31:52 - Class NCSS : 2
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.GraphsPane
+09:31:52 - Class namesaved: GraphsPane
+09:31:52 - Class NCSS : 204
+09:31:52 - Number of Functions: 14
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.GraphsPane.ActionListener
+09:31:52 - Class namesaved: ActionListener
+09:31:52 - Class NCSS : 2
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.GraphsPane.ActionListener
+09:31:52 - Class Name : micropolisj.gui.GraphsPane.ActionListener
+09:31:52 - Class Name : micropolisj.gui.GraphsPane.ActionListener
+09:31:52 - Class Name : micropolisj.gui.GraphsPane.GraphArea
+09:31:52 - Class namesaved: GraphArea
+09:31:52 - Class NCSS : 74
+09:31:52 - Number of Functions: 2
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.GraphsPane.GraphArea.Comparator
+09:31:52 - Class namesaved: Comparator
+09:31:52 - Class NCSS : 4
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.MainWindow
+09:31:52 - Class namesaved: MainWindow
+09:31:52 - Class NCSS : 995
+09:31:52 - Number of Functions: 69
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.MainWindow.AbstractAction
+09:31:52 - Class namesaved: AbstractAction
+09:31:52 - Class NCSS : 2
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.MainWindow.AbstractAction
+09:31:52 - Class Name : micropolisj.gui.MainWindow.AbstractAction
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class namesaved: ActionListener
+09:31:52 - Class NCSS : 2
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.ActionListener
+09:31:52 - Class Name : micropolisj.gui.MainWindow.EarthquakeStepper
+09:31:52 - Class namesaved: EarthquakeStepper
+09:31:52 - Class NCSS : 5
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.MainWindow.MouseAdapter
+09:31:52 - Class namesaved: MouseAdapter
+09:31:52 - Class NCSS : 24
+09:31:52 - Number of Functions: 6
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.MainWindow.WindowAdapter
+09:31:52 - Class namesaved: WindowAdapter
+09:31:52 - Class NCSS : 4
+09:31:52 - Number of Functions: 2
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.MessagesPane
+09:31:52 - Class namesaved: MessagesPane
+09:31:52 - Class NCSS : 13
+09:31:52 - Number of Functions: 3
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.MicropolisDrawingArea
+09:31:52 - Class namesaved: MicropolisDrawingArea
+09:31:52 - Class NCSS : 213
+09:31:52 - Number of Functions: 30
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.MicropolisDrawingArea.ActionListener
+09:31:52 - Class namesaved: ActionListener
+09:31:52 - Class NCSS : 2
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.MicropolisDrawingArea.AncestorListener
+09:31:52 - Class namesaved: AncestorListener
+09:31:52 - Class NCSS : 5
+09:31:52 - Number of Functions: 3
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.MicropolisDrawingArea.MouseListener
+09:31:52 - Class namesaved: MouseListener
+09:31:52 - Class NCSS : 9
+09:31:52 - Number of Functions: 5
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.MicropolisDrawingArea.MouseMotionListener
+09:31:52 - Class namesaved: MouseMotionListener
+09:31:52 - Class NCSS : 4
+09:31:52 - Number of Functions: 2
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.MicropolisDrawingArea.ToolCursor
+09:31:52 - Class namesaved: ToolCursor
+09:31:52 - Class NCSS : 4
+09:31:52 - Number of Functions: 0
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.NewCityDialog
+09:31:52 - Class namesaved: NewCityDialog
+09:31:52 - Class NCSS : 133
+09:31:52 - Number of Functions: 10
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:31:52 - Class namesaved: ActionListener
+09:31:52 - Class NCSS : 2
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:31:52 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:31:52 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:31:52 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:31:52 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:31:52 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:31:52 - Class Name : micropolisj.gui.NewCityDialog.ActionListener
+09:31:52 - Class Name : micropolisj.gui.NotificationPane
+09:31:52 - Class namesaved: NotificationPane
+09:31:52 - Class NCSS : 102
+09:31:52 - Number of Functions: 5
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.NotificationPane.ActionListener
+09:31:52 - Class namesaved: ActionListener
+09:31:52 - Class NCSS : 2
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.OverlayMapView
+09:31:52 - Class namesaved: OverlayMapView
+09:31:52 - Class NCSS : 295
+09:31:52 - Number of Functions: 36
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.OverlayMapView.ConnectedView
+09:31:52 - Class namesaved: ConnectedView
+09:31:52 - Class NCSS : 9
+09:31:52 - Number of Functions: 2
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.OverlayMapView.MouseAdapter
+09:31:52 - Class namesaved: MouseAdapter
+09:31:52 - Class NCSS : 4
+09:31:52 - Number of Functions: 2
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.gui.TileImages
+09:31:52 - Class namesaved: TileImages
+09:31:52 - Class NCSS : 62
+09:31:52 - Number of Functions: 7
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.Main
+09:31:52 - Class namesaved: Main
+09:31:52 - Class NCSS : 9
+09:31:52 - Number of Functions: 2
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.Main.Runnable
+09:31:52 - Class namesaved: Runnable
+09:31:52 - Class NCSS : 2
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.util.StringsModel
+09:31:52 - Class namesaved: StringsModel
+09:31:52 - Class NCSS : 110
+09:31:52 - Number of Functions: 15
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.util.StringsModel.MyLocaleInfo
+09:31:52 - Class namesaved: MyLocaleInfo
+09:31:52 - Class NCSS : 6
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.util.StringsModel.StringInfo
+09:31:52 - Class namesaved: StringInfo
+09:31:52 - Class NCSS : 6
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.util.TranslatedStringsTable
+09:31:52 - Class namesaved: TranslatedStringsTable
+09:31:52 - Class NCSS : 4
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.util.TranslationTool
+09:31:52 - Class namesaved: TranslationTool
+09:31:52 - Class NCSS : 150
+09:31:52 - Number of Functions: 11
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.util.TranslationTool.ActionListener
+09:31:52 - Class namesaved: ActionListener
+09:31:52 - Class NCSS : 2
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Class Name : micropolisj.util.TranslationTool.ActionListener
+09:31:52 - Class Name : micropolisj.util.TranslationTool.ActionListener
+09:31:52 - Class Name : micropolisj.util.TranslationTool.ActionListener
+09:31:52 - Class Name : micropolisj.util.TranslationTool.WindowAdapter
+09:31:52 - Class namesaved: WindowAdapter
+09:31:52 - Class NCSS : 2
+09:31:52 - Number of Functions: 1
+09:31:52 - 
+09:31:52 - Function Name : micropolisj.build_tool.MakeTiles.main(String[])
+09:31:52 - 0
+09:31:52 - java.lang.NullPointerException
+09:31:52 - 	at net.minecraft.src.XMLParser.parseNCSS(XMLParser.java:220)
+09:31:52 - 	at net.minecraft.src.XMLParser.runParsing(XMLParser.java:31)
+09:31:52 - 	at net.minecraft.src.codebase1Block.generateCodeBase(codebase1Block.java:593)
+09:31:52 - 	at net.minecraft.src.codebase1Block.onBlockActivated(codebase1Block.java:41)
+09:31:52 - 	at net.minecraft.src.PlayerControllerMP.onPlayerRightClick(PlayerControllerMP.java:306)
+09:31:52 - 	at net.minecraft.client.Minecraft.clickMouse(Minecraft.java:1260)
+09:31:52 - 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1651)
+09:31:52 - 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:771)
+09:31:52 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:704)
+09:31:52 - 	at java.lang.Thread.run(Thread.java:745)
+09:31:52 - check the value: micropolisj.build_tool.MakeTiles
+09:31:52 - ClassName: MakeTiles
+09:31:52 - Previous Bug Number: 2
+09:31:52 - check the value: micropolisj.build_tool.MakeTiles
+09:31:52 - ClassName: MakeTiles
+09:31:52 - Previous Bug Number: 3
+09:31:52 - check the value: micropolisj.build_tool.MakeTiles
+09:31:52 - ClassName: MakeTiles
+09:31:52 - Previous Bug Number: 4
+09:31:52 - check the value: micropolisj.build_tool.MakeTiles
+09:31:52 - ClassName: MakeTiles
+09:31:52 - Previous Bug Number: 5
+09:31:52 - check the value: micropolisj.build_tool.MakeTiles
+09:31:52 - ClassName: MakeTiles
+09:31:52 - Previous Bug Number: 6
+09:31:52 - check the value: micropolisj.build_tool.MakeTiles
+09:31:52 - ClassName: MakeTiles
+09:31:52 - Previous Bug Number: 7
+09:31:52 - check the value: micropolisj.build_tool.MakeTiles
+09:31:52 - ClassName: MakeTiles
+09:31:52 - Previous Bug Number: 8
+09:31:52 - check the value: micropolisj.build_tool.MakeTiles
+09:31:52 - ClassName: MakeTiles
+09:31:52 - Previous Bug Number: 9
+09:31:52 - check the value: micropolisj.build_tool.MakeTiles
+09:31:52 - ClassName: MakeTiles
+09:31:52 - Previous Bug Number: 10
+09:31:52 - check the value: micropolisj.engine.BudgetNumbers
+09:31:52 - ClassName: BudgetNumbers
+09:31:52 - Previous Bug Number: 2
+09:31:52 - check the value: micropolisj.engine.CityEval$1
+09:31:52 - ClassName: CityEval$1
+09:31:52 - check the value: micropolisj.engine.CityRect
+09:31:52 - ClassName: CityRect
+09:31:52 - Previous Bug Number: 2
+09:31:52 - check the value: micropolisj.engine.MapScanner
+09:31:52 - ClassName: MapScanner
+09:31:52 - Previous Bug Number: 2
+09:31:52 - check the value: micropolisj.engine.MapScanner
+09:31:52 - ClassName: MapScanner
+09:31:52 - Previous Bug Number: 3
+09:31:52 - check the value: micropolisj.engine.MapScanner
+09:31:52 - ClassName: MapScanner
+09:31:52 - Previous Bug Number: 4
+09:31:52 - check the value: micropolisj.engine.MapScanner
+09:31:52 - ClassName: MapScanner
+09:31:52 - Previous Bug Number: 5
+09:31:52 - check the value: micropolisj.engine.MapScanner
+09:31:52 - ClassName: MapScanner
+09:31:52 - Previous Bug Number: 6
+09:31:52 - check the value: micropolisj.engine.Micropolis
+09:31:52 - ClassName: Micropolis
+09:31:52 - Previous Bug Number: 2
+09:31:52 - check the value: micropolisj.engine.Micropolis
+09:31:52 - ClassName: Micropolis
+09:31:52 - Previous Bug Number: 3
+09:31:52 - check the value: micropolisj.engine.Micropolis
+09:31:52 - ClassName: Micropolis
+09:31:52 - Previous Bug Number: 4
+09:31:52 - check the value: java.io.OutputStream
+09:31:52 - ClassName: OutputStream
+09:31:52 - check the value: micropolisj.engine.Micropolis
+09:31:52 - ClassName: Micropolis
+09:31:52 - Previous Bug Number: 5
+09:31:52 - check the value: micropolisj.engine.Micropolis
+09:31:52 - ClassName: Micropolis
+09:31:52 - Previous Bug Number: 6
+09:31:52 - check the value: micropolisj.engine.Micropolis
+09:31:52 - ClassName: Micropolis
+09:31:52 - Previous Bug Number: 7
+09:31:52 - check the value: micropolisj.engine.Micropolis$History
+09:31:52 - ClassName: Micropolis$History
+09:31:52 - check the value: micropolisj.engine.Micropolis$History
+09:31:52 - ClassName: Micropolis$History
+09:31:52 - check the value: micropolisj.engine.Micropolis$History
+09:31:52 - ClassName: Micropolis$History
+09:31:52 - check the value: micropolisj.engine.Sprite
+09:31:52 - ClassName: Sprite
+09:31:52 - Previous Bug Number: 2
+09:31:52 - check the value: micropolisj.engine.Sprite
+09:31:52 - ClassName: Sprite
+09:31:52 - Previous Bug Number: 3
+09:31:52 - check the value: micropolisj.engine.Tiles
+09:31:52 - ClassName: Tiles
+09:31:52 - Previous Bug Number: 2
+09:31:52 - check the value: micropolisj.engine.Tiles
+09:31:52 - ClassName: Tiles
+09:31:52 - Previous Bug Number: 3
+09:31:52 - check the value: micropolisj.engine.TrafficGen
+09:31:52 - ClassName: TrafficGen
+09:31:52 - Previous Bug Number: 2
+09:31:52 - check the value: micropolisj.gui.GraphsPane$GraphArea
+09:31:52 - ClassName: GraphsPane$GraphArea
+09:31:52 - check the value: micropolisj.gui.GraphsPane$GraphArea$1
+09:31:52 - ClassName: GraphsPane$GraphArea$1
+09:31:52 - check the value: micropolisj.gui.MainWindow
+09:31:52 - ClassName: MainWindow
+09:31:52 - Previous Bug Number: 2
+09:31:52 - check the value: micropolisj.gui.MicropolisDrawingArea
+09:31:52 - ClassName: MicropolisDrawingArea
+09:31:52 - Previous Bug Number: 2
+09:31:52 - check the value: micropolisj.gui.NewCityDialog
+09:31:52 - ClassName: NewCityDialog
+09:31:52 - Previous Bug Number: 2
+09:31:52 - check the value: micropolisj.gui.OverlayMapView
+09:31:52 - ClassName: OverlayMapView
+09:31:52 - Previous Bug Number: 2
+09:31:52 - check the value: micropolisj.util.StringsModel
+09:31:52 - ClassName: StringsModel
+09:31:52 - Previous Bug Number: 2
+09:31:52 - check the value: java.io.InputStream
+09:31:52 - ClassName: InputStream
+09:31:52 - check the value: micropolisj.util.StringsModel
+09:31:52 - ClassName: StringsModel
+09:31:52 - Previous Bug Number: 3
+09:31:52 - check the value: micropolisj.util.StringsModel
+09:31:52 - ClassName: StringsModel
+09:31:52 - Previous Bug Number: 4
+09:31:52 - check the value: micropolisj.util.StringsModel
+09:31:52 - ClassName: StringsModel
+09:31:52 - Previous Bug Number: 5
+09:31:52 - check the value: micropolisj.util.StringsModel
+09:31:52 - ClassName: StringsModel
+09:31:52 - Previous Bug Number: 6
+09:31:52 - check the value: micropolisj.util.TranslationTool
+09:31:52 - ClassName: TranslationTool
+09:31:52 - Previous Bug Number: 2
+09:31:52 - check the value: micropolisj.util.TranslationTool
+09:31:52 - ClassName: TranslationTool
+09:31:52 - Previous Bug Number: 3
+09:31:52 - micropolisj.build_tool
+09:31:52 - test codebase: micropolisj.build_tool
+09:31:52 - test townSize: 2
+09:31:52 - test buildings: MakeTiles
+09:31:52 - test buildings: RearrangeTiles
+09:31:52 - test codebase: micropolisj.build_tool.MakeTiles
+09:31:52 - test townSize: 2
+09:31:52 - test buildings: FrameSpec
+09:31:52 - test buildings: SourceImage
+09:31:52 - test codebase: micropolisj.engine
+09:31:52 - test townSize: 44
+09:31:52 - test buildings: AirplaneSprite
+09:31:52 - test buildings: BudgetNumbers
+09:31:52 - test buildings: BuildingTool
+09:31:52 - test buildings: Bulldozer
+09:31:52 - test buildings: CityBudget
+09:31:52 - test buildings: CityDimension
+09:31:52 - test buildings: CityEval
+09:31:52 - test buildings: CityLocation
+09:31:52 - test buildings: CityProblem
+09:31:52 - test buildings: CityRect
+09:31:52 - test buildings: Disaster
+09:31:52 - test buildings: EarthquakeListener
+09:31:52 - test buildings: ExplosionSprite
+09:31:52 - test buildings: GameLevel
+09:31:52 - test buildings: HelicopterSprite
+09:31:52 - test buildings: MapGenerator
+09:31:52 - test buildings: MapListener
+09:31:52 - test buildings: MapScanner
+09:31:52 - test buildings: MapState
+09:31:52 - test buildings: Micropolis
+09:31:52 - test buildings: MicropolisMessage
+09:31:52 - test buildings: MicropolisTool
+09:31:52 - test buildings: MonsterSprite
+09:31:52 - test buildings: RoadLikeTool
+09:31:52 - test buildings: ShipSprite
+09:31:52 - test buildings: Sound
+09:31:52 - test buildings: Speed
+09:31:52 - test buildings: Sprite
+09:31:52 - test buildings: SpriteKind
+09:31:52 - test buildings: TerrainBehavior
+09:31:52 - test buildings: TileBehavior
+09:31:52 - test buildings: TileConstants
+09:31:52 - test buildings: Tiles
+09:31:52 - test buildings: TileSpec
+09:31:52 - test buildings: ToolEffect
+09:31:52 - test buildings: ToolEffectIfc
+09:31:52 - test buildings: ToolPreview
+09:31:52 - test buildings: ToolResult
+09:31:52 - test buildings: ToolStroke
+09:31:52 - test buildings: TornadoSprite
+09:31:52 - test buildings: TrafficGen
+09:31:52 - test buildings: TrainSprite
+09:31:52 - test buildings: TranslatedToolEffect
+09:31:52 - test buildings: ZoneStatus
+09:31:52 - test codebase: micropolisj.engine.CityEval
+09:31:52 - test townSize: 1
+09:31:52 - test buildings: Comparator
+09:31:52 - test codebase: micropolisj.engine.Micropolis
+09:31:52 - test townSize: 3
+09:31:52 - test buildings: FinancialHistory
+09:31:52 - test buildings: History
+09:31:52 - test buildings: Listener
+09:31:52 - test codebase: micropolisj.engine.TileSpec
+09:31:52 - test townSize: 2
+09:31:52 - test buildings: BuildingInfo
+09:31:52 - test buildings: Scanner
+09:31:52 - test codebase: micropolisj.engine.ToolPreview
+09:31:52 - test townSize: 1
+09:31:52 - test buildings: SoundInfo
+09:31:52 - test codebase: micropolisj.gui
+09:31:52 - test townSize: 12
+09:31:52 - test buildings: BudgetDialog
+09:31:52 - test buildings: ColorParser
+09:31:52 - test buildings: DemandIndicator
+09:31:52 - test buildings: EvaluationPane
+09:31:52 - test buildings: GraphsPane
+09:31:52 - test buildings: MainWindow
+09:31:52 - test buildings: MessagesPane
+09:31:52 - test buildings: MicropolisDrawingArea
+09:31:52 - test buildings: NewCityDialog
+09:31:52 - test buildings: NotificationPane
+09:31:52 - test buildings: OverlayMapView
+09:31:52 - test buildings: TileImages
+09:31:52 - test codebase: micropolisj.gui.BudgetDialog
+09:31:52 - test townSize: 2
+09:31:52 - test buildings: ActionListener
+09:31:52 - test buildings: ChangeListener
+09:31:52 - test codebase: micropolisj.gui.EvaluationPane
+09:31:52 - test townSize: 1
+09:31:52 - test buildings: ActionListener
+09:31:52 - test codebase: micropolisj.gui.GraphsPane
+09:31:52 - test townSize: 2
+09:31:52 - test buildings: ActionListener
+09:31:52 - test buildings: GraphArea
+09:31:52 - test codebase: micropolisj.gui.GraphsPane.GraphArea
+09:31:52 - test townSize: 1
+09:31:52 - test buildings: Comparator
+09:31:52 - test codebase: micropolisj.gui.MainWindow
+09:31:52 - test townSize: 5
+09:31:52 - test buildings: AbstractAction
+09:31:52 - test buildings: ActionListener
+09:31:52 - test buildings: EarthquakeStepper
+09:31:52 - test buildings: MouseAdapter
+09:31:52 - test buildings: WindowAdapter
+09:31:52 - test codebase: micropolisj.gui.MicropolisDrawingArea
+09:31:52 - test townSize: 5
+09:31:52 - test buildings: ActionListener
+09:31:52 - test buildings: AncestorListener
+09:31:52 - test buildings: MouseListener
+09:31:52 - test buildings: MouseMotionListener
+09:31:52 - test buildings: ToolCursor
+09:31:52 - test codebase: micropolisj.gui.NewCityDialog
+09:31:52 - test townSize: 1
+09:31:52 - test buildings: ActionListener
+09:31:52 - test codebase: micropolisj.gui.NotificationPane
+09:31:52 - test townSize: 1
+09:31:52 - test buildings: ActionListener
+09:31:52 - test codebase: micropolisj.gui.OverlayMapView
+09:31:52 - test townSize: 2
+09:31:52 - test buildings: ConnectedView
+09:31:52 - test buildings: MouseAdapter
+09:31:52 - test codebase: micropolisj
+09:31:52 - test townSize: 1
+09:31:52 - test buildings: Main
+09:31:52 - test codebase: micropolisj.Main
+09:31:52 - test townSize: 1
+09:31:52 - test buildings: Runnable
+09:31:52 - test codebase: micropolisj.util
+09:31:52 - test townSize: 3
+09:31:52 - test buildings: StringsModel
+09:31:52 - test buildings: TranslatedStringsTable
+09:31:52 - test buildings: TranslationTool
+09:31:52 - test codebase: micropolisj.util.StringsModel
+09:31:52 - test townSize: 2
+09:31:52 - test buildings: MyLocaleInfo
+09:31:52 - test buildings: StringInfo
+09:31:52 - test codebase: micropolisj.util.TranslationTool
+09:31:52 - test townSize: 2
+09:31:52 - test buildings: ActionListener
+09:31:52 - test buildings: WindowAdapter
+09:32:47 - Class Name : com.redomar.game.entities.Dummy
+09:32:47 - namesaved: Dummy
+09:32:47 - pname: com.redomar.game.entities
+09:32:47 - Class NCSS : 77
+09:32:47 - Number of Functions: 5
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.entities.efx.Swim
+09:32:47 - Class namesaved: Swim
+09:32:47 - Class NCSS : 59
+09:32:47 - Number of Functions: 7
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.entities.Entity
+09:32:47 - Class namesaved: Entity
+09:32:47 - Class NCSS : 22
+09:32:47 - Number of Functions: 10
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.entities.Mob
+09:32:47 - Class namesaved: Mob
+09:32:47 - Class NCSS : 170
+09:32:47 - Number of Functions: 17
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.entities.Player
+09:32:47 - Class namesaved: Player
+09:32:47 - Class NCSS : 141
+09:32:47 - Number of Functions: 10
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.entities.PlayerMP
+09:32:47 - Class namesaved: PlayerMP
+09:32:47 - Class NCSS : 13
+09:32:47 - Number of Functions: 3
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.entities.projectiles.Medium
+09:32:47 - Class namesaved: Medium
+09:32:47 - Class NCSS : 22
+09:32:47 - Number of Functions: 4
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.entities.projectiles.Projectile
+09:32:47 - Class namesaved: Projectile
+09:32:47 - Class NCSS : 47
+09:32:47 - Number of Functions: 7
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.entities.projectiles.Small
+09:32:47 - Class namesaved: Small
+09:32:47 - Class NCSS : 22
+09:32:47 - Number of Functions: 4
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.entities.Vendor
+09:32:47 - Class namesaved: Vendor
+09:32:47 - Class NCSS : 91
+09:32:47 - Number of Functions: 9
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.Game
+09:32:47 - Class namesaved: Game
+09:32:47 - Class NCSS : 356
+09:32:47 - Number of Functions: 64
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.gfx.Colours
+09:32:47 - Class namesaved: Colours
+09:32:47 - Class NCSS : 10
+09:32:47 - Number of Functions: 2
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.gfx.Screen
+09:32:47 - Class namesaved: Screen
+09:32:47 - Class NCSS : 61
+09:32:47 - Number of Functions: 10
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.gfx.SpriteSheet
+09:32:47 - Class namesaved: SpriteSheet
+09:32:47 - Class NCSS : 27
+09:32:47 - Number of Functions: 5
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.InputHandler
+09:32:47 - Class namesaved: InputHandler
+09:32:47 - Class NCSS : 137
+09:32:47 - Number of Functions: 20
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.InputHandler.Key
+09:32:47 - Class namesaved: Key
+09:32:47 - Class NCSS : 14
+09:32:47 - Number of Functions: 4
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.Launcher
+09:32:47 - Class namesaved: Launcher
+09:32:47 - Class NCSS : 3
+09:32:47 - Number of Functions: 1
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.level.LevelHandler
+09:32:47 - Class namesaved: LevelHandler
+09:32:47 - Class NCSS : 210
+09:32:47 - Number of Functions: 29
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.level.LevelHandler.Comparator
+09:32:47 - Class namesaved: Comparator
+09:32:47 - Class NCSS : 6
+09:32:47 - Number of Functions: 1
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.level.Node
+09:32:47 - Class namesaved: Node
+09:32:47 - Class NCSS : 10
+09:32:47 - Number of Functions: 1
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.level.tiles.AnimatedTile
+09:32:47 - Class namesaved: AnimatedTile
+09:32:47 - Class NCSS : 16
+09:32:47 - Number of Functions: 2
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.level.tiles.BasicSolidTile
+09:32:47 - Class namesaved: BasicSolidTile
+09:32:47 - Class NCSS : 4
+09:32:47 - Number of Functions: 1
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.level.tiles.BasicTile
+09:32:47 - Class namesaved: BasicTile
+09:32:47 - Class NCSS : 10
+09:32:47 - Number of Functions: 3
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.level.tiles.Tile
+09:32:47 - Class namesaved: Tile
+09:32:47 - Class NCSS : 71
+09:32:47 - Number of Functions: 23
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.lib.Font
+09:32:47 - Class namesaved: Font
+09:32:47 - Class NCSS : 21
+09:32:47 - Number of Functions: 6
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.lib.Keys
+09:32:47 - Class namesaved: Keys
+09:32:47 - Class NCSS : 32
+09:32:47 - Number of Functions: 9
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.lib.Keys.Key
+09:32:47 - Class namesaved: Key
+09:32:47 - Class NCSS : 11
+09:32:47 - Number of Functions: 3
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.lib.Mouse
+09:32:47 - Class namesaved: Mouse
+09:32:47 - Class NCSS : 31
+09:32:47 - Number of Functions: 7
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.lib.Music
+09:32:47 - Class namesaved: Music
+09:32:47 - Class NCSS : 36
+09:32:47 - Number of Functions: 9
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.lib.Name
+09:32:47 - Class namesaved: Name
+09:32:47 - Class NCSS : 12
+09:32:47 - Number of Functions: 4
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.lib.SleepThread
+09:32:47 - Class namesaved: SleepThread
+09:32:47 - Class NCSS : 7
+09:32:47 - Number of Functions: 1
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.lib.Time
+09:32:47 - Class namesaved: Time
+09:32:47 - Class NCSS : 7
+09:32:47 - Number of Functions: 2
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.lib.utils.Vector2i
+09:32:47 - Class namesaved: Vector2i
+09:32:47 - Class NCSS : 36
+09:32:47 - Number of Functions: 11
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.menu.DedicatedJFrame
+09:32:47 - Class namesaved: DedicatedJFrame
+09:32:47 - Class NCSS : 22
+09:32:47 - Number of Functions: 5
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.menu.Menu
+09:32:47 - Class namesaved: Menu
+09:32:47 - Class NCSS : 193
+09:32:47 - Number of Functions: 22
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.menu.MenuInput
+09:32:47 - Class namesaved: MenuInput
+09:32:47 - Class NCSS : 29
+09:32:47 - Number of Functions: 4
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.MouseHandler
+09:32:47 - Class namesaved: MouseHandler
+09:32:47 - Class NCSS : 26
+09:32:47 - Number of Functions: 11
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.net.GameClient
+09:32:47 - Class namesaved: GameClient
+09:32:47 - Class NCSS : 57
+09:32:47 - Number of Functions: 8
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.net.GameServer
+09:32:47 - Class namesaved: GameServer
+09:32:47 - Class NCSS : 93
+09:32:47 - Number of Functions: 12
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.net.packets.Packet
+09:32:47 - Class namesaved: Packet
+09:32:47 - Class NCSS : 24
+09:32:47 - Number of Functions: 7
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.net.packets.Packet00Login
+09:32:47 - Class namesaved: Packet00Login
+09:32:47 - Class NCSS : 26
+09:32:47 - Number of Functions: 8
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.net.packets.Packet01Disconnect
+09:32:47 - Class namesaved: Packet01Disconnect
+09:32:47 - Class NCSS : 16
+09:32:47 - Number of Functions: 6
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.net.packets.Packet02Move
+09:32:47 - Class namesaved: Packet02Move
+09:32:47 - Class NCSS : 41
+09:32:47 - Number of Functions: 11
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.objects.Inventory
+09:32:47 - Class namesaved: Inventory
+09:32:47 - Class NCSS : 40
+09:32:47 - Number of Functions: 2
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.objects.InventoryHandler
+09:32:47 - Class namesaved: InventoryHandler
+09:32:47 - Class NCSS : 14
+09:32:47 - Number of Functions: 8
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.objects.InventoryWindow
+09:32:47 - Class namesaved: InventoryWindow
+09:32:47 - Class NCSS : 62
+09:32:47 - Number of Functions: 8
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.objects.Items
+09:32:47 - Class namesaved: Items
+09:32:47 - Class NCSS : 1
+09:32:47 - Number of Functions: 0
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.scenes.Scene
+09:32:47 - Class namesaved: Scene
+09:32:47 - Class NCSS : 21
+09:32:47 - Number of Functions: 2
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.script.PopUp
+09:32:47 - Class namesaved: PopUp
+09:32:47 - Class NCSS : 7
+09:32:47 - Number of Functions: 2
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.script.Printing
+09:32:47 - Class namesaved: Printing
+09:32:47 - Class NCSS : 27
+09:32:47 - Number of Functions: 6
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.script.PrintTypes
+09:32:47 - Class namesaved: PrintTypes
+09:32:47 - Class NCSS : 1
+09:32:47 - Number of Functions: 0
+09:32:47 - 
+09:32:47 - Class Name : com.redomar.game.WindowHandler
+09:32:47 - Class namesaved: WindowHandler
+09:32:47 - Class NCSS : 14
+09:32:47 - Number of Functions: 8
+09:32:47 - 
+09:32:47 - Function Name : com.redomar.game.entities.Dummy.Dummy(LevelHandler,String,int,int,int,int)
+09:32:47 - 0
+09:32:47 - java.lang.NullPointerException
+09:32:47 - 	at net.minecraft.src.XMLParser.parseNCSS(XMLParser.java:220)
+09:32:47 - 	at net.minecraft.src.XMLParser.runParsing(XMLParser.java:31)
+09:32:47 - 	at net.minecraft.src.codebase2Block.generateCodeBase(codebase2Block.java:602)
+09:32:47 - 	at net.minecraft.src.codebase2Block.onBlockActivated(codebase2Block.java:39)
+09:32:47 - 	at net.minecraft.src.PlayerControllerMP.onPlayerRightClick(PlayerControllerMP.java:306)
+09:32:47 - 	at net.minecraft.client.Minecraft.clickMouse(Minecraft.java:1260)
+09:32:47 - 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1651)
+09:32:47 - 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:771)
+09:32:47 - 	at net.minecraft.client.Minecraft.run(Minecraft.java:704)
+09:32:47 - 	at java.lang.Thread.run(Thread.java:745)
+09:32:47 - check the value: com.redomar.game.Game
+09:32:47 - ClassName: Game
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.Game
+09:32:47 - ClassName: Game
+09:32:47 - Previous Bug Number: 3
+09:32:47 - check the value: com.redomar.game.Game
+09:32:47 - ClassName: Game
+09:32:47 - Previous Bug Number: 4
+09:32:47 - check the value: com.redomar.game.Game
+09:32:47 - ClassName: Game
+09:32:47 - Previous Bug Number: 5
+09:32:47 - check the value: com.redomar.game.Game
+09:32:47 - ClassName: Game
+09:32:47 - Previous Bug Number: 6
+09:32:47 - check the value: com.redomar.game.Game
+09:32:47 - ClassName: Game
+09:32:47 - Previous Bug Number: 7
+09:32:47 - check the value: com.redomar.game.Game
+09:32:47 - ClassName: Game
+09:32:47 - Previous Bug Number: 8
+09:32:47 - check the value: com.redomar.game.Game
+09:32:47 - ClassName: Game
+09:32:47 - Previous Bug Number: 9
+09:32:47 - check the value: com.redomar.game.Game
+09:32:47 - ClassName: Game
+09:32:47 - Previous Bug Number: 10
+09:32:47 - check the value: com.redomar.game.Game
+09:32:47 - ClassName: Game
+09:32:47 - Previous Bug Number: 11
+09:32:47 - check the value: com.redomar.game.InputHandler
+09:32:47 - ClassName: InputHandler
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.InputHandler
+09:32:47 - ClassName: InputHandler
+09:32:47 - Previous Bug Number: 3
+09:32:47 - check the value: com.redomar.game.InputHandler$Key
+09:32:47 - ClassName: InputHandler$Key
+09:32:47 - check the value: com.redomar.game.MouseHandler
+09:32:47 - ClassName: MouseHandler
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.MouseHandler
+09:32:47 - ClassName: MouseHandler
+09:32:47 - Previous Bug Number: 3
+09:32:47 - check the value: com.redomar.game.MouseHandler
+09:32:47 - ClassName: MouseHandler
+09:32:47 - Previous Bug Number: 4
+09:32:47 - check the value: com.redomar.game.MouseHandler
+09:32:47 - ClassName: MouseHandler
+09:32:47 - Previous Bug Number: 5
+09:32:47 - check the value: com.redomar.game.MouseHandler
+09:32:47 - ClassName: MouseHandler
+09:32:47 - Previous Bug Number: 6
+09:32:47 - check the value: com.redomar.game.MouseHandler
+09:32:47 - ClassName: MouseHandler
+09:32:47 - Previous Bug Number: 7
+09:32:47 - check the value: com.redomar.game.entities.Dummy
+09:32:47 - ClassName: Dummy
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.entities.Mob
+09:32:47 - ClassName: Mob
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.entities.Mob
+09:32:47 - ClassName: Mob
+09:32:47 - Previous Bug Number: 3
+09:32:47 - check the value: com.redomar.game.entities.Mob
+09:32:47 - ClassName: Mob
+09:32:47 - Previous Bug Number: 4
+09:32:47 - check the value: com.redomar.game.entities.Player
+09:32:47 - ClassName: Player
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.entities.efx.Swim
+09:32:47 - ClassName: Swim
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.entities.efx.Swim
+09:32:47 - ClassName: Swim
+09:32:47 - Previous Bug Number: 3
+09:32:47 - check the value: com.redomar.game.entities.projectiles.Projectile
+09:32:47 - ClassName: Projectile
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.gfx.Screen
+09:32:47 - ClassName: Screen
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.gfx.Screen
+09:32:47 - ClassName: Screen
+09:32:47 - Previous Bug Number: 3
+09:32:47 - check the value: com.redomar.game.gfx.Screen
+09:32:47 - ClassName: Screen
+09:32:47 - Previous Bug Number: 4
+09:32:47 - check the value: com.redomar.game.level.tiles.AnimatedTile
+09:32:47 - ClassName: AnimatedTile
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.level.tiles.Tile
+09:32:47 - ClassName: Tile
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.lib.Keys$Key
+09:32:47 - ClassName: Keys$Key
+09:32:47 - check the value: com.redomar.game.lib.Music
+09:32:47 - ClassName: Music
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.lib.Music
+09:32:47 - ClassName: Music
+09:32:47 - Previous Bug Number: 3
+09:32:47 - check the value: com.redomar.game.lib.Music
+09:32:47 - ClassName: Music
+09:32:47 - Previous Bug Number: 4
+09:32:47 - check the value: com.redomar.game.lib.Music
+09:32:47 - ClassName: Music
+09:32:47 - Previous Bug Number: 5
+09:32:47 - check the value: com.redomar.game.lib.utils.Vector2i
+09:32:47 - ClassName: Vector2i
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.menu.DedicatedJFrame
+09:32:47 - ClassName: DedicatedJFrame
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.menu.Menu
+09:32:47 - ClassName: Menu
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.menu.Menu
+09:32:47 - ClassName: Menu
+09:32:47 - Previous Bug Number: 3
+09:32:47 - check the value: com.redomar.game.menu.MenuInput
+09:32:47 - ClassName: MenuInput
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.net.GameClient
+09:32:47 - ClassName: GameClient
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.net.GameServer
+09:32:47 - ClassName: GameServer
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.net.packets.Packet
+09:32:47 - ClassName: Packet
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.net.packets.Packet
+09:32:47 - ClassName: Packet
+09:32:47 - Previous Bug Number: 3
+09:32:47 - check the value: com.redomar.game.net.packets.Packet00Login
+09:32:47 - ClassName: Packet00Login
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.net.packets.Packet01Disconnect
+09:32:47 - ClassName: Packet01Disconnect
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.net.packets.Packet02Move
+09:32:47 - ClassName: Packet02Move
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.objects.Inventory
+09:32:47 - ClassName: Inventory
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.objects.Inventory
+09:32:47 - ClassName: Inventory
+09:32:47 - Previous Bug Number: 3
+09:32:47 - check the value: com.redomar.game.objects.Inventory
+09:32:47 - ClassName: Inventory
+09:32:47 - Previous Bug Number: 4
+09:32:47 - check the value: com.redomar.game.objects.Inventory
+09:32:47 - ClassName: Inventory
+09:32:47 - Previous Bug Number: 5
+09:32:47 - check the value: com.redomar.game.objects.Inventory
+09:32:47 - ClassName: Inventory
+09:32:47 - Previous Bug Number: 6
+09:32:47 - check the value: com.redomar.game.objects.Inventory
+09:32:47 - ClassName: Inventory
+09:32:47 - Previous Bug Number: 7
+09:32:47 - check the value: com.redomar.game.objects.Inventory
+09:32:47 - ClassName: Inventory
+09:32:47 - Previous Bug Number: 8
+09:32:47 - check the value: com.redomar.game.objects.InventoryHandler
+09:32:47 - ClassName: InventoryHandler
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.objects.InventoryHandler
+09:32:47 - ClassName: InventoryHandler
+09:32:47 - Previous Bug Number: 3
+09:32:47 - check the value: com.redomar.game.objects.InventoryWindow
+09:32:47 - ClassName: InventoryWindow
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.redomar.game.objects.InventoryWindow
+09:32:47 - ClassName: InventoryWindow
+09:32:47 - Previous Bug Number: 3
+09:32:47 - check the value: com.redomar.game.script.PopUp
+09:32:47 - ClassName: PopUp
+09:32:47 - Previous Bug Number: 2
+09:32:47 - check the value: com.thehowtotutorial.splashscreen.JSplashLabel
+09:32:47 - ClassName: JSplashLabel
+09:32:47 - check the value: javazoom.jl.converter.Converter$PrintWriterProgressListener
+09:32:47 - ClassName: Converter$PrintWriterProgressListener
+09:32:47 - check the value: javazoom.jl.converter.RiffFile
+09:32:47 - ClassName: RiffFile
+09:32:47 - check the value: javazoom.jl.converter.RiffFile
+09:32:47 - ClassName: RiffFile
+09:32:47 - check the value: javazoom.jl.converter.RiffFile$RiffChunkHeader
+09:32:47 - ClassName: RiffFile$RiffChunkHeader
+09:32:47 - check the value: javazoom.jl.converter.WaveFile$WaveFileSample
+09:32:47 - ClassName: WaveFile$WaveFileSample
+09:32:47 - check the value: javazoom.jl.converter.WaveFile$WaveFileSample
+09:32:47 - ClassName: WaveFile$WaveFileSample
+09:32:47 - check the value: javazoom.jl.converter.WaveFile$WaveFormat_ChunkData
+09:32:47 - ClassName: WaveFile$WaveFormat_ChunkData
+09:32:47 - check the value: javazoom.jl.converter.WaveFileObuffer
+09:32:47 - ClassName: WaveFileObuffer
+09:32:47 - check the value: javazoom.jl.converter.jlc
+09:32:47 - ClassName: jlc
+09:32:47 - check the value: javazoom.jl.converter.jlc
+09:32:47 - ClassName: jlc
+09:32:47 - check the value: javazoom.jl.converter.jlc$jlcArgs
+09:32:47 - ClassName: jlc$jlcArgs
+09:32:47 - check the value: javazoom.jl.converter.jlc$jlcArgs
+09:32:47 - ClassName: jlc$jlcArgs
+09:32:47 - check the value: javazoom.jl.converter.jlc$jlcArgs
+09:32:47 - ClassName: jlc$jlcArgs
+09:32:47 - check the value: javazoom.jl.converter.jlc$jlcArgs
+09:32:47 - ClassName: jlc$jlcArgs
+09:32:47 - check the value: javazoom.jl.converter.jlc$jlcArgs
+09:32:47 - ClassName: jlc$jlcArgs
+09:32:47 - check the value: javazoom.jl.decoder.BitReserve
+09:32:47 - ClassName: BitReserve
+09:32:47 - check the value: javazoom.jl.decoder.Bitstream
+09:32:47 - ClassName: Bitstream
+09:32:47 - check the value: javazoom.jl.decoder.Bitstream
+09:32:47 - ClassName: Bitstream
+09:32:47 - check the value: javazoom.jl.decoder.Header
+09:32:47 - ClassName: Header
+09:32:47 - check the value: javazoom.jl.decoder.Header
+09:32:47 - ClassName: Header
+09:32:47 - check the value: javazoom.jl.decoder.Header
+09:32:47 - ClassName: Header
+09:32:47 - check the value: javazoom.jl.decoder.Header
+09:32:47 - ClassName: Header
+09:32:47 - check the value: javazoom.jl.decoder.Header
+09:32:47 - ClassName: Header
+09:32:47 - check the value: javazoom.jl.decoder.JavaLayerUtils
+09:32:47 - ClassName: JavaLayerUtils
+09:32:47 - check the value: javazoom.jl.decoder.LayerIIIDecoder
+09:32:47 - ClassName: LayerIIIDecoder
+09:32:47 - check the value: javazoom.jl.decoder.LayerIIIDecoder
+09:32:47 - ClassName: LayerIIIDecoder
+09:32:47 - check the value: javazoom.jl.decoder.LayerIIIDecoder
+09:32:47 - ClassName: LayerIIIDecoder
+09:32:47 - check the value: javazoom.jl.decoder.LayerIIIDecoder$III_side_info_t
+09:32:47 - ClassName: LayerIIIDecoder$III_side_info_t
+09:32:47 - check the value: javazoom.jl.decoder.LayerIIIDecoder$Sftable
+09:32:47 - ClassName: LayerIIIDecoder$Sftable
+09:32:47 - check the value: javazoom.jl.decoder.LayerIIIDecoder$Sftable
+09:32:47 - ClassName: LayerIIIDecoder$Sftable
+09:32:47 - check the value: javazoom.jl.decoder.LayerIIIDecoder$Sftable
+09:32:47 - ClassName: LayerIIIDecoder$Sftable
+09:32:47 - check the value: javazoom.jl.decoder.SampleBuffer
+09:32:47 - ClassName: SampleBuffer
+09:32:47 - check the value: javazoom.jl.decoder.SynthesisFilter
+09:32:47 - ClassName: SynthesisFilter
+09:32:47 - check the value: javazoom.jl.decoder.SynthesisFilter
+09:32:47 - ClassName: SynthesisFilter
+09:32:47 - check the value: javazoom.jl.decoder.huffcodetab
+09:32:47 - ClassName: huffcodetab
+09:32:47 - check the value: javazoom.jl.decoder.huffcodetab
+09:32:47 - ClassName: huffcodetab
+09:32:47 - check the value: javazoom.jl.decoder.huffcodetab
+09:32:47 - ClassName: huffcodetab
+09:32:47 - check the value: javazoom.jl.decoder.huffcodetab
+09:32:47 - ClassName: huffcodetab
+09:32:47 - check the value: javazoom.jl.decoder.huffcodetab
+09:32:47 - ClassName: huffcodetab
+09:32:47 - check the value: javazoom.jl.decoder.huffcodetab
+09:32:47 - ClassName: huffcodetab
+09:32:47 - check the value: javazoom.jl.player.Player
+09:32:47 - ClassName: Player
+09:32:47 - check the value: javazoom.jl.player.advanced.AdvancedPlayer
+09:32:47 - ClassName: AdvancedPlayer
+09:32:47 - check the value: javazoom.jl.player.advanced.AdvancedPlayer
+09:32:47 - ClassName: AdvancedPlayer
+09:32:47 - check the value: javazoom.jl.player.advanced.PlaybackEvent
+09:32:47 - ClassName: PlaybackEvent
+09:32:47 - check the value: javazoom.jl.player.advanced.PlaybackEvent
+09:32:47 - ClassName: PlaybackEvent
+09:32:47 - check the value: javazoom.jl.player.advanced.jlap
+09:32:47 - ClassName: jlap
+09:32:47 - check the value: javazoom.jl.player.advanced.jlap$InfoListener
+09:32:47 - ClassName: jlap$InfoListener
+09:32:47 - check the value: javazoom.jl.player.advanced.jlap$InfoListener
+09:32:47 - ClassName: jlap$InfoListener
+09:32:47 - check the value: javazoom.jl.player.jlp
+09:32:47 - ClassName: jlp
+09:32:47 - check the value: org.apache.commons.lang3.BooleanUtils
+09:32:47 - ClassName: BooleanUtils
+09:32:47 - check the value: org.apache.commons.lang3.BooleanUtils
+09:32:47 - ClassName: BooleanUtils
+09:32:47 - check the value: org.apache.commons.lang3.BooleanUtils
+09:32:47 - ClassName: BooleanUtils
+09:32:47 - check the value: org.apache.commons.lang3.BooleanUtils
+09:32:47 - ClassName: BooleanUtils
+09:32:47 - check the value: org.apache.commons.lang3.BooleanUtils
+09:32:47 - ClassName: BooleanUtils
+09:32:47 - check the value: org.apache.commons.lang3.BooleanUtils
+09:32:47 - ClassName: BooleanUtils
+09:32:47 - check the value: org.apache.commons.lang3.BooleanUtils
+09:32:47 - ClassName: BooleanUtils
+09:32:47 - check the value: org.apache.commons.lang3.BooleanUtils
+09:32:47 - ClassName: BooleanUtils
+09:32:47 - check the value: org.apache.commons.lang3.StringUtils
+09:32:47 - ClassName: StringUtils
+09:32:47 - check the value: org.apache.commons.lang3.math.NumberUtils
+09:32:47 - ClassName: NumberUtils
+09:32:47 - check the value: org.apache.commons.lang3.math.NumberUtils
+09:32:47 - ClassName: NumberUtils
+09:32:47 - check the value: org.apache.commons.lang3.text.ExtendedMessageFormat
+09:32:47 - ClassName: ExtendedMessageFormat
+09:32:47 - check the value: org.apache.commons.lang3.text.ExtendedMessageFormat
+09:32:47 - ClassName: ExtendedMessageFormat
+09:32:47 - check the value: org.apache.commons.lang3.text.StrTokenizer
+09:32:47 - ClassName: StrTokenizer
+09:32:47 - check the value: org.apache.commons.lang3.text.StrBuilder$StrBuilderTokenizer
+09:32:47 - ClassName: StrBuilder$StrBuilderTokenizer
+09:32:47 - check the value: org.apache.commons.lang3.time.DateUtils
+09:32:47 - ClassName: DateUtils
+09:32:47 - check the value: org.apache.commons.lang3.time.DateUtils
+09:32:47 - ClassName: DateUtils
+09:32:47 - check the value: org.apache.commons.lang3.time.DateUtils
+09:32:47 - ClassName: DateUtils
+09:32:47 - check the value: org.apache.commons.lang3.time.DateUtils
+09:32:47 - ClassName: DateUtils
+09:32:47 - check the value: org.apache.commons.lang3.time.DurationFormatUtils
+09:32:47 - ClassName: DurationFormatUtils
+09:32:47 - check the value: org.apache.commons.lang3.time.DurationFormatUtils
+09:32:47 - ClassName: DurationFormatUtils
+09:32:47 - check the value: org.apache.commons.lang3.time.DurationFormatUtils
+09:32:47 - ClassName: DurationFormatUtils
+09:32:47 - check the value: org.apache.commons.lang3.time.DurationFormatUtils
+09:32:47 - ClassName: DurationFormatUtils
+09:32:47 - check the value: org.apache.commons.lang3.time.DurationFormatUtils
+09:32:47 - ClassName: DurationFormatUtils
+09:32:47 - check the value: org.apache.commons.lang3.time.DurationFormatUtils
+09:32:47 - ClassName: DurationFormatUtils
+09:32:47 - check the value: org.apache.commons.lang3.time.DurationFormatUtils
+09:32:47 - ClassName: DurationFormatUtils
+09:32:47 - check the value: org.apache.commons.lang3.time.DurationFormatUtils
+09:32:47 - ClassName: DurationFormatUtils
+09:32:47 - com.redomar.game
+09:32:47 - com.redomar.game.entities
+09:32:47 - com.redomar.game.entities.efx
+09:32:47 - com.redomar.game.entities.projectiles
+09:32:47 - com.redomar.game.gfx
+09:32:47 - com.redomar.game.level
+09:32:47 - com.redomar.game.level.tiles
+09:32:47 - com.redomar.game.lib
+09:32:47 - com.redomar.game.lib.utils
+09:32:47 - com.redomar.game.menu
+09:32:47 - com.redomar.game.net
+09:32:47 - com.redomar.game.net.packets
+09:32:47 - com.redomar.game.objects
+09:32:47 - com.redomar.game.scenes
+09:32:47 - com.redomar.game.script
+09:32:47 - com.thehowtotutorial.splashscreen
+09:32:47 - java.applet
+09:32:47 - java.awt
+09:32:47 - java.awt.event
+09:32:47 - java.awt.im
+09:32:47 - java.awt.image
+09:32:47 - java.io
+09:32:47 - java.lang
+09:32:47 - java.lang.annotation
+09:32:47 - java.lang.reflect
+09:32:47 - java.math
+09:32:47 - java.net
+09:32:47 - java.nio.charset
+09:32:47 - java.text
+09:32:47 - java.util
+09:32:47 - java.util.concurrent
+09:32:47 - java.util.concurrent.atomic
+09:32:47 - java.util.jar
+09:32:47 - java.util.logging
+09:32:47 - java.util.regex
+09:32:47 - javax.imageio
+09:32:47 - javax.sound.sampled
+09:32:47 - javax.swing
+09:32:47 - javazoom.jl.converter
+09:32:47 - javazoom.jl.decoder
+09:32:47 - javazoom.jl.player
+09:32:47 - javazoom.jl.player.advanced
+09:32:47 - org.apache.commons.lang3
+09:32:47 - org.apache.commons.lang3.builder
+09:32:47 - org.apache.commons.lang3.concurrent
+09:32:47 - org.apache.commons.lang3.event
+09:32:47 - org.apache.commons.lang3.exception
+09:32:47 - org.apache.commons.lang3.math
+09:32:47 - org.apache.commons.lang3.mutable
+09:32:47 - org.apache.commons.lang3.reflect
+09:32:47 - org.apache.commons.lang3.text
+09:32:47 - org.apache.commons.lang3.text.translate
+09:32:47 - org.apache.commons.lang3.time
+09:32:47 - org.apache.commons.lang3.tuple
+09:32:47 - org.eclipse.jdt.internal.jarinjarloader
+09:32:47 - test codebase: com.redomar.game.entities
+09:32:47 - test townSize: 6
+09:32:47 - test buildings: Dummy
+09:32:47 - test buildings: Entity
+09:32:47 - test buildings: Mob
+09:32:47 - test buildings: Player
+09:32:47 - test buildings: PlayerMP
+09:32:47 - test buildings: Vendor
+09:32:47 - test codebase: com.redomar.game.entities.efx
+09:32:47 - test townSize: 1
+09:32:47 - test buildings: Swim
+09:32:47 - test codebase: com.redomar.game.entities.projectiles
+09:32:47 - test townSize: 3
+09:32:47 - test buildings: Medium
+09:32:47 - test buildings: Projectile
+09:32:47 - test buildings: Small
+09:32:47 - test codebase: com.redomar.game
+09:32:47 - test townSize: 5
+09:32:47 - test buildings: Game
+09:32:47 - test buildings: InputHandler
+09:32:47 - test buildings: Launcher
+09:32:47 - test buildings: MouseHandler
+09:32:47 - test buildings: WindowHandler
+09:32:47 - test codebase: com.redomar.game.gfx
+09:32:47 - test townSize: 3
+09:32:47 - test buildings: Colours
+09:32:47 - test buildings: Screen
+09:32:47 - test buildings: SpriteSheet
+09:32:47 - test codebase: com.redomar.game.InputHandler
+09:32:47 - test townSize: 1
+09:32:47 - test buildings: Key
+09:32:47 - test codebase: com.redomar.game.level
+09:32:47 - test townSize: 2
+09:32:47 - test buildings: LevelHandler
+09:32:47 - test buildings: Node
+09:32:47 - test codebase: com.redomar.game.level.LevelHandler
+09:32:47 - test townSize: 1
+09:32:47 - test buildings: Comparator
+09:32:47 - test codebase: com.redomar.game.level.tiles
+09:32:47 - test townSize: 4
+09:32:47 - test buildings: AnimatedTile
+09:32:47 - test buildings: BasicSolidTile
+09:32:47 - test buildings: BasicTile
+09:32:47 - test buildings: Tile
+09:32:47 - test codebase: com.redomar.game.lib
+09:32:47 - test townSize: 7
+09:32:47 - test buildings: Font
+09:32:47 - test buildings: Keys
+09:32:47 - test buildings: Mouse
+09:32:47 - test buildings: Music
+09:32:47 - test buildings: Name
+09:32:47 - test buildings: SleepThread
+09:32:47 - test buildings: Time
+09:32:47 - test codebase: com.redomar.game.lib.Keys
+09:32:47 - test townSize: 1
+09:32:47 - test buildings: Key
+09:32:47 - test codebase: com.redomar.game.lib.utils
+09:32:47 - test townSize: 1
+09:32:47 - test buildings: Vector2i
+09:32:47 - test codebase: com.redomar.game.menu
+09:32:47 - test townSize: 3
+09:32:47 - test buildings: DedicatedJFrame
+09:32:47 - test buildings: Menu
+09:32:47 - test buildings: MenuInput
+09:32:47 - test codebase: com.redomar.game.net
+09:32:47 - test townSize: 2
+09:32:47 - test buildings: GameClient
+09:32:47 - test buildings: GameServer
+09:32:47 - test codebase: com.redomar.game.net.packets
+09:32:47 - test townSize: 4
+09:32:47 - test buildings: Packet
+09:32:47 - test buildings: Packet00Login
+09:32:47 - test buildings: Packet01Disconnect
+09:32:47 - test buildings: Packet02Move
+09:32:47 - test codebase: com.redomar.game.objects
+09:32:47 - test townSize: 4
+09:32:47 - test buildings: Inventory
+09:32:47 - test buildings: InventoryHandler
+09:32:47 - test buildings: InventoryWindow
+09:32:47 - test buildings: Items
+09:32:47 - test codebase: com.redomar.game.scenes
+09:32:47 - test townSize: 1
+09:32:47 - test buildings: Scene
+09:32:47 - test codebase: com.redomar.game.script
+09:32:47 - test townSize: 3
+09:32:47 - test buildings: PopUp
+09:32:47 - test buildings: Printing
+09:32:47 - test buildings: PrintTypes
+09:33:34 - 十一月 21, 2014 9:33:34 上午 net.minecraft.src.IntegratedServer tick
+09:33:34 - 信息: Saving and pausing game...
+09:33:34 - 十一月 21, 2014 9:33:34 上午 net.minecraft.server.MinecraftServer saveAllDimensions
+09:33:34 - 信息: Saving chunks for level 'New World'/net.minecraft.src.WorldProviderSurface@2b5118c
+09:33:34 - 十一月 21, 2014 9:33:34 上午 net.minecraft.server.MinecraftServer saveAllDimensions
+09:33:34 - 信息: Saving chunks for level 'New World'/net.minecraft.src.WorldProviderHell@263b2064
+09:33:34 - 十一月 21, 2014 9:33:34 上午 net.minecraft.server.MinecraftServer saveAllDimensions
+09:33:34 - 信息: Saving chunks for level 'New World'/net.minecraft.src.WorldProviderEnd@1ac26251
+09:33:37 - Someone is closing me!
+09:33:37 - 十一月 21, 2014 9:33:37 上午 net.minecraft.server.MinecraftServer stopServer
+09:33:37 - 信息: Stopping server
+09:33:38 - AL lib: ReleaseALC: 1 device not closed
+09:33:38 - Java HotSpot(TM) 64-Bit Server VM warning: Using incremental CMS is deprecated and will likely be removed in a future release
+09:33:38 - '"C:\Program Files\Java\jdk1.8.0_25\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\li...' failed : 1
+09:33:38 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime\startclient.py", line 30, in startclient
+  File "E:\cpsc410\CodeTrip\MCP\CPSC410-CodeTrip-Final\runtime\commands.py", line 1077, in startclient
+    self.runmc(forkcmd)
+  File "E:\cpsc410\CodeTrip\MCP\CPSC410-CodeTrip-Final\runtime\commands.py", line 1117, in runmc
+    raise CalledProcessError(process.returncode, forkcmd, output)
+CalledProcessError: Command '"C:\Program Files\Java\jdk1.8.0_25\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\lib;..\lib\*;..\jars\bin\minecraft.jar;..\jars\bin\jinput.jar;..\jars\bin\lwjgl.jar;..\jars\bin\lwjgl_util.jar" -Djava.library.path=..\jars\bin\natives Start' returned non-zero exit status 1

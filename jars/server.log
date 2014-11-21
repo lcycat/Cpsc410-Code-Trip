@@ -1,0 +1,29 @@
+2014-10-28 02:23:01 [INFO] Starting minecraft server version 1.3.1
+2014-10-28 02:23:01 [INFO] Loading properties
+2014-10-28 02:23:01 [INFO] Default game type: SURVIVAL
+2014-10-28 02:23:01 [INFO] Generating keypair
+2014-10-28 02:23:01 [INFO] Starting Minecraft server on *:25565
+2014-10-28 02:23:01 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2014-10-28 02:23:01 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2014-10-28 02:23:01 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2014-10-28 02:23:01 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2014-10-28 02:23:01 [WARNING] Failed to load operators list: java.io.FileNotFoundException: .\ops.txt (系统找不到指定的文件。)
+2014-10-28 02:23:01 [WARNING] Failed to load white-list: java.io.FileNotFoundException: .\white-list.txt (系统找不到指定的文件。)
+2014-10-28 02:23:01 [INFO] Preparing level "mcpworld"
+2014-10-28 02:23:02 [INFO] ModLoaderMP 1.3.1v1 Initializing...
+2014-10-28 02:23:02 [INFO] Preparing start region for level 0
+2014-10-28 02:23:02 [INFO] ModLoaderMP 1.3.1v1 Initialized
+2014-10-28 02:23:03 [INFO] Preparing spawn area: 12%
+2014-10-28 02:23:04 [INFO] Preparing spawn area: 28%
+2014-10-28 02:23:05 [INFO] Preparing spawn area: 44%
+2014-10-28 02:23:06 [INFO] Preparing spawn area: 57%
+2014-10-28 02:23:07 [INFO] Preparing spawn area: 69%
+2014-10-28 02:23:08 [INFO] Preparing spawn area: 81%
+2014-10-28 02:23:09 [INFO] Preparing spawn area: 93%
+2014-10-28 02:23:09 [INFO] Done (7.855s)! For help, type "help" or "?"
+2014-10-28 02:23:10 [INFO] Stopping server
+2014-10-28 02:23:10 [INFO] Saving players
+2014-10-28 02:23:10 [INFO] Saving worlds
+2014-10-28 02:23:10 [INFO] Saving chunks for level 'mcpworld'/net.minecraft.src.WorldProviderSurface@73494ac9
+2014-10-28 02:23:15 [INFO] Saving chunks for level 'mcpworld'/net.minecraft.src.WorldProviderHell@51f75f6f
+2014-10-28 02:23:15 [INFO] Saving chunks for level 'mcpworld'/net.minecraft.src.WorldProviderEnd@402ce2a6

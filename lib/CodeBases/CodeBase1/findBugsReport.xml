@@ -1,0 +1,1596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="0" timestamp="1415823514000" analysisTimestamp="1415824382636" release="">
+  <Project projectName="test">
+    <Jar>/Users/j-ma/Desktop/./micropolis-java/micropolisj.jar</Jar>
+  </Project>
+  <BugInstance type="DMI_HARDCODED_ABSOLUTE_FILENAME" priority="2" rank="17" abbrev="DMI" category="STYLE" instanceHash="6b52adb04828db0d0c72e42f01842956" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="440">
+    <ShortMessage>Code contains a hard coded reference to an absolute pathname</ShortMessage>
+    <LongMessage>Hard coded reference to an absolute pathname in micropolisj.build_tool.MakeTiles.findInkscape()</LongMessage>
+    <Class classname="micropolisj.build_tool.MakeTiles" primary="true">
+      <SourceLine classname="micropolisj.build_tool.MakeTiles" start="14" end="302" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java">
+        <Message>At MakeTiles.java:[lines 14-302]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.build_tool.MakeTiles</Message>
+    </Class>
+    <Method classname="micropolisj.build_tool.MakeTiles" name="findInkscape" signature="()Ljava/io/File;" isStatic="true" primary="true">
+      <SourceLine classname="micropolisj.build_tool.MakeTiles" start="184" end="200" startBytecode="0" endBytecode="71" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java"/>
+      <Message>In method micropolisj.build_tool.MakeTiles.findInkscape()</Message>
+    </Method>
+    <String value="/usr/bin" role="FILE_NAME">
+      <Message>File name /usr/bin</Message>
+    </String>
+    <SourceLine classname="micropolisj.build_tool.MakeTiles" primary="true" start="189" end="189" startBytecode="48" endBytecode="48" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java">
+      <Message>At MakeTiles.java:[line 189]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DMI_HARDCODED_ABSOLUTE_FILENAME" priority="2" rank="17" abbrev="DMI" category="STYLE" instanceHash="e686df2b9251bfa84e0f51338e69aa00" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="440">
+    <ShortMessage>Code contains a hard coded reference to an absolute pathname</ShortMessage>
+    <LongMessage>Hard coded reference to an absolute pathname in micropolisj.build_tool.MakeTiles.findInkscape()</LongMessage>
+    <Class classname="micropolisj.build_tool.MakeTiles" primary="true">
+      <SourceLine classname="micropolisj.build_tool.MakeTiles" start="14" end="302" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java">
+        <Message>At MakeTiles.java:[lines 14-302]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.build_tool.MakeTiles</Message>
+    </Class>
+    <Method classname="micropolisj.build_tool.MakeTiles" name="findInkscape" signature="()Ljava/io/File;" isStatic="true" primary="true">
+      <SourceLine classname="micropolisj.build_tool.MakeTiles" start="184" end="200" startBytecode="0" endBytecode="71" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java"/>
+      <Message>In method micropolisj.build_tool.MakeTiles.findInkscape()</Message>
+    </Method>
+    <String value="c:\\Program Files (x86)\\Inkscape" role="FILE_NAME">
+      <Message>File name c:\\Program Files (x86)\\Inkscape</Message>
+    </String>
+    <SourceLine classname="micropolisj.build_tool.MakeTiles" primary="true" start="189" end="189" startBytecode="72" endBytecode="72" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java">
+      <Message>At MakeTiles.java:[line 189]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DMI_HARDCODED_ABSOLUTE_FILENAME" priority="2" rank="17" abbrev="DMI" category="STYLE" instanceHash="9702a2f64a068457d68b2dcdddc616c5" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="440">
+    <ShortMessage>Code contains a hard coded reference to an absolute pathname</ShortMessage>
+    <LongMessage>Hard coded reference to an absolute pathname in micropolisj.build_tool.MakeTiles.findInkscape()</LongMessage>
+    <Class classname="micropolisj.build_tool.MakeTiles" primary="true">
+      <SourceLine classname="micropolisj.build_tool.MakeTiles" start="14" end="302" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java">
+        <Message>At MakeTiles.java:[lines 14-302]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.build_tool.MakeTiles</Message>
+    </Class>
+    <Method classname="micropolisj.build_tool.MakeTiles" name="findInkscape" signature="()Ljava/io/File;" isStatic="true" primary="true">
+      <SourceLine classname="micropolisj.build_tool.MakeTiles" start="184" end="200" startBytecode="0" endBytecode="71" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java"/>
+      <Message>In method micropolisj.build_tool.MakeTiles.findInkscape()</Message>
+    </Method>
+    <String value="c:\\Program Files\\Inkscape" role="FILE_NAME">
+      <Message>File name c:\\Program Files\\Inkscape</Message>
+    </String>
+    <SourceLine classname="micropolisj.build_tool.MakeTiles" primary="true" start="189" end="189" startBytecode="60" endBytecode="60" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java">
+      <Message>At MakeTiles.java:[line 189]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" instanceHash="20a9a721005827995bb95fd788399065" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Reliance on default encoding</ShortMessage>
+    <LongMessage>Found reliance on default encoding in micropolisj.build_tool.MakeTiles.writeIndexFile(String[], File): new java.io.FileWriter(File)</LongMessage>
+    <Class classname="micropolisj.build_tool.MakeTiles" primary="true">
+      <SourceLine classname="micropolisj.build_tool.MakeTiles" start="14" end="302" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java">
+        <Message>At MakeTiles.java:[lines 14-302]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.build_tool.MakeTiles</Message>
+    </Class>
+    <Method classname="micropolisj.build_tool.MakeTiles" name="writeIndexFile" signature="([Ljava/lang/String;Ljava/io/File;)V" isStatic="true" primary="true">
+      <SourceLine classname="micropolisj.build_tool.MakeTiles" start="104" end="111" startBytecode="0" endBytecode="168" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java"/>
+      <Message>In method micropolisj.build_tool.MakeTiles.writeIndexFile(String[], File)</Message>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="90" end="91" startBytecode="0" endBytecode="40" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+      <Message>Called method new java.io.FileWriter(File)</Message>
+    </Method>
+    <SourceLine classname="micropolisj.build_tool.MakeTiles" primary="true" start="104" end="104" startBytecode="9" endBytecode="9" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java">
+      <Message>At MakeTiles.java:[line 104]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" instanceHash="e3419c3536b9a5e8b4f429dfece22c61" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method may fail to close stream</ShortMessage>
+    <LongMessage>micropolisj.build_tool.MakeTiles.generateFromRecipe(File, File) may fail to close stream</LongMessage>
+    <Class classname="micropolisj.build_tool.MakeTiles" primary="true">
+      <SourceLine classname="micropolisj.build_tool.MakeTiles" start="14" end="302" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java">
+        <Message>At MakeTiles.java:[lines 14-302]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.build_tool.MakeTiles</Message>
+    </Class>
+    <Method classname="micropolisj.build_tool.MakeTiles" name="generateFromRecipe" signature="(Ljava/io/File;Ljava/io/File;)V" isStatic="true" primary="true">
+      <SourceLine classname="micropolisj.build_tool.MakeTiles" start="51" end="99" startBytecode="0" endBytecode="133" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java"/>
+      <Message>In method micropolisj.build_tool.MakeTiles.generateFromRecipe(File, File)</Message>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader" start="66" end="249" sourcefile="Reader.java" sourcepath="java/io/Reader.java">
+        <Message>At Reader.java:[lines 66-249]</Message>
+      </SourceLine>
+      <Message>Need to close java.io.Reader </Message>
+    </Type>
+    <SourceLine classname="micropolisj.build_tool.MakeTiles" primary="true" start="52" end="52" startBytecode="9" endBytecode="9" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java">
+      <Message>At MakeTiles.java:[line 52]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" instanceHash="34a45c01303cf1997eabd329cda0f5c3" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="253">
+    <ShortMessage>Method ignores exceptional return value</ShortMessage>
+    <LongMessage>Exceptional return value of java.io.File.mkdirs() ignored in micropolisj.build_tool.MakeTiles.generateFromRecipe(File, File)</LongMessage>
+    <Class classname="micropolisj.build_tool.MakeTiles" primary="true">
+      <SourceLine classname="micropolisj.build_tool.MakeTiles" start="14" end="302" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java">
+        <Message>At MakeTiles.java:[lines 14-302]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.build_tool.MakeTiles</Message>
+    </Class>
+    <Method classname="micropolisj.build_tool.MakeTiles" name="generateFromRecipe" signature="(Ljava/io/File;Ljava/io/File;)V" isStatic="true" primary="true">
+      <SourceLine classname="micropolisj.build_tool.MakeTiles" start="51" end="99" startBytecode="0" endBytecode="672" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java"/>
+      <Message>In method micropolisj.build_tool.MakeTiles.generateFromRecipe(File, File)</Message>
+    </Method>
+    <Method classname="java.io.File" name="mkdirs" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1334" end="1348" startBytecode="0" endBytecode="174" sourcefile="File.java" sourcepath="java/io/File.java"/>
+      <Message>Called method java.io.File.mkdirs()</Message>
+    </Method>
+    <SourceLine classname="micropolisj.build_tool.MakeTiles" primary="true" start="87" end="87" startBytecode="192" endBytecode="192" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java">
+      <Message>At MakeTiles.java:[line 87]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" instanceHash="bf59c2c9853c6cbe4ab43ef8cfd5150e" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="253">
+    <ShortMessage>Method ignores exceptional return value</ShortMessage>
+    <LongMessage>Exceptional return value of java.io.File.delete() ignored in micropolisj.build_tool.MakeTiles.renderSvg(String, File)</LongMessage>
+    <Class classname="micropolisj.build_tool.MakeTiles" primary="true">
+      <SourceLine classname="micropolisj.build_tool.MakeTiles" start="14" end="302" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java">
+        <Message>At MakeTiles.java:[lines 14-302]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.build_tool.MakeTiles</Message>
+    </Class>
+    <Method classname="micropolisj.build_tool.MakeTiles" name="renderSvg" signature="(Ljava/lang/String;Ljava/io/File;)Ljava/io/File;" isStatic="true" primary="true">
+      <SourceLine classname="micropolisj.build_tool.MakeTiles" start="207" end="248" startBytecode="0" endBytecode="550" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java"/>
+      <Message>In method micropolisj.build_tool.MakeTiles.renderSvg(String, File)</Message>
+    </Method>
+    <Method classname="java.io.File" name="delete" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1028" end="1035" startBytecode="0" endBytecode="91" sourcefile="File.java" sourcepath="java/io/File.java"/>
+      <Message>Called method java.io.File.delete()</Message>
+    </Method>
+    <SourceLine classname="micropolisj.build_tool.MakeTiles" primary="true" start="219" end="219" startBytecode="110" endBytecode="110" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java">
+      <Message>At MakeTiles.java:[line 219]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" instanceHash="ac2f350614480922f25cce4f6cee5703" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="253">
+    <ShortMessage>Method ignores exceptional return value</ShortMessage>
+    <LongMessage>Exceptional return value of java.io.File.mkdirs() ignored in micropolisj.build_tool.MakeTiles.renderSvg(String, File)</LongMessage>
+    <Class classname="micropolisj.build_tool.MakeTiles" primary="true">
+      <SourceLine classname="micropolisj.build_tool.MakeTiles" start="14" end="302" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java">
+        <Message>At MakeTiles.java:[lines 14-302]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.build_tool.MakeTiles</Message>
+    </Class>
+    <Method classname="micropolisj.build_tool.MakeTiles" name="renderSvg" signature="(Ljava/lang/String;Ljava/io/File;)Ljava/io/File;" isStatic="true" primary="true">
+      <SourceLine classname="micropolisj.build_tool.MakeTiles" start="207" end="248" startBytecode="0" endBytecode="550" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java"/>
+      <Message>In method micropolisj.build_tool.MakeTiles.renderSvg(String, File)</Message>
+    </Method>
+    <Method classname="java.io.File" name="mkdirs" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1334" end="1348" startBytecode="0" endBytecode="174" sourcefile="File.java" sourcepath="java/io/File.java"/>
+      <Message>Called method java.io.File.mkdirs()</Message>
+    </Method>
+    <SourceLine classname="micropolisj.build_tool.MakeTiles" primary="true" start="222" end="222" startBytecode="121" endBytecode="121" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java">
+      <Message>At MakeTiles.java:[line 222]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="VA_FORMAT_STRING_USES_NEWLINE" priority="2" rank="20" abbrev="FS" category="BAD_PRACTICE" instanceHash="63d937c6a9b0a166ea0373da2e0f6904" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Format string should use %n rather than \n</ShortMessage>
+    <LongMessage>Format string should use %n rather than \n in micropolisj.build_tool.MakeTiles.writeIndexFile(String[], File)</LongMessage>
+    <Class classname="micropolisj.build_tool.MakeTiles" primary="true">
+      <SourceLine classname="micropolisj.build_tool.MakeTiles" start="14" end="302" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java">
+        <Message>At MakeTiles.java:[lines 14-302]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.build_tool.MakeTiles</Message>
+    </Class>
+    <Method classname="micropolisj.build_tool.MakeTiles" name="writeIndexFile" signature="([Ljava/lang/String;Ljava/io/File;)V" isStatic="true" primary="true">
+      <SourceLine classname="micropolisj.build_tool.MakeTiles" start="104" end="111" startBytecode="0" endBytecode="168" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java"/>
+      <Message>In method micropolisj.build_tool.MakeTiles.writeIndexFile(String[], File)</Message>
+    </Method>
+    <Method classname="java.io.PrintWriter" name="printf" signature="(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintWriter;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.PrintWriter" start="804" end="804" startBytecode="0" endBytecode="30" sourcefile="PrintWriter.java" sourcepath="java/io/PrintWriter.java"/>
+      <Message>Called method java.io.PrintWriter.printf(String, Object[])</Message>
+    </Method>
+    <String value="%s %d\n" role="STRING_FORMAT_STRING">
+      <Message>Format string &quot;%s %d\n&quot;</Message>
+    </String>
+    <SourceLine classname="micropolisj.build_tool.MakeTiles" primary="true" start="108" end="108" startBytecode="44" endBytecode="44" sourcefile="MakeTiles.java" sourcepath="micropolisj/build_tool/MakeTiles.java">
+      <Message>At MakeTiles.java:[line 108]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="18" abbrev="UrF" category="STYLE" instanceHash="68527a05561c83fb1e172458f6f523d3" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Unread public/protected field</ShortMessage>
+    <LongMessage>Unread public/protected field: micropolisj.engine.BudgetNumbers.newBalance</LongMessage>
+    <Class classname="micropolisj.engine.BudgetNumbers" primary="true">
+      <SourceLine classname="micropolisj.engine.BudgetNumbers" start="15" end="15" sourcefile="BudgetNumbers.java" sourcepath="micropolisj/engine/BudgetNumbers.java">
+        <Message>At BudgetNumbers.java:[line 15]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.BudgetNumbers</Message>
+    </Class>
+    <Field classname="micropolisj.engine.BudgetNumbers" name="newBalance" signature="I" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.engine.BudgetNumbers" sourcefile="BudgetNumbers.java" sourcepath="micropolisj/engine/BudgetNumbers.java">
+        <Message>In BudgetNumbers.java</Message>
+      </SourceLine>
+      <Message>Field micropolisj.engine.BudgetNumbers.newBalance</Message>
+    </Field>
+    <SourceLine classname="micropolisj.engine.Micropolis" primary="true" start="1859" end="1859" startBytecode="503" endBytecode="503" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+      <Message>At Micropolis.java:[line 1859]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="RV_NEGATING_RESULT_OF_COMPARETO" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" instanceHash="cf3affcde724e32a584dec2eb97902af" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="440">
+    <ShortMessage>Negating the result of compareTo()/compare()</ShortMessage>
+    <LongMessage>micropolisj.engine.CityEval$1.compare(CityProblem, CityProblem) negates the return value of Integer.compareTo(Integer)</LongMessage>
+    <Class classname="micropolisj.engine.CityEval$1" primary="true">
+      <SourceLine classname="micropolisj.engine.CityEval$1" start="137" end="139" sourcefile="CityEval.java" sourcepath="micropolisj/engine/CityEval.java">
+        <Message>At CityEval.java:[lines 137-139]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.CityEval$1</Message>
+    </Class>
+    <Method classname="micropolisj.engine.CityEval$1" name="compare" signature="(Lmicropolisj/engine/CityProblem;Lmicropolisj/engine/CityProblem;)I" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.engine.CityEval$1" start="139" end="139" startBytecode="0" endBytecode="94" sourcefile="CityEval.java" sourcepath="micropolisj/engine/CityEval.java"/>
+      <Message>In method micropolisj.engine.CityEval$1.compare(CityProblem, CityProblem)</Message>
+    </Method>
+    <Method classname="java.lang.Integer" name="compareTo" signature="(Ljava/lang/Integer;)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer" start="1003" end="1003" startBytecode="0" endBytecode="35" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+      <Message>Called method Integer.compareTo(Integer)</Message>
+    </Method>
+    <Method classname="java.lang.Integer" name="compareTo" signature="(Ljava/lang/Integer;)I" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="java.lang.Integer" start="1003" end="1003" startBytecode="0" endBytecode="35" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+      <Message>Return value of Integer.compareTo(Integer)</Message>
+    </Method>
+    <SourceLine classname="micropolisj.engine.CityEval$1" primary="true" start="139" end="139" startBytecode="31" endBytecode="31" sourcefile="CityEval.java" sourcepath="micropolisj/engine/CityEval.java">
+      <Message>At CityEval.java:[line 139]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="HE_EQUALS_USE_HASHCODE" priority="1" rank="14" abbrev="HE" category="BAD_PRACTICE" instanceHash="7bf73a5a9607b097938868ecbf32c16c" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Class defines equals() and uses Object.hashCode()</ShortMessage>
+    <LongMessage>micropolisj.engine.CityRect defines equals and uses Object.hashCode()</LongMessage>
+    <Class classname="micropolisj.engine.CityRect" primary="true">
+      <SourceLine classname="micropolisj.engine.CityRect" start="31" end="60" sourcefile="CityRect.java" sourcepath="micropolisj/engine/CityRect.java">
+        <Message>At CityRect.java:[lines 31-60]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.CityRect</Message>
+    </Class>
+    <Method classname="micropolisj.engine.CityRect" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.engine.CityRect" start="45" end="53" startBytecode="0" endBytecode="156" sourcefile="CityRect.java" sourcepath="micropolisj/engine/CityRect.java"/>
+      <Message>In method micropolisj.engine.CityRect.equals(Object)</Message>
+    </Method>
+    <SourceLine classname="micropolisj.engine.CityRect" start="45" end="53" startBytecode="0" endBytecode="156" sourcefile="CityRect.java" sourcepath="micropolisj/engine/CityRect.java" synthetic="true">
+      <Message>At CityRect.java:[lines 45-53]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" instanceHash="3921abda7a5431ce4a35ca6879c82092" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="563">
+    <ShortMessage>Dead store to local variable</ShortMessage>
+    <LongMessage>Dead store to powerOn in micropolisj.engine.MapScanner.doCoalPower()</LongMessage>
+    <Class classname="micropolisj.engine.MapScanner" primary="true">
+      <SourceLine classname="micropolisj.engine.MapScanner" start="21" end="981" sourcefile="MapScanner.java" sourcepath="micropolisj/engine/MapScanner.java">
+        <Message>At MapScanner.java:[lines 21-981]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.MapScanner</Message>
+    </Class>
+    <Method classname="micropolisj.engine.MapScanner" name="doCoalPower" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.engine.MapScanner" start="187" end="194" startBytecode="0" endBytecode="31" sourcefile="MapScanner.java" sourcepath="micropolisj/engine/MapScanner.java"/>
+      <Message>In method micropolisj.engine.MapScanner.doCoalPower()</Message>
+    </Method>
+    <LocalVariable name="powerOn" register="1" pc="5" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named powerOn</Message>
+    </LocalVariable>
+    <SourceLine classname="micropolisj.engine.MapScanner" primary="true" start="187" end="187" startBytecode="4" endBytecode="4" sourcefile="MapScanner.java" sourcepath="micropolisj/engine/MapScanner.java">
+      <Message>At MapScanner.java:[line 187]</Message>
+    </SourceLine>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="powerOn"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" instanceHash="4980575f36ed7e4c9b1371cd48933ef8" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="563">
+    <ShortMessage>Dead store to local variable</ShortMessage>
+    <LongMessage>Dead store to powerOn in micropolisj.engine.MapScanner.doHospitalChurch()</LongMessage>
+    <Class classname="micropolisj.engine.MapScanner" primary="true">
+      <SourceLine classname="micropolisj.engine.MapScanner" start="21" end="981" sourcefile="MapScanner.java" sourcepath="micropolisj/engine/MapScanner.java">
+        <Message>At MapScanner.java:[lines 21-981]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.MapScanner</Message>
+    </Class>
+    <Method classname="micropolisj.engine.MapScanner" name="doHospitalChurch" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.engine.MapScanner" start="345" end="378" startBytecode="0" endBytecode="72" sourcefile="MapScanner.java" sourcepath="micropolisj/engine/MapScanner.java"/>
+      <Message>In method micropolisj.engine.MapScanner.doHospitalChurch()</Message>
+    </Method>
+    <LocalVariable name="powerOn" register="1" pc="5" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named powerOn</Message>
+    </LocalVariable>
+    <SourceLine classname="micropolisj.engine.MapScanner" primary="true" start="345" end="345" startBytecode="4" endBytecode="4" sourcefile="MapScanner.java" sourcepath="micropolisj/engine/MapScanner.java">
+      <Message>At MapScanner.java:[line 345]</Message>
+    </SourceLine>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="powerOn"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" instanceHash="ead1a867456bc9fe630e199f15b02c30" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="563">
+    <ShortMessage>Dead store to local variable</ShortMessage>
+    <LongMessage>Dead store to powerOn in micropolisj.engine.MapScanner.doNuclearPower()</LongMessage>
+    <Class classname="micropolisj.engine.MapScanner" primary="true">
+      <SourceLine classname="micropolisj.engine.MapScanner" start="21" end="981" sourcefile="MapScanner.java" sourcepath="micropolisj/engine/MapScanner.java">
+        <Message>At MapScanner.java:[lines 21-981]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.MapScanner</Message>
+    </Class>
+    <Method classname="micropolisj.engine.MapScanner" name="doNuclearPower" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.engine.MapScanner" start="198" end="210" startBytecode="0" endBytecode="57" sourcefile="MapScanner.java" sourcepath="micropolisj/engine/MapScanner.java"/>
+      <Message>In method micropolisj.engine.MapScanner.doNuclearPower()</Message>
+    </Method>
+    <LocalVariable name="powerOn" register="1" pc="5" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named powerOn</Message>
+    </LocalVariable>
+    <SourceLine classname="micropolisj.engine.MapScanner" primary="true" start="198" end="198" startBytecode="4" endBytecode="4" sourcefile="MapScanner.java" sourcepath="micropolisj/engine/MapScanner.java">
+      <Message>At MapScanner.java:[line 198]</Message>
+    </SourceLine>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="powerOn"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" instanceHash="43884589629a3b934541242ee046edd6" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="563">
+    <ShortMessage>Dead store to local variable</ShortMessage>
+    <LongMessage>Dead store to powerOn in micropolisj.engine.MapScanner.doStadiumFull()</LongMessage>
+    <Class classname="micropolisj.engine.MapScanner" primary="true">
+      <SourceLine classname="micropolisj.engine.MapScanner" start="21" end="981" sourcefile="MapScanner.java" sourcepath="micropolisj/engine/MapScanner.java">
+        <Message>At MapScanner.java:[lines 21-981]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.MapScanner</Message>
+    </Class>
+    <Method classname="micropolisj.engine.MapScanner" name="doStadiumFull" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.engine.MapScanner" start="280" end="285" startBytecode="0" endBytecode="25" sourcefile="MapScanner.java" sourcepath="micropolisj/engine/MapScanner.java"/>
+      <Message>In method micropolisj.engine.MapScanner.doStadiumFull()</Message>
+    </Method>
+    <LocalVariable name="powerOn" register="1" pc="5" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named powerOn</Message>
+    </LocalVariable>
+    <SourceLine classname="micropolisj.engine.MapScanner" primary="true" start="280" end="280" startBytecode="4" endBytecode="4" sourcefile="MapScanner.java" sourcepath="micropolisj/engine/MapScanner.java">
+      <Message>At MapScanner.java:[line 280]</Message>
+    </SourceLine>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="powerOn"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE" priority="1" rank="16" abbrev="RCN" category="STYLE" instanceHash="ec88ea44ad183c549d3e5bb4de78da71" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="476">
+    <ShortMessage>Redundant nullcheck of value known to be non-null</ShortMessage>
+    <LongMessage>Redundant nullcheck of bi, which is known to be non-null in micropolisj.engine.MapScanner.zonePlop(int)</LongMessage>
+    <Class classname="micropolisj.engine.MapScanner" primary="true">
+      <SourceLine classname="micropolisj.engine.MapScanner" start="21" end="981" sourcefile="MapScanner.java" sourcepath="micropolisj/engine/MapScanner.java">
+        <Message>At MapScanner.java:[lines 21-981]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.MapScanner</Message>
+    </Class>
+    <Method classname="micropolisj.engine.MapScanner" name="zonePlop" signature="(I)Z" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.engine.MapScanner" start="143" end="182" startBytecode="0" endBytecode="550" sourcefile="MapScanner.java" sourcepath="micropolisj/engine/MapScanner.java"/>
+      <Message>In method micropolisj.engine.MapScanner.zonePlop(int)</Message>
+    </Method>
+    <LocalVariable name="bi" register="2" pc="47" role="LOCAL_VARIABLE_VALUE_OF">
+      <Message>Value loaded from bi</Message>
+    </LocalVariable>
+    <Method classname="micropolisj.engine.TileSpec" name="getBuildingInfo" signature="()Lmicropolisj/engine/TileSpec$BuildingInfo;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="micropolisj.engine.TileSpec" start="68" end="68" startBytecode="0" endBytecode="46" sourcefile="TileSpec.java" sourcepath="micropolisj/engine/TileSpec.java"/>
+      <Message>Return value of micropolisj.engine.TileSpec.getBuildingInfo()</Message>
+    </Method>
+    <SourceLine classname="micropolisj.engine.MapScanner" primary="true" start="147" end="147" startBytecode="48" endBytecode="48" sourcefile="MapScanner.java" sourcepath="micropolisj/engine/MapScanner.java" role="SOURCE_REDUNDANT_NULL_CHECK">
+      <Message>Redundant null check at MapScanner.java:[line 147]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" instanceHash="3390164e0782b7eed9caa9046cdbf326" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="563">
+    <ShortMessage>Dead store to local variable</ShortMessage>
+    <LongMessage>Dead store to zoneBase in micropolisj.engine.Micropolis.killZone(int, int, int)</LongMessage>
+    <Class classname="micropolisj.engine.Micropolis" primary="true">
+      <SourceLine classname="micropolisj.engine.Micropolis" start="21" end="2702" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+        <Message>At Micropolis.java:[lines 21-2702]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.Micropolis</Message>
+    </Class>
+    <Method classname="micropolisj.engine.Micropolis" name="killZone" signature="(III)V" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.engine.Micropolis" start="2410" end="2422" startBytecode="0" endBytecode="68" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java"/>
+      <Message>In method micropolisj.engine.Micropolis.killZone(int, int, int)</Message>
+    </Method>
+    <LocalVariable name="zoneBase" register="5" pc="126" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named zoneBase</Message>
+    </LocalVariable>
+    <SourceLine classname="micropolisj.engine.Micropolis" primary="true" start="2418" end="2418" startBytecode="124" endBytecode="124" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+      <Message>At Micropolis.java:[line 2418]</Message>
+    </SourceLine>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="zoneBase"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+  </BugInstance>
+  <BugInstance type="IM_AVERAGE_COMPUTATION_COULD_OVERFLOW" priority="2" rank="17" abbrev="IM" category="STYLE" instanceHash="b397d9e9477345f2c557e3b7565dc2c2" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Computation of average could overflow</ShortMessage>
+    <LongMessage>Computation of average could overflow in micropolisj.engine.Micropolis.smoothFirePoliceMap(int[][])</LongMessage>
+    <Class classname="micropolisj.engine.Micropolis" primary="true">
+      <SourceLine classname="micropolisj.engine.Micropolis" start="21" end="2702" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+        <Message>At Micropolis.java:[lines 21-2702]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.Micropolis</Message>
+    </Class>
+    <Method classname="micropolisj.engine.Micropolis" name="smoothFirePoliceMap" signature="([[I)[[I" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.engine.Micropolis" start="926" end="940" startBytecode="0" endBytecode="371" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java"/>
+      <Message>In method micropolisj.engine.Micropolis.smoothFirePoliceMap(int[][])</Message>
+    </Method>
+    <SourceLine classname="micropolisj.engine.Micropolis" primary="true" start="937" end="937" startBytecode="143" endBytecode="143" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+      <Message>At Micropolis.java:[line 937]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" instanceHash="faee2d71688488d723165cd1f0b38e1e" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method may fail to clean up stream or resource</ShortMessage>
+    <LongMessage>micropolisj.engine.Micropolis.save(File) may fail to clean up java.io.OutputStream</LongMessage>
+    <Class classname="micropolisj.engine.Micropolis" primary="true">
+      <SourceLine classname="micropolisj.engine.Micropolis" start="21" end="2702" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+        <Message>At Micropolis.java:[lines 21-2702]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.Micropolis</Message>
+    </Class>
+    <Method classname="micropolisj.engine.Micropolis" name="save" signature="(Ljava/io/File;)V" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.engine.Micropolis" start="2142" end="2143" startBytecode="0" endBytecode="68" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java"/>
+      <Message>In method micropolisj.engine.Micropolis.save(File)</Message>
+    </Method>
+    <Class classname="java.io.OutputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.OutputStream" start="46" end="152" sourcefile="OutputStream.java" sourcepath="java/io/OutputStream.java">
+        <Message>At OutputStream.java:[lines 46-152]</Message>
+      </SourceLine>
+      <Message>Reference type java.io.OutputStream</Message>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING">
+      <Message>1 instances of obligation remaining</Message>
+    </Int>
+    <SourceLine classname="micropolisj.engine.Micropolis" primary="true" start="2142" end="2142" startBytecode="6" endBytecode="6" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java" role="SOURCE_LINE_OBLIGATION_CREATED">
+      <Message>Obligation to clean up resource created at Micropolis.java:[line 2142] is not discharged</Message>
+    </SourceLine>
+    <SourceLine classname="micropolisj.engine.Micropolis" start="2143" end="2143" startBytecode="12" endBytecode="12" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java" role="SOURCE_LINE_PATH_CONTINUES">
+      <Message>Path continues at Micropolis.java:[line 2143]</Message>
+    </SourceLine>
+    <String value="{OutputStream x 1}" role="STRING_REMAINING_OBLIGATIONS">
+      <Message>Remaining obligations: {OutputStream x 1}</Message>
+    </String>
+  </BugInstance>
+  <BugInstance type="RR_NOT_CHECKED" priority="2" rank="16" abbrev="RR" category="BAD_PRACTICE" instanceHash="cc3683da4a0ee6053aab70b8bd4be647" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method ignores results of InputStream.read()</ShortMessage>
+    <LongMessage>micropolisj.engine.Micropolis.load(File) ignores result of java.io.FileInputStream.read(byte[])</LongMessage>
+    <Class classname="micropolisj.engine.Micropolis" primary="true">
+      <SourceLine classname="micropolisj.engine.Micropolis" start="21" end="2702" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+        <Message>At Micropolis.java:[lines 21-2702]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.Micropolis</Message>
+    </Class>
+    <Method classname="micropolisj.engine.Micropolis" name="load" signature="(Ljava/io/File;)V" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.engine.Micropolis" start="2081" end="2092" startBytecode="0" endBytecode="146" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java"/>
+      <Message>In method micropolisj.engine.Micropolis.load(File)</Message>
+    </Method>
+    <Method classname="java.io.FileInputStream" name="read" signature="([B)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileInputStream" start="240" end="247" startBytecode="0" endBytecode="225" sourcefile="FileInputStream.java" sourcepath="java/io/FileInputStream.java"/>
+      <Message>Called method java.io.FileInputStream.read(byte[])</Message>
+    </Method>
+    <SourceLine classname="micropolisj.engine.Micropolis" primary="true" start="2089" end="2089" startBytecode="31" endBytecode="31" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+      <Message>At Micropolis.java:[line 2089]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE" instanceHash="126f6eaf43e34a9d5a3ff475382fb822" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Switch statement found where default case is missing</ShortMessage>
+    <LongMessage>Switch statement found in micropolisj.engine.Micropolis.doDisasters() where default case is missing</LongMessage>
+    <Class classname="micropolisj.engine.Micropolis" primary="true">
+      <SourceLine classname="micropolisj.engine.Micropolis" start="21" end="2702" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+        <Message>At Micropolis.java:[lines 21-2702]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.Micropolis</Message>
+    </Class>
+    <Method classname="micropolisj.engine.Micropolis" name="doDisasters" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.engine.Micropolis" start="886" end="922" startBytecode="0" endBytecode="319" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java"/>
+      <Message>In method micropolisj.engine.Micropolis.doDisasters()</Message>
+    </Method>
+    <SourceLine classname="micropolisj.engine.Micropolis" primary="true" start="897" end="918" startBytecode="74" endBytecode="167" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+      <Message>At Micropolis.java:[lines 897-918]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE" instanceHash="c4e124e61e1dbe7367d4d0771e5d4ce8" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Switch statement found where default case is missing</ShortMessage>
+    <LongMessage>Switch statement found in micropolisj.engine.Micropolis.setValves() where default case is missing</LongMessage>
+    <Class classname="micropolisj.engine.Micropolis" primary="true">
+      <SourceLine classname="micropolisj.engine.Micropolis" start="21" end="2702" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+        <Message>At Micropolis.java:[lines 21-2702]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.Micropolis</Message>
+    </Class>
+    <Method classname="micropolisj.engine.Micropolis" name="setValves" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.engine.Micropolis" start="1278" end="1402" startBytecode="0" endBytecode="1265" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java"/>
+      <Message>In method micropolisj.engine.Micropolis.setValves()</Message>
+    </Method>
+    <SourceLine classname="micropolisj.engine.Micropolis" primary="true" start="1315" end="1319" startBytecode="191" endBytecode="236" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+      <Message>At Micropolis.java:[lines 1315-1319]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" instanceHash="fae4102c9fff951c880f9aab85207f00" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Unread field</ShortMessage>
+    <LongMessage>Unread field: micropolisj.engine.Micropolis$History.comMax</LongMessage>
+    <Class classname="micropolisj.engine.Micropolis$History" primary="true">
+      <SourceLine classname="micropolisj.engine.Micropolis$History" start="1261" end="1269" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+        <Message>At Micropolis.java:[lines 1261-1269]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.Micropolis$History</Message>
+    </Class>
+    <Field classname="micropolisj.engine.Micropolis$History" name="comMax" signature="I" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.engine.Micropolis$History" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+        <Message>In Micropolis.java</Message>
+      </SourceLine>
+      <Message>Field micropolisj.engine.Micropolis$History.comMax</Message>
+    </Field>
+    <SourceLine classname="micropolisj.engine.Micropolis" primary="true" start="1635" end="1635" startBytecode="241" endBytecode="241" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+      <Message>At Micropolis.java:[line 1635]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" instanceHash="eeb52fe4ae8435f53f32602a866a3da5" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Unread field</ShortMessage>
+    <LongMessage>Unread field: micropolisj.engine.Micropolis$History.indMax</LongMessage>
+    <Class classname="micropolisj.engine.Micropolis$History" primary="true">
+      <SourceLine classname="micropolisj.engine.Micropolis$History" start="1261" end="1269" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+        <Message>At Micropolis.java:[lines 1261-1269]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.Micropolis$History</Message>
+    </Class>
+    <Field classname="micropolisj.engine.Micropolis$History" name="indMax" signature="I" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.engine.Micropolis$History" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+        <Message>In Micropolis.java</Message>
+      </SourceLine>
+      <Message>Field micropolisj.engine.Micropolis$History.indMax</Message>
+    </Field>
+    <SourceLine classname="micropolisj.engine.Micropolis" primary="true" start="1636" end="1636" startBytecode="249" endBytecode="249" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+      <Message>At Micropolis.java:[line 1636]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" instanceHash="150efa134b9751ab1eb3bd2a75b167ed" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Unread field</ShortMessage>
+    <LongMessage>Unread field: micropolisj.engine.Micropolis$History.resMax</LongMessage>
+    <Class classname="micropolisj.engine.Micropolis$History" primary="true">
+      <SourceLine classname="micropolisj.engine.Micropolis$History" start="1261" end="1269" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+        <Message>At Micropolis.java:[lines 1261-1269]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.Micropolis$History</Message>
+    </Class>
+    <Field classname="micropolisj.engine.Micropolis$History" name="resMax" signature="I" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.engine.Micropolis$History" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+        <Message>In Micropolis.java</Message>
+      </SourceLine>
+      <Message>Field micropolisj.engine.Micropolis$History.resMax</Message>
+    </Field>
+    <SourceLine classname="micropolisj.engine.Micropolis" primary="true" start="1634" end="1634" startBytecode="233" endBytecode="233" sourcefile="Micropolis.java" sourcepath="micropolisj/engine/Micropolis.java">
+      <Message>At Micropolis.java:[line 1634]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" instanceHash="b177656b326c0b34d42b9dd3de95a357" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="563">
+    <ShortMessage>Dead store to local variable</ShortMessage>
+    <LongMessage>Dead store to absDist in micropolisj.engine.Sprite.getDir(int, int, int, int)</LongMessage>
+    <Class classname="micropolisj.engine.Sprite" primary="true">
+      <SourceLine classname="micropolisj.engine.Sprite" start="20" end="229" sourcefile="Sprite.java" sourcepath="micropolisj/engine/Sprite.java">
+        <Message>At Sprite.java:[lines 20-229]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.Sprite</Message>
+    </Class>
+    <Method classname="micropolisj.engine.Sprite" name="getDir" signature="(IIII)I" isStatic="true" primary="true">
+      <SourceLine classname="micropolisj.engine.Sprite" start="96" end="114" startBytecode="0" endBytecode="117" sourcefile="Sprite.java" sourcepath="micropolisj/engine/Sprite.java"/>
+      <Message>In method micropolisj.engine.Sprite.getDir(int, int, int, int)</Message>
+    </Method>
+    <LocalVariable name="absDist" register="8" pc="132" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named absDist</Message>
+    </LocalVariable>
+    <SourceLine classname="micropolisj.engine.Sprite" primary="true" start="104" end="104" startBytecode="130" endBytecode="130" sourcefile="Sprite.java" sourcepath="micropolisj/engine/Sprite.java">
+      <Message>At Sprite.java:[line 104]</Message>
+    </SourceLine>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="absDist"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE" instanceHash="2fba327436d94e7c81e934af3a48b274" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Switch statement found where default case is missing</ShortMessage>
+    <LongMessage>Switch statement found in micropolisj.engine.Sprite.explodeSprite() where default case is missing</LongMessage>
+    <Class classname="micropolisj.engine.Sprite" primary="true">
+      <SourceLine classname="micropolisj.engine.Sprite" start="20" end="229" sourcefile="Sprite.java" sourcepath="micropolisj/engine/Sprite.java">
+        <Message>At Sprite.java:[lines 20-229]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.Sprite</Message>
+    </Class>
+    <Method classname="micropolisj.engine.Sprite" name="explodeSprite" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.engine.Sprite" start="131" end="158" startBytecode="0" endBytecode="360" sourcefile="Sprite.java" sourcepath="micropolisj/engine/Sprite.java"/>
+      <Message>In method micropolisj.engine.Sprite.explodeSprite()</Message>
+    </Method>
+    <SourceLine classname="micropolisj.engine.Sprite" primary="true" start="137" end="153" startBytecode="47" endBytecode="200" sourcefile="Sprite.java" sourcepath="micropolisj/engine/Sprite.java">
+      <Message>At Sprite.java:[lines 137-153]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" instanceHash="48ff17a61262cb7c53c013a2150e8a89" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="563">
+    <ShortMessage>Dead store to local variable</ShortMessage>
+    <LongMessage>Dead store to tilesList in micropolisj.engine.Tiles.readTiles()</LongMessage>
+    <Class classname="micropolisj.engine.Tiles" primary="true">
+      <SourceLine classname="micropolisj.engine.Tiles" start="18" end="110" sourcefile="Tiles.java" sourcepath="micropolisj/engine/Tiles.java">
+        <Message>At Tiles.java:[lines 18-110]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.Tiles</Message>
+    </Class>
+    <Method classname="micropolisj.engine.Tiles" name="readTiles" signature="()V" isStatic="true" primary="true">
+      <SourceLine classname="micropolisj.engine.Tiles" start="36" end="82" startBytecode="0" endBytecode="144" sourcefile="Tiles.java" sourcepath="micropolisj/engine/Tiles.java"/>
+      <Message>In method micropolisj.engine.Tiles.readTiles()</Message>
+    </Method>
+    <LocalVariable name="tilesList" register="0" pc="8" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named tilesList</Message>
+    </LocalVariable>
+    <SourceLine classname="micropolisj.engine.Tiles" primary="true" start="36" end="36" startBytecode="7" endBytecode="7" sourcefile="Tiles.java" sourcepath="micropolisj/engine/Tiles.java">
+      <Message>At Tiles.java:[line 36]</Message>
+    </SourceLine>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="tilesList"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" instanceHash="13f089acb0c4567a6cafc043789db971" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method may fail to close stream</ShortMessage>
+    <LongMessage>micropolisj.engine.Tiles.readTiles() may fail to close stream</LongMessage>
+    <Class classname="micropolisj.engine.Tiles" primary="true">
+      <SourceLine classname="micropolisj.engine.Tiles" start="18" end="110" sourcefile="Tiles.java" sourcepath="micropolisj/engine/Tiles.java">
+        <Message>At Tiles.java:[lines 18-110]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.Tiles</Message>
+    </Class>
+    <Method classname="micropolisj.engine.Tiles" name="readTiles" signature="()V" isStatic="true" primary="true">
+      <SourceLine classname="micropolisj.engine.Tiles" start="36" end="82" startBytecode="0" endBytecode="144" sourcefile="Tiles.java" sourcepath="micropolisj/engine/Tiles.java"/>
+      <Message>In method micropolisj.engine.Tiles.readTiles()</Message>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader" start="66" end="249" sourcefile="Reader.java" sourcepath="java/io/Reader.java">
+        <Message>At Reader.java:[lines 66-249]</Message>
+      </SourceLine>
+      <Message>Need to close java.io.Reader </Message>
+    </Type>
+    <SourceLine classname="micropolisj.engine.Tiles" primary="true" start="39" end="39" startBytecode="17" endBytecode="17" sourcefile="Tiles.java" sourcepath="micropolisj/engine/Tiles.java">
+      <Message>At Tiles.java:[line 39]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="IM_BAD_CHECK_FOR_ODD" priority="2" rank="13" abbrev="IM" category="STYLE" instanceHash="61eda27186674693c4ee442a41b4ad6d" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Check for oddness that won&apos;t work for negative numbers </ShortMessage>
+    <LongMessage>Check for oddness that won&apos;t work for negative numbers in micropolisj.engine.TrafficGen.tryGo(int)</LongMessage>
+    <Class classname="micropolisj.engine.TrafficGen" primary="true">
+      <SourceLine classname="micropolisj.engine.TrafficGen" start="17" end="221" sourcefile="TrafficGen.java" sourcepath="micropolisj/engine/TrafficGen.java">
+        <Message>At TrafficGen.java:[lines 17-221]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.engine.TrafficGen</Message>
+    </Class>
+    <Method classname="micropolisj.engine.TrafficGen" name="tryGo" signature="(I)Z" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.engine.TrafficGen" start="149" end="173" startBytecode="0" endBytecode="306" sourcefile="TrafficGen.java" sourcepath="micropolisj/engine/TrafficGen.java"/>
+      <Message>In method micropolisj.engine.TrafficGen.tryGo(int)</Message>
+    </Method>
+    <SourceLine classname="micropolisj.engine.TrafficGen" primary="true" start="163" end="163" startBytecode="111" endBytecode="111" sourcefile="TrafficGen.java" sourcepath="micropolisj/engine/TrafficGen.java">
+      <Message>At TrafficGen.java:[line 163]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="ICAST_IDIV_CAST_TO_DOUBLE" priority="2" rank="17" abbrev="ICAST" category="STYLE" instanceHash="b2963d2c29d31a3c0c9b9a0a24d5700f" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="192">
+    <ShortMessage>Integral division result cast to double or float</ShortMessage>
+    <LongMessage>Integral division result cast to double or float in micropolisj.gui.GraphsPane$GraphArea.paintComponent(Graphics)</LongMessage>
+    <Class classname="micropolisj.gui.GraphsPane$GraphArea" primary="true">
+      <SourceLine classname="micropolisj.gui.GraphsPane$GraphArea" start="220" end="330" sourcefile="GraphsPane.java" sourcepath="micropolisj/gui/GraphsPane.java">
+        <Message>At GraphsPane.java:[lines 220-330]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.gui.GraphsPane$GraphArea</Message>
+    </Class>
+    <Method classname="micropolisj.gui.GraphsPane$GraphArea" name="paintComponent" signature="(Ljava/awt/Graphics;)V" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.gui.GraphsPane$GraphArea" start="227" end="330" startBytecode="0" endBytecode="2046" sourcefile="GraphsPane.java" sourcepath="micropolisj/gui/GraphsPane.java"/>
+      <Message>In method micropolisj.gui.GraphsPane$GraphArea.paintComponent(Graphics)</Message>
+    </Method>
+    <SourceLine classname="micropolisj.gui.GraphsPane$GraphArea" primary="true" start="319" end="319" startBytecode="828" endBytecode="828" sourcefile="GraphsPane.java" sourcepath="micropolisj/gui/GraphsPane.java">
+      <Message>At GraphsPane.java:[line 319]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="RV_NEGATING_RESULT_OF_COMPARETO" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" instanceHash="73ad2016bfac467a92a1f7d1d86d124c" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="440">
+    <ShortMessage>Negating the result of compareTo()/compare()</ShortMessage>
+    <LongMessage>micropolisj.gui.GraphsPane$GraphArea$1.compare(GraphsPane$GraphData, GraphsPane$GraphData) negates the return value of Double.compare(double, double)</LongMessage>
+    <Class classname="micropolisj.gui.GraphsPane$GraphArea$1" primary="true">
+      <SourceLine classname="micropolisj.gui.GraphsPane$GraphArea$1" start="299" end="303" sourcefile="GraphsPane.java" sourcepath="micropolisj/gui/GraphsPane.java">
+        <Message>At GraphsPane.java:[lines 299-303]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.gui.GraphsPane$GraphArea$1</Message>
+    </Class>
+    <Method classname="micropolisj.gui.GraphsPane$GraphArea$1" name="compare" signature="(Lmicropolisj/gui/GraphsPane$GraphData;Lmicropolisj/gui/GraphsPane$GraphData;)I" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.gui.GraphsPane$GraphArea$1" start="301" end="303" startBytecode="0" endBytecode="134" sourcefile="GraphsPane.java" sourcepath="micropolisj/gui/GraphsPane.java"/>
+      <Message>In method micropolisj.gui.GraphsPane$GraphArea$1.compare(GraphsPane$GraphData, GraphsPane$GraphData)</Message>
+    </Method>
+    <Method classname="java.lang.Double" name="compare" signature="(DD)I" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Double" start="972" end="981" startBytecode="0" endBytecode="119" sourcefile="Double.java" sourcepath="java/lang/Double.java"/>
+      <Message>Called method Double.compare(double, double)</Message>
+    </Method>
+    <Method classname="java.lang.Double" name="compare" signature="(DD)I" isStatic="true" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="java.lang.Double" start="972" end="981" startBytecode="0" endBytecode="119" sourcefile="Double.java" sourcepath="java/lang/Double.java"/>
+      <Message>Return value of Double.compare(double, double)</Message>
+    </Method>
+    <SourceLine classname="micropolisj.gui.GraphsPane$GraphArea$1" primary="true" start="303" end="303" startBytecode="43" endBytecode="43" sourcefile="GraphsPane.java" sourcepath="micropolisj/gui/GraphsPane.java">
+      <Message>At GraphsPane.java:[line 303]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DM_EXIT" priority="2" rank="16" abbrev="Dm" category="BAD_PRACTICE" instanceHash="b55f0c8e5c01845c579e089a0cd77998" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="382">
+    <ShortMessage>Method invokes System.exit(...)</ShortMessage>
+    <LongMessage>micropolisj.gui.MainWindow.showErrorMessage(Throwable) invokes System.exit(...), which shuts down the entire virtual machine</LongMessage>
+    <Class classname="micropolisj.gui.MainWindow" primary="true">
+      <SourceLine classname="micropolisj.gui.MainWindow" start="28" end="1732" sourcefile="MainWindow.java" sourcepath="micropolisj/gui/MainWindow.java">
+        <Message>At MainWindow.java:[lines 28-1732]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.gui.MainWindow</Message>
+    </Class>
+    <Method classname="micropolisj.gui.MainWindow" name="showErrorMessage" signature="(Ljava/lang/Throwable;)V" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.gui.MainWindow" start="1408" end="1450" startBytecode="0" endBytecode="403" sourcefile="MainWindow.java" sourcepath="micropolisj/gui/MainWindow.java"/>
+      <Message>In method micropolisj.gui.MainWindow.showErrorMessage(Throwable)</Message>
+    </Method>
+    <SourceLine classname="micropolisj.gui.MainWindow" primary="true" start="1447" end="1447" startBytecode="212" endBytecode="212" sourcefile="MainWindow.java" sourcepath="micropolisj/gui/MainWindow.java">
+      <Message>At MainWindow.java:[line 1447]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" instanceHash="e3a6fee9aa39701294d9b0c44e4abfa8" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="476">
+    <ShortMessage>Redundant nullcheck of value known to be non-null</ShortMessage>
+    <LongMessage>Redundant nullcheck of newEngine, which is known to be non-null in micropolisj.gui.MicropolisDrawingArea.setEngine(Micropolis)</LongMessage>
+    <Class classname="micropolisj.gui.MicropolisDrawingArea" primary="true">
+      <SourceLine classname="micropolisj.gui.MicropolisDrawingArea" start="24" end="467" sourcefile="MicropolisDrawingArea.java" sourcepath="micropolisj/gui/MicropolisDrawingArea.java">
+        <Message>At MicropolisDrawingArea.java:[lines 24-467]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.gui.MicropolisDrawingArea</Message>
+    </Class>
+    <Method classname="micropolisj.gui.MicropolisDrawingArea" name="setEngine" signature="(Lmicropolisj/engine/Micropolis;)V" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.gui.MicropolisDrawingArea" start="131" end="144" startBytecode="0" endBytecode="156" sourcefile="MicropolisDrawingArea.java" sourcepath="micropolisj/gui/MicropolisDrawingArea.java"/>
+      <Message>In method micropolisj.gui.MicropolisDrawingArea.setEngine(Micropolis)</Message>
+    </Method>
+    <LocalVariable name="newEngine" register="1" pc="39" role="LOCAL_VARIABLE_VALUE_OF">
+      <Message>Value loaded from newEngine</Message>
+    </LocalVariable>
+    <Field classname="micropolisj.gui.MicropolisDrawingArea" name="m" signature="Lmicropolisj/engine/Micropolis;" isStatic="false" primary="true" role="FIELD_VALUE_OF">
+      <SourceLine classname="micropolisj.gui.MicropolisDrawingArea" sourcefile="MicropolisDrawingArea.java" sourcepath="micropolisj/gui/MicropolisDrawingArea.java">
+        <Message>In MicropolisDrawingArea.java</Message>
+      </SourceLine>
+      <Message>Value loaded from field micropolisj.gui.MicropolisDrawingArea.m</Message>
+    </Field>
+    <SourceLine classname="micropolisj.gui.MicropolisDrawingArea" primary="true" start="137" end="137" startBytecode="42" endBytecode="42" sourcefile="MicropolisDrawingArea.java" sourcepath="micropolisj/gui/MicropolisDrawingArea.java" role="SOURCE_REDUNDANT_NULL_CHECK">
+      <Message>Redundant null check at MicropolisDrawingArea.java:[line 137]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DM_EXIT" priority="2" rank="16" abbrev="Dm" category="BAD_PRACTICE" instanceHash="3d5b2fd4846d6a9aa40017273deef2f0" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="382">
+    <ShortMessage>Method invokes System.exit(...)</ShortMessage>
+    <LongMessage>micropolisj.gui.NewCityDialog.onQuitClicked() invokes System.exit(...), which shuts down the entire virtual machine</LongMessage>
+    <Class classname="micropolisj.gui.NewCityDialog" primary="true">
+      <SourceLine classname="micropolisj.gui.NewCityDialog" start="21" end="232" sourcefile="NewCityDialog.java" sourcepath="micropolisj/gui/NewCityDialog.java">
+        <Message>At NewCityDialog.java:[lines 21-232]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.gui.NewCityDialog</Message>
+    </Class>
+    <Method classname="micropolisj.gui.NewCityDialog" name="onQuitClicked" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.gui.NewCityDialog" start="212" end="213" startBytecode="0" endBytecode="50" sourcefile="NewCityDialog.java" sourcepath="micropolisj/gui/NewCityDialog.java"/>
+      <Message>In method micropolisj.gui.NewCityDialog.onQuitClicked()</Message>
+    </Method>
+    <SourceLine classname="micropolisj.gui.NewCityDialog" primary="true" start="212" end="212" startBytecode="1" endBytecode="1" sourcefile="NewCityDialog.java" sourcepath="micropolisj/gui/NewCityDialog.java">
+      <Message>At NewCityDialog.java:[line 212]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" instanceHash="2062119d5aab52efdfbd86ee39450d9f" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="476">
+    <ShortMessage>Redundant nullcheck of value known to be non-null</ShortMessage>
+    <LongMessage>Redundant nullcheck of newEngine, which is known to be non-null in micropolisj.gui.OverlayMapView.setEngine(Micropolis)</LongMessage>
+    <Class classname="micropolisj.gui.OverlayMapView" primary="true">
+      <SourceLine classname="micropolisj.gui.OverlayMapView" start="22" end="559" sourcefile="OverlayMapView.java" sourcepath="micropolisj/gui/OverlayMapView.java">
+        <Message>At OverlayMapView.java:[lines 22-559]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.gui.OverlayMapView</Message>
+    </Class>
+    <Method classname="micropolisj.gui.OverlayMapView" name="setEngine" signature="(Lmicropolisj/engine/Micropolis;)V" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.gui.OverlayMapView" start="58" end="72" startBytecode="0" endBytecode="175" sourcefile="OverlayMapView.java" sourcepath="micropolisj/gui/OverlayMapView.java"/>
+      <Message>In method micropolisj.gui.OverlayMapView.setEngine(Micropolis)</Message>
+    </Method>
+    <LocalVariable name="newEngine" register="1" pc="39" role="LOCAL_VARIABLE_VALUE_OF">
+      <Message>Value loaded from newEngine</Message>
+    </LocalVariable>
+    <Field classname="micropolisj.gui.OverlayMapView" name="engine" signature="Lmicropolisj/engine/Micropolis;" isStatic="false" primary="true" role="FIELD_VALUE_OF">
+      <SourceLine classname="micropolisj.gui.OverlayMapView" sourcefile="OverlayMapView.java" sourcepath="micropolisj/gui/OverlayMapView.java">
+        <Message>In OverlayMapView.java</Message>
+      </SourceLine>
+      <Message>Value loaded from field micropolisj.gui.OverlayMapView.engine</Message>
+    </Field>
+    <SourceLine classname="micropolisj.gui.OverlayMapView" primary="true" start="64" end="64" startBytecode="42" endBytecode="42" sourcefile="OverlayMapView.java" sourcepath="micropolisj/gui/OverlayMapView.java" role="SOURCE_REDUNDANT_NULL_CHECK">
+      <Message>Redundant null check at OverlayMapView.java:[line 64]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" instanceHash="cd196a14c3119c9604b7123cda630193" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method may fail to clean up stream or resource</ShortMessage>
+    <LongMessage>micropolisj.util.StringsModel.loadStrings(String, ArrayList) may fail to clean up java.io.InputStream</LongMessage>
+    <Class classname="micropolisj.util.StringsModel" primary="true">
+      <SourceLine classname="micropolisj.util.StringsModel" start="15" end="238" sourcefile="StringsModel.java" sourcepath="micropolisj/util/StringsModel.java">
+        <Message>At StringsModel.java:[lines 15-238]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.util.StringsModel</Message>
+    </Class>
+    <Method classname="micropolisj.util.StringsModel" name="loadStrings" signature="(Ljava/lang/String;Ljava/util/ArrayList;)V" isStatic="true" primary="true">
+      <SourceLine classname="micropolisj.util.StringsModel" start="69" end="79" startBytecode="0" endBytecode="320" sourcefile="StringsModel.java" sourcepath="micropolisj/util/StringsModel.java"/>
+      <Message>In method micropolisj.util.StringsModel.loadStrings(String, ArrayList)</Message>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream" start="45" end="363" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java">
+        <Message>At InputStream.java:[lines 45-363]</Message>
+      </SourceLine>
+      <Message>Reference type java.io.InputStream</Message>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING">
+      <Message>1 instances of obligation remaining</Message>
+    </Int>
+    <SourceLine classname="micropolisj.util.StringsModel" primary="true" start="70" end="70" startBytecode="36" endBytecode="36" sourcefile="StringsModel.java" sourcepath="micropolisj/util/StringsModel.java" role="SOURCE_LINE_OBLIGATION_CREATED">
+      <Message>Obligation to clean up resource created at StringsModel.java:[line 70] is not discharged</Message>
+    </SourceLine>
+    <SourceLine classname="micropolisj.util.StringsModel" start="71" end="71" startBytecode="42" endBytecode="42" sourcefile="StringsModel.java" sourcepath="micropolisj/util/StringsModel.java" role="SOURCE_LINE_PATH_CONTINUES">
+      <Message>Path continues at StringsModel.java:[line 71]</Message>
+    </SourceLine>
+    <SourceLine classname="micropolisj.util.StringsModel" start="72" end="72" startBytecode="59" endBytecode="59" sourcefile="StringsModel.java" sourcepath="micropolisj/util/StringsModel.java" role="SOURCE_LINE_PATH_CONTINUES">
+      <Message>Path continues at StringsModel.java:[line 72]</Message>
+    </SourceLine>
+    <SourceLine classname="micropolisj.util.StringsModel" start="74" end="74" startBytecode="63" endBytecode="63" sourcefile="StringsModel.java" sourcepath="micropolisj/util/StringsModel.java" role="SOURCE_LINE_PATH_CONTINUES">
+      <Message>Path continues at StringsModel.java:[line 74]</Message>
+    </SourceLine>
+    <SourceLine classname="micropolisj.util.StringsModel" start="79" end="79" startBytecode="113" endBytecode="113" sourcefile="StringsModel.java" sourcepath="micropolisj/util/StringsModel.java" role="SOURCE_LINE_PATH_CONTINUES">
+      <Message>Path continues at StringsModel.java:[line 79]</Message>
+    </SourceLine>
+    <String value="{InputStream x 1}" role="STRING_REMAINING_OBLIGATIONS">
+      <Message>Remaining obligations: {InputStream x 1}</Message>
+    </String>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" instanceHash="1cdae4a9d26d6404e42f427ce022509c" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method may fail to close stream</ShortMessage>
+    <LongMessage>micropolisj.util.StringsModel.addLocale(String) may fail to close stream</LongMessage>
+    <Class classname="micropolisj.util.StringsModel" primary="true">
+      <SourceLine classname="micropolisj.util.StringsModel" start="15" end="238" sourcefile="StringsModel.java" sourcepath="micropolisj/util/StringsModel.java">
+        <Message>At StringsModel.java:[lines 15-238]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.util.StringsModel</Message>
+    </Class>
+    <Method classname="micropolisj.util.StringsModel" name="addLocale" signature="(Ljava/lang/String;)V" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.util.StringsModel" start="164" end="185" startBytecode="0" endBytecode="86" sourcefile="StringsModel.java" sourcepath="micropolisj/util/StringsModel.java"/>
+      <Message>In method micropolisj.util.StringsModel.addLocale(String)</Message>
+    </Method>
+    <Type descriptor="Ljava/io/InputStream;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.InputStream" start="45" end="363" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java">
+        <Message>At InputStream.java:[lines 45-363]</Message>
+      </SourceLine>
+      <Message>Need to close java.io.InputStream </Message>
+    </Type>
+    <SourceLine classname="micropolisj.util.StringsModel" primary="true" start="171" end="171" startBytecode="106" endBytecode="106" sourcefile="StringsModel.java" sourcepath="micropolisj/util/StringsModel.java">
+      <Message>At StringsModel.java:[line 171]</Message>
+    </SourceLine>
+    <SourceLine classname="micropolisj.util.StringsModel" start="178" end="178" startBytecode="142" endBytecode="142" sourcefile="StringsModel.java" sourcepath="micropolisj/util/StringsModel.java" role="SOURCE_LINE_ANOTHER_INSTANCE">
+      <Message>Another occurrence at StringsModel.java:[line 178]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" instanceHash="ba31e7194c2dfcd94d728eb59b99a655" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method may fail to close stream</ShortMessage>
+    <LongMessage>micropolisj.util.StringsModel.loadStrings(String, ArrayList) may fail to close stream</LongMessage>
+    <Class classname="micropolisj.util.StringsModel" primary="true">
+      <SourceLine classname="micropolisj.util.StringsModel" start="15" end="238" sourcefile="StringsModel.java" sourcepath="micropolisj/util/StringsModel.java">
+        <Message>At StringsModel.java:[lines 15-238]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.util.StringsModel</Message>
+    </Class>
+    <Method classname="micropolisj.util.StringsModel" name="loadStrings" signature="(Ljava/lang/String;Ljava/util/ArrayList;)V" isStatic="true" primary="true">
+      <SourceLine classname="micropolisj.util.StringsModel" start="69" end="79" startBytecode="0" endBytecode="53" sourcefile="StringsModel.java" sourcepath="micropolisj/util/StringsModel.java"/>
+      <Message>In method micropolisj.util.StringsModel.loadStrings(String, ArrayList)</Message>
+    </Method>
+    <Type descriptor="Ljava/io/InputStream;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.InputStream" start="45" end="363" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java">
+        <Message>At InputStream.java:[lines 45-363]</Message>
+      </SourceLine>
+      <Message>Need to close java.io.InputStream </Message>
+    </Type>
+    <SourceLine classname="micropolisj.util.StringsModel" primary="true" start="70" end="70" startBytecode="36" endBytecode="36" sourcefile="StringsModel.java" sourcepath="micropolisj/util/StringsModel.java">
+      <Message>At StringsModel.java:[line 70]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" instanceHash="879f045ddb70218842fae096617404e4" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method may fail to close stream</ShortMessage>
+    <LongMessage>micropolisj.util.StringsModel.save() may fail to close stream</LongMessage>
+    <Class classname="micropolisj.util.StringsModel" primary="true">
+      <SourceLine classname="micropolisj.util.StringsModel" start="15" end="238" sourcefile="StringsModel.java" sourcepath="micropolisj/util/StringsModel.java">
+        <Message>At StringsModel.java:[lines 15-238]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.util.StringsModel</Message>
+    </Class>
+    <Method classname="micropolisj.util.StringsModel" name="save" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.util.StringsModel" start="225" end="238" startBytecode="0" endBytecode="58" sourcefile="StringsModel.java" sourcepath="micropolisj/util/StringsModel.java"/>
+      <Message>In method micropolisj.util.StringsModel.save()</Message>
+    </Method>
+    <Type descriptor="Ljava/io/OutputStream;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.OutputStream" start="46" end="152" sourcefile="OutputStream.java" sourcepath="java/io/OutputStream.java">
+        <Message>At OutputStream.java:[lines 46-152]</Message>
+      </SourceLine>
+      <Message>Need to close java.io.OutputStream </Message>
+    </Type>
+    <SourceLine classname="micropolisj.util.StringsModel" primary="true" start="234" end="234" startBytecode="95" endBytecode="95" sourcefile="StringsModel.java" sourcepath="micropolisj/util/StringsModel.java">
+      <Message>At StringsModel.java:[line 234]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" instanceHash="2656649fcc5a813ba28c4c9f8c1a0d5a" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="253">
+    <ShortMessage>Method ignores exceptional return value</ShortMessage>
+    <LongMessage>Exceptional return value of java.io.File.mkdirs() ignored in micropolisj.util.StringsModel.makeDirectories(File)</LongMessage>
+    <Class classname="micropolisj.util.StringsModel" primary="true">
+      <SourceLine classname="micropolisj.util.StringsModel" start="15" end="238" sourcefile="StringsModel.java" sourcepath="micropolisj/util/StringsModel.java">
+        <Message>At StringsModel.java:[lines 15-238]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.util.StringsModel</Message>
+    </Class>
+    <Method classname="micropolisj.util.StringsModel" name="makeDirectories" signature="(Ljava/io/File;)V" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.util.StringsModel" start="216" end="220" startBytecode="0" endBytecode="102" sourcefile="StringsModel.java" sourcepath="micropolisj/util/StringsModel.java"/>
+      <Message>In method micropolisj.util.StringsModel.makeDirectories(File)</Message>
+    </Method>
+    <Method classname="java.io.File" name="mkdirs" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1334" end="1348" startBytecode="0" endBytecode="174" sourcefile="File.java" sourcepath="java/io/File.java"/>
+      <Message>Called method java.io.File.mkdirs()</Message>
+    </Method>
+    <SourceLine classname="micropolisj.util.StringsModel" primary="true" start="218" end="218" startBytecode="10" endBytecode="10" sourcefile="StringsModel.java" sourcepath="micropolisj/util/StringsModel.java">
+      <Message>At StringsModel.java:[line 218]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DM_EXIT" priority="2" rank="16" abbrev="Dm" category="BAD_PRACTICE" instanceHash="c374b6862507aa53b703cff9894141bd" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="382">
+    <ShortMessage>Method invokes System.exit(...)</ShortMessage>
+    <LongMessage>new micropolisj.util.TranslationTool() invokes System.exit(...), which shuts down the entire virtual machine</LongMessage>
+    <Class classname="micropolisj.util.TranslationTool" primary="true">
+      <SourceLine classname="micropolisj.util.TranslationTool" start="18" end="323" sourcefile="TranslationTool.java" sourcepath="micropolisj/util/TranslationTool.java">
+        <Message>At TranslationTool.java:[lines 18-323]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.util.TranslationTool</Message>
+    </Class>
+    <Method classname="micropolisj.util.TranslationTool" name="&lt;init&gt;" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.util.TranslationTool" start="28" end="89" startBytecode="0" endBytecode="513" sourcefile="TranslationTool.java" sourcepath="micropolisj/util/TranslationTool.java"/>
+      <Message>In method new micropolisj.util.TranslationTool()</Message>
+    </Method>
+    <SourceLine classname="micropolisj.util.TranslationTool" primary="true" start="39" end="39" startBytecode="42" endBytecode="42" sourcefile="TranslationTool.java" sourcepath="micropolisj/util/TranslationTool.java">
+      <Message>At TranslationTool.java:[line 39]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" instanceHash="21449a7584334250dd3a5c37b0eff79d" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Method concatenates strings using + in a loop</ShortMessage>
+    <LongMessage>micropolisj.util.TranslationTool.onSubmitClicked() concatenates strings using + in a loop</LongMessage>
+    <Class classname="micropolisj.util.TranslationTool" primary="true">
+      <SourceLine classname="micropolisj.util.TranslationTool" start="18" end="323" sourcefile="TranslationTool.java" sourcepath="micropolisj/util/TranslationTool.java">
+        <Message>At TranslationTool.java:[lines 18-323]</Message>
+      </SourceLine>
+      <Message>In class micropolisj.util.TranslationTool</Message>
+    </Class>
+    <Method classname="micropolisj.util.TranslationTool" name="onSubmitClicked" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="micropolisj.util.TranslationTool" start="293" end="317" startBytecode="0" endBytecode="420" sourcefile="TranslationTool.java" sourcepath="micropolisj/util/TranslationTool.java"/>
+      <Message>In method micropolisj.util.TranslationTool.onSubmitClicked()</Message>
+    </Method>
+    <SourceLine classname="micropolisj.util.TranslationTool" primary="true" start="305" end="305" startBytecode="118" endBytecode="118" sourcefile="TranslationTool.java" sourcepath="micropolisj/util/TranslationTool.java">
+      <Message>At TranslationTool.java:[line 305]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="STYLE">
+    <Description>Dodgy code</Description>
+  </BugCategory>
+  <BugCategory category="BAD_PRACTICE">
+    <Description>Bad practice</Description>
+  </BugCategory>
+  <BugCategory category="I18N">
+    <Description>Internationalization</Description>
+  </BugCategory>
+  <BugCategory category="PERFORMANCE">
+    <Description>Performance</Description>
+  </BugCategory>
+  <BugCategory category="EXPERIMENTAL">
+    <Description>Experimental</Description>
+  </BugCategory>
+  <BugPattern type="IM_BAD_CHECK_FOR_ODD" abbrev="IM" category="STYLE">
+    <ShortDescription>Check for oddness that won&apos;t work for negative numbers </ShortDescription>
+    <Details><![CDATA[
+
+<p>
+The code uses x % 2 == 1 to check to see if a value is odd, but this won't work
+for negative numbers (e.g., (-5) % 2 == -1). If this code is intending to check
+for oddness, consider using x &amp; 1 == 1, or x % 2 != 0.
+</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="HE_EQUALS_USE_HASHCODE" abbrev="HE" category="BAD_PRACTICE">
+    <ShortDescription>Class defines equals() and uses Object.hashCode()</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This class overrides <code>equals(Object)</code>, but does not
+  override <code>hashCode()</code>, and inherits the implementation of
+  <code>hashCode()</code> from <code>java.lang.Object</code> (which returns
+  the identity hash code, an arbitrary value assigned to the object
+  by the VM).&nbsp; Therefore, the class is very likely to violate the
+  invariant that equal objects must have equal hashcodes.</p>
+
+<p>If you don't think instances of this class will ever be inserted into a HashMap/HashTable,
+the recommended <code>hashCode</code> implementation to use is:</p>
+<pre>public int hashCode() {
+  assert false : "hashCode not designed";
+  return 42; // any arbitrary constant will do
+  }</pre>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="RV_NEGATING_RESULT_OF_COMPARETO" abbrev="RV" category="BAD_PRACTICE">
+    <ShortDescription>Negating the result of compareTo()/compare()</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This code negatives the return value of a compareTo or compare method.
+This is a questionable or bad programming practice, since if the return
+value is Integer.MIN_VALUE, negating the return value won't
+negate the sign of the result. You can achieve the same intended result
+by reversing the order of the operands rather than by negating the results.
+</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="IM_AVERAGE_COMPUTATION_COULD_OVERFLOW" abbrev="IM" category="STYLE">
+    <ShortDescription>Computation of average could overflow</ShortDescription>
+    <Details><![CDATA[
+
+<p>The code computes the average of two integers using either division or signed right shift,
+and then uses the result as the index of an array.
+If the values being averaged are very large, this can overflow (resulting in the computation
+of a negative average).  Assuming that the result is intended to be nonnegative, you
+can use an unsigned right shift instead. In other words, rather that using <code>(low+high)/2</code>,
+use <code>(low+high) &gt;&gt;&gt; 1</code>
+</p>
+<p>This bug exists in many earlier implementations of binary search and merge sort.
+Martin Buchholz <a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6412541">found and fixed it</a>
+in the JDK libraries, and Joshua Bloch
+<a href="http://googleresearch.blogspot.com/2006/06/extra-extra-read-all-about-it-nearly.html">widely
+publicized the bug pattern</a>.
+</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="RR_NOT_CHECKED" abbrev="RR" category="BAD_PRACTICE">
+    <ShortDescription>Method ignores results of InputStream.read()</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This method ignores the return value of one of the variants of
+  <code>java.io.InputStream.read()</code> which can return multiple bytes.&nbsp;
+  If the return value is not checked, the caller will not be able to correctly
+  handle the case where fewer bytes were read than the caller requested.&nbsp;
+  This is a particularly insidious kind of bug, because in many programs,
+  reads from input streams usually do read the full amount of data requested,
+  causing the program to fail only sporadically.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE" abbrev="RCN" category="STYLE">
+    <ShortDescription>Redundant nullcheck of value known to be non-null</ShortDescription>
+    <Details><![CDATA[
+
+<p> This method contains a redundant check of a known non-null value against
+the constant null.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" abbrev="RV" category="BAD_PRACTICE" cweid="253">
+    <ShortDescription>Method ignores exceptional return value</ShortDescription>
+    <Details><![CDATA[
+
+   <p> This method returns a value that is not checked. The return value should be checked
+since it can indicate an unusual or unexpected function execution. For
+example, the <code>File.delete()</code> method returns false
+if the file could not be successfully deleted (rather than
+throwing an Exception).
+If you don't check the result, you won't notice if the method invocation
+signals unexpected behavior by returning an atypical return value.
+</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="DMI_HARDCODED_ABSOLUTE_FILENAME" abbrev="DMI" category="STYLE">
+    <ShortDescription>Code contains a hard coded reference to an absolute pathname</ShortDescription>
+    <Details><![CDATA[
+
+<p>This code constructs a File object using a hard coded to an absolute pathname
+(e.g., <code>new File("/home/dannyc/workspace/j2ee/src/share/com/sun/enterprise/deployment");</code>
+</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="DM_DEFAULT_ENCODING" abbrev="Dm" category="I18N">
+    <ShortDescription>Reliance on default encoding</ShortDescription>
+    <Details><![CDATA[
+
+<p> Found a call to a method which will perform a byte to String (or String to byte) conversion, and will assume that the default platform encoding is suitable. This will cause the application behaviour to vary between platforms. Use an alternative API and specify a charset name or Charset object explicitly.  </p>
+
+      ]]></Details>
+  </BugPattern>
+  <BugPattern type="DM_EXIT" abbrev="Dm" category="BAD_PRACTICE" cweid="382">
+    <ShortDescription>Method invokes System.exit(...)</ShortDescription>
+    <Details><![CDATA[
+
+  <p> Invoking System.exit shuts down the entire Java virtual machine. This
+   should only been done when it is appropriate. Such calls make it
+   hard or impossible for your code to be invoked by other code.
+   Consider throwing a RuntimeException instead.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" abbrev="UrF" category="STYLE">
+    <ShortDescription>Unread public/protected field</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This field is never read.&nbsp;
+The field is public or protected, so perhaps
+    it is intended to be used with classes not seen as part of the analysis. If not,
+consider removing it from the class.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="OBL_UNSATISFIED_OBLIGATION" abbrev="OBL" category="EXPERIMENTAL">
+    <ShortDescription>Method may fail to clean up stream or resource</ShortDescription>
+    <Details><![CDATA[
+          
+          <p>
+          This method may fail to clean up (close, dispose of) a stream,
+          database object, or other
+          resource requiring an explicit cleanup operation.
+          </p>
+
+          <p>
+          In general, if a method opens a stream or other resource,
+          the method should use a try/finally block to ensure that
+          the stream or resource is cleaned up before the method
+          returns.
+          </p>
+
+          <p>
+          This bug pattern is essentially the same as the
+          OS_OPEN_STREAM and ODR_OPEN_DATABASE_RESOURCE
+          bug patterns, but is based on a different
+          (and hopefully better) static analysis technique.
+          We are interested is getting feedback about the
+          usefulness of this bug pattern.
+          To send feedback, either:
+          </p>
+          <ul>
+            <li>send email to findbugs@cs.umd.edu</li>
+            <li>file a bug report: <a href="http://findbugs.sourceforge.net/reportingBugs.html">http://findbugs.sourceforge.net/reportingBugs.html</a></li>
+          </ul>
+
+          <p>
+          In particular,
+          the false-positive suppression heuristics for this
+          bug pattern have not been extensively tuned, so
+          reports about false positives are helpful to us.
+          </p>
+
+          <p>
+          See Weimer and Necula, <i>Finding and Preventing Run-Time Error Handling Mistakes</i>, for
+          a description of the analysis technique.
+          </p>
+          
+      ]]></Details>
+  </BugPattern>
+  <BugPattern type="URF_UNREAD_FIELD" abbrev="UrF" category="PERFORMANCE">
+    <ShortDescription>Unread field</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This field is never read.&nbsp; Consider removing it from the class.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="SF_SWITCH_NO_DEFAULT" abbrev="SF" category="STYLE">
+    <ShortDescription>Switch statement found where default case is missing</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This method contains a switch statement where default case is missing.
+  Usually you need to provide a default case.</p>
+  <p>Because the analysis only looks at the generated bytecode, this warning can be incorrect triggered if
+the default case is at the end of the switch statement and doesn't end with a break statement.
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="OS_OPEN_STREAM" abbrev="OS" category="BAD_PRACTICE">
+    <ShortDescription>Method may fail to close stream</ShortDescription>
+    <Details><![CDATA[
+
+<p> The method creates an IO stream object, does not assign it to any
+fields, pass it to other methods that might close it,
+or return it, and does not appear to close
+the stream on all paths out of the method.&nbsp; This may result in
+a file descriptor leak.&nbsp; It is generally a good
+idea to use a <code>finally</code> block to ensure that streams are
+closed.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="VA_FORMAT_STRING_USES_NEWLINE" abbrev="FS" category="BAD_PRACTICE">
+    <ShortDescription>Format string should use %n rather than \n</ShortDescription>
+    <Details><![CDATA[
+
+<p>
+This format string include a newline character (\n). In format strings, it is generally
+ preferable better to use %n, which will produce the platform-specific line separator.
+</p>
+
+     ]]></Details>
+  </BugPattern>
+  <BugPattern type="SBSC_USE_STRINGBUFFER_CONCATENATION" abbrev="SBSC" category="PERFORMANCE">
+    <ShortDescription>Method concatenates strings using + in a loop</ShortDescription>
+    <Details><![CDATA[
+
+<p> The method seems to be building a String using concatenation in a loop.
+In each iteration, the String is converted to a StringBuffer/StringBuilder,
+   appended to, and converted back to a String.
+   This can lead to a cost quadratic in the number of iterations,
+   as the growing string is recopied in each iteration. </p>
+
+<p>Better performance can be obtained by using
+a StringBuffer (or StringBuilder in Java 1.5) explicitly.</p>
+
+<p> For example:</p>
+<pre>
+  // This is bad
+  String s = "";
+  for (int i = 0; i &lt; field.length; ++i) {
+    s = s + field[i];
+  }
+
+  // This is better
+  StringBuffer buf = new StringBuffer();
+  for (int i = 0; i &lt; field.length; ++i) {
+    buf.append(field[i]);
+  }
+  String s = buf.toString();
+</pre>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="DLS_DEAD_LOCAL_STORE" abbrev="DLS" category="STYLE">
+    <ShortDescription>Dead store to local variable</ShortDescription>
+    <Details><![CDATA[
+
+<p>
+This instruction assigns a value to a local variable,
+but the value is not read or used in any subsequent instruction.
+Often, this indicates an error, because the value computed is never
+used.
+</p>
+<p>
+Note that Sun's javac compiler often generates dead stores for
+final local variables.  Because FindBugs is a bytecode-based tool,
+there is no easy way to eliminate these false positives.
+</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="ICAST_IDIV_CAST_TO_DOUBLE" abbrev="ICAST" category="STYLE">
+    <ShortDescription>Integral division result cast to double or float</ShortDescription>
+    <Details><![CDATA[
+
+<p>
+This code casts the result of an integral division (e.g., int or long division)
+operation to double or
+float.
+Doing division on integers truncates the result
+to the integer value closest to zero.  The fact that the result
+was cast to double suggests that this precision should have been retained.
+What was probably meant was to cast one or both of the operands to
+double <em>before</em> performing the division.  Here is an example:
+</p>
+<blockquote>
+<pre>
+int x = 2;
+int y = 5;
+// Wrong: yields result 0.0
+double value1 =  x / y;
+
+// Right: yields result 0.4
+double value2 =  x / (double) y;
+</pre>
+</blockquote>
+
+    ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="SBSC">
+    <Description>String concatenation in loop using + operator</Description>
+  </BugCode>
+  <BugCode abbrev="SF">
+    <Description>Switch case falls through</Description>
+  </BugCode>
+  <BugCode abbrev="HE">
+    <Description>Equal objects must have equal hashcodes</Description>
+  </BugCode>
+  <BugCode abbrev="IM">
+    <Description>Questionable integer math</Description>
+  </BugCode>
+  <BugCode abbrev="DLS" cweid="563">
+    <Description>Dead local store</Description>
+  </BugCode>
+  <BugCode abbrev="OBL">
+    <Description>Unsatisfied obligation to clean up stream or resource</Description>
+  </BugCode>
+  <BugCode abbrev="OS">
+    <Description>Stream not closed on all paths</Description>
+  </BugCode>
+  <BugCode abbrev="DMI" cweid="440">
+    <Description>Dubious method invocation</Description>
+  </BugCode>
+  <BugCode abbrev="FS">
+    <Description>Format string problem</Description>
+  </BugCode>
+  <BugCode abbrev="RR">
+    <Description>Method ignores results of InputStream.read()</Description>
+  </BugCode>
+  <BugCode abbrev="ICAST" cweid="192">
+    <Description>Casting from integer values</Description>
+  </BugCode>
+  <BugCode abbrev="Dm">
+    <Description>Dubious method used</Description>
+  </BugCode>
+  <BugCode abbrev="RV" cweid="440">
+    <Description>Bad use of return value from method</Description>
+  </BugCode>
+  <BugCode abbrev="UrF">
+    <Description>Unread field</Description>
+  </BugCode>
+  <BugCode abbrev="RCN" cweid="476">
+    <Description>Redundant comparison to null</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 12 Nov 2014 12:18:34 -0800" total_classes="162" referenced_classes="721" total_bugs="44" total_size="8755" num_packages="5" java_version="1.7.0_51" vm_version="24.51-b03" cpu_seconds="54.73" clock_seconds="19.60" peak_mbytes="528.07" alloc_mbytes="1820.50" gc_seconds="0.98" priority_2="40" priority_1="4">
+    <FileStats path="micropolisj/Main.java" bugCount="0" size="17"/>
+    <FileStats path="micropolisj/build_tool/MakeTiles.java" bugCount="9" size="158" bugHash="baba282eb67761d8508790f01354d009"/>
+    <FileStats path="micropolisj/build_tool/RearrangeTiles.java" bugCount="0" size="24"/>
+    <FileStats path="micropolisj/engine/AirplaneSprite.java" bugCount="0" size="47"/>
+    <FileStats path="micropolisj/engine/BudgetNumbers.java" bugCount="0" size="17"/>
+    <FileStats path="micropolisj/engine/BuildingTool.java" bugCount="0" size="24"/>
+    <FileStats path="micropolisj/engine/Bulldozer.java" bugCount="0" size="54"/>
+    <FileStats path="micropolisj/engine/CityBudget.java" bugCount="0" size="11"/>
+    <FileStats path="micropolisj/engine/CityDimension.java" bugCount="0" size="17"/>
+    <FileStats path="micropolisj/engine/CityEval.java" bugCount="1" size="174" bugHash="c929e1e4d5876e85b285ea6f88ba59e5"/>
+    <FileStats path="micropolisj/engine/CityLocation.java" bugCount="0" size="17"/>
+    <FileStats path="micropolisj/engine/CityProblem.java" bugCount="0" size="21"/>
+    <FileStats path="micropolisj/engine/CityRect.java" bugCount="1" size="22" bugHash="f675fb7832e600c6c3ce9d52291fe559"/>
+    <FileStats path="micropolisj/engine/Disaster.java" bugCount="0" size="19"/>
+    <FileStats path="micropolisj/engine/EarthquakeListener.java" bugCount="0" size="2"/>
+    <FileStats path="micropolisj/engine/ExplosionSprite.java" bugCount="0" size="36"/>
+    <FileStats path="micropolisj/engine/GameLevel.java" bugCount="0" size="13"/>
+    <FileStats path="micropolisj/engine/HelicopterSprite.java" bugCount="0" size="60"/>
+    <FileStats path="micropolisj/engine/MapGenerator.java" bugCount="0" size="285"/>
+    <FileStats path="micropolisj/engine/MapListener.java" bugCount="0" size="5"/>
+    <FileStats path="micropolisj/engine/MapScanner.java" bugCount="5" size="503" bugHash="d9a457d3ebe06ddb1c045d7a99fa3f9b"/>
+    <FileStats path="micropolisj/engine/MapState.java" bugCount="0" size="35"/>
+    <FileStats path="micropolisj/engine/Micropolis.java" bugCount="10" size="1555" bugHash="47b553d59faf08c28e48bf547da25b3a"/>
+    <FileStats path="micropolisj/engine/MicropolisMessage.java" bugCount="0" size="116"/>
+    <FileStats path="micropolisj/engine/MicropolisTool.java" bugCount="0" size="63"/>
+    <FileStats path="micropolisj/engine/MonsterSprite.java" bugCount="0" size="98"/>
+    <FileStats path="micropolisj/engine/RoadLikeTool.java" bugCount="0" size="193"/>
+    <FileStats path="micropolisj/engine/ShipSprite.java" bugCount="0" size="88"/>
+    <FileStats path="micropolisj/engine/Sound.java" bugCount="0" size="43"/>
+    <FileStats path="micropolisj/engine/Speed.java" bugCount="0" size="23"/>
+    <FileStats path="micropolisj/engine/Sprite.java" bugCount="2" size="110" bugHash="0b0060590fad408fc26f832dcb5d18dd"/>
+    <FileStats path="micropolisj/engine/SpriteKind.java" bugCount="0" size="29"/>
+    <FileStats path="micropolisj/engine/TerrainBehavior.java" bugCount="0" size="184"/>
+    <FileStats path="micropolisj/engine/TileBehavior.java" bugCount="0" size="18"/>
+    <FileStats path="micropolisj/engine/TileConstants.java" bugCount="0" size="305"/>
+    <FileStats path="micropolisj/engine/TileSpec.java" bugCount="0" size="221"/>
+    <FileStats path="micropolisj/engine/Tiles.java" bugCount="2" size="51" bugHash="ab4ef65694ce00aac2dea365114a7bb0"/>
+    <FileStats path="micropolisj/engine/ToolEffect.java" bugCount="0" size="53"/>
+    <FileStats path="micropolisj/engine/ToolEffectIfc.java" bugCount="0" size="6"/>
+    <FileStats path="micropolisj/engine/ToolPreview.java" bugCount="0" size="93"/>
+    <FileStats path="micropolisj/engine/ToolResult.java" bugCount="0" size="15"/>
+    <FileStats path="micropolisj/engine/ToolStroke.java" bugCount="0" size="177"/>
+    <FileStats path="micropolisj/engine/TornadoSprite.java" bugCount="0" size="44"/>
+    <FileStats path="micropolisj/engine/TrafficGen.java" bugCount="1" size="132" bugHash="484dad3eca691356827b6e06325ca5d6"/>
+    <FileStats path="micropolisj/engine/TrainSprite.java" bugCount="0" size="62"/>
+    <FileStats path="micropolisj/engine/TranslatedToolEffect.java" bugCount="0" size="24"/>
+    <FileStats path="micropolisj/engine/ZoneStatus.java" bugCount="0" size="9"/>
+    <FileStats path="micropolisj/gui/BudgetDialog.java" bugCount="0" size="302"/>
+    <FileStats path="micropolisj/gui/ColorParser.java" bugCount="0" size="15"/>
+    <FileStats path="micropolisj/gui/DemandIndicator.java" bugCount="0" size="88"/>
+    <FileStats path="micropolisj/gui/EvaluationPane.java" bugCount="0" size="214"/>
+    <FileStats path="micropolisj/gui/GraphsPane.java" bugCount="2" size="275" bugHash="3633b91b855a98991963d17594ddea1e"/>
+    <FileStats path="micropolisj/gui/MainWindow.java" bugCount="1" size="1285" bugHash="fbf49b6a99fc6edd73a483b2426f21c6"/>
+    <FileStats path="micropolisj/gui/MessagesPane.java" bugCount="0" size="20"/>
+    <FileStats path="micropolisj/gui/MicropolisDrawingArea.java" bugCount="1" size="268" bugHash="2e571ca06789114ab9920867fd49691b"/>
+    <FileStats path="micropolisj/gui/NewCityDialog.java" bugCount="1" size="197" bugHash="2559dd7f787d686bd236e7446d2f1377"/>
+    <FileStats path="micropolisj/gui/NotificationPane.java" bugCount="0" size="120"/>
+    <FileStats path="micropolisj/gui/OverlayMapView.java" bugCount="1" size="309" bugHash="f5d9a5072e7fc1153ab54ff531411f9e"/>
+    <FileStats path="micropolisj/gui/TileImages.java" bugCount="0" size="67"/>
+    <FileStats path="micropolisj/util/StringsModel.java" bugCount="5" size="126" bugHash="dd63ef132ae5998b3e47a5118f61686a"/>
+    <FileStats path="micropolisj/util/TranslatedStringsTable.java" bugCount="0" size="5"/>
+    <FileStats path="micropolisj/util/TranslationTool.java" bugCount="2" size="191" bugHash="3b26481e0b99c857d8bfac96c8c17dd1"/>
+    <PackageStats package="micropolisj" total_bugs="0" total_types="2" total_size="17">
+      <ClassStats class="micropolisj.Main" sourceFile="Main.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="micropolisj.Main$1" sourceFile="Main.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="micropolisj.build_tool" total_bugs="9" total_types="4" total_size="182" priority_2="8" priority_1="1">
+      <ClassStats class="micropolisj.build_tool.MakeTiles" sourceFile="MakeTiles.java" interface="false" size="143" bugs="9" priority_2="8" priority_1="1"/>
+      <ClassStats class="micropolisj.build_tool.MakeTiles$FrameSpec" sourceFile="MakeTiles.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.build_tool.MakeTiles$SourceImage" sourceFile="MakeTiles.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="micropolisj.build_tool.RearrangeTiles" sourceFile="RearrangeTiles.java" interface="false" size="24" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="micropolisj.engine" total_bugs="22" total_types="63" total_size="5074" priority_2="19" priority_1="3">
+      <ClassStats class="micropolisj.engine.AirplaneSprite" sourceFile="AirplaneSprite.java" interface="false" size="47" bugs="0"/>
+      <ClassStats class="micropolisj.engine.BudgetNumbers" sourceFile="BudgetNumbers.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="micropolisj.engine.BuildingTool" sourceFile="BuildingTool.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="micropolisj.engine.BuildingTool$1" sourceFile="BuildingTool.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="micropolisj.engine.Bulldozer" sourceFile="Bulldozer.java" interface="false" size="54" bugs="0"/>
+      <ClassStats class="micropolisj.engine.CityBudget" sourceFile="CityBudget.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="micropolisj.engine.CityDimension" sourceFile="CityDimension.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="micropolisj.engine.CityEval" sourceFile="CityEval.java" interface="false" size="167" bugs="0"/>
+      <ClassStats class="micropolisj.engine.CityEval$1" sourceFile="CityEval.java" interface="false" size="7" bugs="1" priority_2="1"/>
+      <ClassStats class="micropolisj.engine.CityLocation" sourceFile="CityLocation.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="micropolisj.engine.CityProblem" sourceFile="CityProblem.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="micropolisj.engine.CityRect" sourceFile="CityRect.java" interface="false" size="22" bugs="1" priority_1="1"/>
+      <ClassStats class="micropolisj.engine.Disaster" sourceFile="Disaster.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="micropolisj.engine.EarthquakeListener" sourceFile="EarthquakeListener.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="micropolisj.engine.ExplosionSprite" sourceFile="ExplosionSprite.java" interface="false" size="36" bugs="0"/>
+      <ClassStats class="micropolisj.engine.GameLevel" sourceFile="GameLevel.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="micropolisj.engine.HelicopterSprite" sourceFile="HelicopterSprite.java" interface="false" size="60" bugs="0"/>
+      <ClassStats class="micropolisj.engine.MapGenerator" sourceFile="MapGenerator.java" interface="false" size="272" bugs="0"/>
+      <ClassStats class="micropolisj.engine.MapGenerator$CreateIsland" sourceFile="MapGenerator.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="micropolisj.engine.MapListener" sourceFile="MapListener.java" interface="true" size="5" bugs="0"/>
+      <ClassStats class="micropolisj.engine.MapScanner" sourceFile="MapScanner.java" interface="false" size="468" bugs="5" priority_2="4" priority_1="1"/>
+      <ClassStats class="micropolisj.engine.MapScanner$1" sourceFile="MapScanner.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="micropolisj.engine.MapScanner$B" sourceFile="MapScanner.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="micropolisj.engine.MapState" sourceFile="MapState.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="micropolisj.engine.Micropolis" sourceFile="Micropolis.java" interface="false" size="1521" bugs="10" priority_2="10"/>
+      <ClassStats class="micropolisj.engine.Micropolis$FinancialHistory" sourceFile="Micropolis.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.engine.Micropolis$History" sourceFile="Micropolis.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="micropolisj.engine.Micropolis$Listener" sourceFile="Micropolis.java" interface="true" size="8" bugs="0"/>
+      <ClassStats class="micropolisj.engine.MicropolisMessage" sourceFile="MicropolisMessage.java" interface="false" size="116" bugs="0"/>
+      <ClassStats class="micropolisj.engine.MicropolisTool" sourceFile="MicropolisTool.java" interface="false" size="59" bugs="0"/>
+      <ClassStats class="micropolisj.engine.MicropolisTool$1" sourceFile="MicropolisTool.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="micropolisj.engine.MonsterSprite" sourceFile="MonsterSprite.java" interface="false" size="98" bugs="0"/>
+      <ClassStats class="micropolisj.engine.RoadLikeTool" sourceFile="RoadLikeTool.java" interface="false" size="189" bugs="0"/>
+      <ClassStats class="micropolisj.engine.RoadLikeTool$1" sourceFile="RoadLikeTool.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="micropolisj.engine.ShipSprite" sourceFile="ShipSprite.java" interface="false" size="88" bugs="0"/>
+      <ClassStats class="micropolisj.engine.Sound" sourceFile="Sound.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="micropolisj.engine.Speed" sourceFile="Speed.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="micropolisj.engine.Sprite" sourceFile="Sprite.java" interface="false" size="106" bugs="2" priority_2="2"/>
+      <ClassStats class="micropolisj.engine.Sprite$1" sourceFile="Sprite.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="micropolisj.engine.SpriteKind" sourceFile="SpriteKind.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="micropolisj.engine.TerrainBehavior" sourceFile="TerrainBehavior.java" interface="false" size="161" bugs="0"/>
+      <ClassStats class="micropolisj.engine.TerrainBehavior$1" sourceFile="TerrainBehavior.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="micropolisj.engine.TerrainBehavior$B" sourceFile="TerrainBehavior.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="micropolisj.engine.TileBehavior" sourceFile="TileBehavior.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="micropolisj.engine.TileConstants" sourceFile="TileConstants.java" interface="false" size="305" bugs="0"/>
+      <ClassStats class="micropolisj.engine.TileSpec" sourceFile="TileSpec.java" interface="false" size="157" bugs="0"/>
+      <ClassStats class="micropolisj.engine.TileSpec$BuildingInfo" sourceFile="TileSpec.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="micropolisj.engine.TileSpec$Scanner" sourceFile="TileSpec.java" interface="false" size="58" bugs="0"/>
+      <ClassStats class="micropolisj.engine.Tiles" sourceFile="Tiles.java" interface="false" size="51" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="micropolisj.engine.ToolEffect" sourceFile="ToolEffect.java" interface="false" size="53" bugs="0"/>
+      <ClassStats class="micropolisj.engine.ToolEffectIfc" sourceFile="ToolEffectIfc.java" interface="true" size="6" bugs="0"/>
+      <ClassStats class="micropolisj.engine.ToolPreview" sourceFile="ToolPreview.java" interface="false" size="83" bugs="0"/>
+      <ClassStats class="micropolisj.engine.ToolPreview$SoundInfo" sourceFile="ToolPreview.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="micropolisj.engine.ToolResult" sourceFile="ToolResult.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="micropolisj.engine.ToolStroke" sourceFile="ToolStroke.java" interface="false" size="173" bugs="0"/>
+      <ClassStats class="micropolisj.engine.ToolStroke$1" sourceFile="ToolStroke.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="micropolisj.engine.TornadoSprite" sourceFile="TornadoSprite.java" interface="false" size="44" bugs="0"/>
+      <ClassStats class="micropolisj.engine.TrafficGen" sourceFile="TrafficGen.java" interface="false" size="117" bugs="1" priority_2="1"/>
+      <ClassStats class="micropolisj.engine.TrafficGen$1" sourceFile="TrafficGen.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="micropolisj.engine.TrafficGen$ZoneType" sourceFile="TrafficGen.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="micropolisj.engine.TrainSprite" sourceFile="TrainSprite.java" interface="false" size="62" bugs="0"/>
+      <ClassStats class="micropolisj.engine.TranslatedToolEffect" sourceFile="TranslatedToolEffect.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="micropolisj.engine.ZoneStatus" sourceFile="ZoneStatus.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="micropolisj.gui" total_bugs="6" total_types="83" total_size="3160" priority_2="6">
+      <ClassStats class="micropolisj.gui.BudgetDialog" sourceFile="BudgetDialog.java" interface="false" size="274" bugs="0"/>
+      <ClassStats class="micropolisj.gui.BudgetDialog$1" sourceFile="BudgetDialog.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.BudgetDialog$2" sourceFile="BudgetDialog.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.BudgetDialog$3" sourceFile="BudgetDialog.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.BudgetDialog$4" sourceFile="BudgetDialog.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.ColorParser" sourceFile="ColorParser.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="micropolisj.gui.DemandIndicator" sourceFile="DemandIndicator.java" interface="false" size="88" bugs="0"/>
+      <ClassStats class="micropolisj.gui.EvaluationPane" sourceFile="EvaluationPane.java" interface="false" size="207" bugs="0"/>
+      <ClassStats class="micropolisj.gui.EvaluationPane$1" sourceFile="EvaluationPane.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.GraphsPane" sourceFile="GraphsPane.java" interface="false" size="130" bugs="0"/>
+      <ClassStats class="micropolisj.gui.GraphsPane$1" sourceFile="GraphsPane.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.GraphsPane$2" sourceFile="GraphsPane.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.GraphsPane$3" sourceFile="GraphsPane.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.GraphsPane$4" sourceFile="GraphsPane.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.GraphsPane$5" sourceFile="GraphsPane.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="micropolisj.gui.GraphsPane$GraphArea" sourceFile="GraphsPane.java" interface="false" size="73" bugs="1" priority_2="1"/>
+      <ClassStats class="micropolisj.gui.GraphsPane$GraphArea$1" sourceFile="GraphsPane.java" interface="false" size="10" bugs="1" priority_2="1"/>
+      <ClassStats class="micropolisj.gui.GraphsPane$GraphData" sourceFile="GraphsPane.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="micropolisj.gui.GraphsPane$TimePeriod" sourceFile="GraphsPane.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow" sourceFile="MainWindow.java" interface="false" size="948" bugs="1" priority_2="1"/>
+      <ClassStats class="micropolisj.gui.MainWindow$1" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$10" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$11" sourceFile="MainWindow.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$12" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$13" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$14" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$15" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$16" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$17" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$18" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$19" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$2" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$20" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$21" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$22" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$23" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$24" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$25" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$26" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$27" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$28" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$29" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$3" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$30" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$31" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$32" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$33" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$34" sourceFile="MainWindow.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$35" sourceFile="MainWindow.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$36" sourceFile="MainWindow.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$37" sourceFile="MainWindow.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$38" sourceFile="MainWindow.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$39" sourceFile="MainWindow.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$4" sourceFile="MainWindow.java" interface="false" size="40" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$5" sourceFile="MainWindow.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$6" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$7" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$8" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$9" sourceFile="MainWindow.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MainWindow$EarthquakeStepper" sourceFile="MainWindow.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MessagesPane" sourceFile="MessagesPane.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MicropolisDrawingArea" sourceFile="MicropolisDrawingArea.java" interface="false" size="215" bugs="1" priority_2="1"/>
+      <ClassStats class="micropolisj.gui.MicropolisDrawingArea$1" sourceFile="MicropolisDrawingArea.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MicropolisDrawingArea$2" sourceFile="MicropolisDrawingArea.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MicropolisDrawingArea$3" sourceFile="MicropolisDrawingArea.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MicropolisDrawingArea$4" sourceFile="MicropolisDrawingArea.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.MicropolisDrawingArea$ToolCursor" sourceFile="MicropolisDrawingArea.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="micropolisj.gui.NewCityDialog" sourceFile="NewCityDialog.java" interface="false" size="140" bugs="1" priority_2="1"/>
+      <ClassStats class="micropolisj.gui.NewCityDialog$1" sourceFile="NewCityDialog.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="micropolisj.gui.NewCityDialog$2" sourceFile="NewCityDialog.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.NewCityDialog$3" sourceFile="NewCityDialog.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.NewCityDialog$4" sourceFile="NewCityDialog.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.NewCityDialog$5" sourceFile="NewCityDialog.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.NewCityDialog$6" sourceFile="NewCityDialog.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.NewCityDialog$7" sourceFile="NewCityDialog.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.NewCityDialog$8" sourceFile="NewCityDialog.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.NotificationPane" sourceFile="NotificationPane.java" interface="false" size="113" bugs="0"/>
+      <ClassStats class="micropolisj.gui.NotificationPane$1" sourceFile="NotificationPane.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.gui.OverlayMapView" sourceFile="OverlayMapView.java" interface="false" size="282" bugs="1" priority_2="1"/>
+      <ClassStats class="micropolisj.gui.OverlayMapView$1" sourceFile="OverlayMapView.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="micropolisj.gui.OverlayMapView$2" sourceFile="OverlayMapView.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="micropolisj.gui.OverlayMapView$ConnectedView" sourceFile="OverlayMapView.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="micropolisj.gui.TileImages" sourceFile="TileImages.java" interface="false" size="67" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="micropolisj.util" total_bugs="7" total_types="10" total_size="322" priority_2="7">
+      <ClassStats class="micropolisj.util.StringsModel" sourceFile="StringsModel.java" interface="false" size="109" bugs="5" priority_2="5"/>
+      <ClassStats class="micropolisj.util.StringsModel$MyLocaleInfo" sourceFile="StringsModel.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="micropolisj.util.StringsModel$StringInfo" sourceFile="StringsModel.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="micropolisj.util.TranslatedStringsTable" sourceFile="TranslatedStringsTable.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="micropolisj.util.TranslationTool" sourceFile="TranslationTool.java" interface="false" size="156" bugs="2" priority_2="2"/>
+      <ClassStats class="micropolisj.util.TranslationTool$1" sourceFile="TranslationTool.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.util.TranslationTool$2" sourceFile="TranslationTool.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.util.TranslationTool$3" sourceFile="TranslationTool.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.util.TranslationTool$4" sourceFile="TranslationTool.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="micropolisj.util.TranslationTool$5" sourceFile="TranslationTool.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="1786" invocations="1103" avgMicrosecondsPerInvocation="1619" maxMicrosecondsPerInvocation="671038" standardDeviationMircosecondsPerInvocation="20298"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1467" invocations="2347" avgMicrosecondsPerInvocation="625" maxMicrosecondsPerInvocation="39761" standardDeviationMircosecondsPerInvocation="2057"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="1377" invocations="721" avgMicrosecondsPerInvocation="1910" maxMicrosecondsPerInvocation="112891" standardDeviationMircosecondsPerInvocation="6289"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="1242" invocations="2162" avgMicrosecondsPerInvocation="574" maxMicrosecondsPerInvocation="118561" standardDeviationMircosecondsPerInvocation="2963"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="1083" invocations="987" avgMicrosecondsPerInvocation="1097" maxMicrosecondsPerInvocation="52050" standardDeviationMircosecondsPerInvocation="2699"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="924" invocations="985" avgMicrosecondsPerInvocation="938" maxMicrosecondsPerInvocation="31940" standardDeviationMircosecondsPerInvocation="2443"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="714" invocations="1075" avgMicrosecondsPerInvocation="664" maxMicrosecondsPerInvocation="75614" standardDeviationMircosecondsPerInvocation="2574"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="676" invocations="987" avgMicrosecondsPerInvocation="685" maxMicrosecondsPerInvocation="30061" standardDeviationMircosecondsPerInvocation="1859"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="507" invocations="987" avgMicrosecondsPerInvocation="514" maxMicrosecondsPerInvocation="23894" standardDeviationMircosecondsPerInvocation="997"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="466" invocations="877" avgMicrosecondsPerInvocation="532" maxMicrosecondsPerInvocation="12616" standardDeviationMircosecondsPerInvocation="1112"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="386" invocations="721" avgMicrosecondsPerInvocation="535" maxMicrosecondsPerInvocation="35176" standardDeviationMircosecondsPerInvocation="1965"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="378" invocations="2351" avgMicrosecondsPerInvocation="161" maxMicrosecondsPerInvocation="5654" standardDeviationMircosecondsPerInvocation="199"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="317" invocations="2268" avgMicrosecondsPerInvocation="140" maxMicrosecondsPerInvocation="4691" standardDeviationMircosecondsPerInvocation="316"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="317" invocations="721" avgMicrosecondsPerInvocation="440" maxMicrosecondsPerInvocation="17559" standardDeviationMircosecondsPerInvocation="1181"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.obl.ObligationAnalysis" totalMilliseconds="272" invocations="256" avgMicrosecondsPerInvocation="1064" maxMicrosecondsPerInvocation="20968" standardDeviationMircosecondsPerInvocation="2105"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="254" invocations="987" avgMicrosecondsPerInvocation="257" maxMicrosecondsPerInvocation="9753" standardDeviationMircosecondsPerInvocation="641"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="226" invocations="721" avgMicrosecondsPerInvocation="314" maxMicrosecondsPerInvocation="12741" standardDeviationMircosecondsPerInvocation="1090"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="222" invocations="721" avgMicrosecondsPerInvocation="308" maxMicrosecondsPerInvocation="21775" standardDeviationMircosecondsPerInvocation="1157"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="219" invocations="721" avgMicrosecondsPerInvocation="304" maxMicrosecondsPerInvocation="11645" standardDeviationMircosecondsPerInvocation="983"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="216" invocations="794" avgMicrosecondsPerInvocation="273" maxMicrosecondsPerInvocation="25143" standardDeviationMircosecondsPerInvocation="1035"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="202" invocations="1005" avgMicrosecondsPerInvocation="201" maxMicrosecondsPerInvocation="77791" standardDeviationMircosecondsPerInvocation="2452"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.URLProblems" totalMilliseconds="167" invocations="162" avgMicrosecondsPerInvocation="1034" maxMicrosecondsPerInvocation="30943" standardDeviationMircosecondsPerInvocation="3090"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="165" invocations="721" avgMicrosecondsPerInvocation="228" maxMicrosecondsPerInvocation="21102" standardDeviationMircosecondsPerInvocation="1016"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="161" invocations="721" avgMicrosecondsPerInvocation="224" maxMicrosecondsPerInvocation="44434" standardDeviationMircosecondsPerInvocation="1938"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

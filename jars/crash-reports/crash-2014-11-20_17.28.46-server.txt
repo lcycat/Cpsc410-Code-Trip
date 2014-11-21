@@ -1,0 +1,34 @@
+---- Minecraft Crash Report ----
+// I feel sad now :(
+
+Time: 14-11-20 下午5:28
+Description: Exception in server tick loop
+
+java.lang.NullPointerException
+	at net.minecraft.src.ChunkProviderServer.unload100OldestChunks(ChunkProviderServer.java:296)
+	at net.minecraft.src.WorldServer.tick(WorldServer.java:103)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:629)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:571)
+	at net.minecraft.src.IntegratedServer.tick(IntegratedServer.java:123)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:475)
+	at net.minecraft.src.ThreadServerApplication.run(ThreadServerApplication.java:17)
+
+Relevant Details:
+- Minecraft Version: 1.3.1
+- Operating System: Windows 7 (amd64) version 6.1
+- Java Version: 1.8.0_25, Oracle Corporation
+- Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+- Memory: 918710640 bytes (876 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+- JVM Flags: 3 total; -Xincgc -Xms1024M -Xmx1024M
+- ModLoader: Mods loaded: 3
+ModLoader 1.3.1
+mod_codeTrip 1.0.0
+mod_ModLoaderMp 1.3.1v1
+
+- Type: Integrated Server
+- Is Modded: Unknown (can't tell)
+- Profiler Position: N/A (disabled)
+- Player Count: ~ERROR~ ConcurrentModificationException: null
+- World 新的世界 Entities: 0 total; []
+- World 新的世界 Players: 0 total; []
+- World 新的世界 Chunk Stats: ServerChunkCache: 0 Drop: 0

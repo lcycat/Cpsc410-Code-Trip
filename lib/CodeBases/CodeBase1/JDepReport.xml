@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<JDepend>
+    <Packages>
+
+        <Package name="micropolisj.build_tool">
+            <Stats>
+                <TotalClasses>4</TotalClasses>
+                <ConcreteClasses>4</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>9</Ce>
+                <A>0</A>
+                <I>1</I>
+                <D>0</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="MakeTiles.java">
+                    micropolisj.build_tool.MakeTiles
+                </Class>
+                <Class sourceFile="MakeTiles.java">
+                    micropolisj.build_tool.MakeTiles$FrameSpec
+                </Class>
+                <Class sourceFile="MakeTiles.java">
+                    micropolisj.build_tool.MakeTiles$SourceImage
+                </Class>
+                <Class sourceFile="RearrangeTiles.java">
+                    micropolisj.build_tool.RearrangeTiles
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.awt</Package>
+                <Package>java.awt.image</Package>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.nio.charset</Package>
+                <Package>java.util</Package>
+                <Package>javax.imageio</Package>
+                <Package>javax.swing</Package>
+                <Package>micropolisj.engine</Package>
+            </DependsUpon>
+			            <UsedBy>
+            </UsedBy>
+        </Package>
+		
+		</Packages>
+    <Cycles>
+    </Cycles>
+</JDepend>

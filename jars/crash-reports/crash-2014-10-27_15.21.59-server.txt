@@ -1,0 +1,40 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 14-10-27 ÏÂÎç3:21
+Description: Exception in server tick loop
+
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.fastRemove(ArrayList.java:546)
+	at java.util.ArrayList.remove(ArrayList.java:529)
+	at net.minecraft.src.PlayerInstance.sendThisChunkToPlayer(PlayerInstance.java:50)
+	at net.minecraft.src.PlayerManager.func_72695_c(PlayerManager.java:189)
+	at net.minecraft.src.ServerConfigurationManager.func_72367_e(ServerConfigurationManager.java:164)
+	at net.minecraft.src.NetServerHandler.kickPlayerFromServer(NetServerHandler.java:117)
+	at net.minecraft.src.NetworkListenThread.networkTick(NetworkListenThread.java:49)
+	at net.minecraft.src.IntegratedServerListenThread.networkTick(IntegratedServerListenThread.java:97)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:651)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:571)
+	at net.minecraft.src.IntegratedServer.tick(IntegratedServer.java:123)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:475)
+	at net.minecraft.src.ThreadServerApplication.run(ThreadServerApplication.java:17)
+
+Relevant Details:
+- Minecraft Version: 1.3.1
+- Operating System: Windows 7 (amd64) version 6.1
+- Java Version: 1.8.0_25, Oracle Corporation
+- Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+- Memory: 927751920 bytes (884 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+- JVM Flags: 3 total; -Xincgc -Xms1024M -Xmx1024M
+- ModLoader: Mods loaded: 3
+ModLoader 1.3.1
+mod_codeTrip 1.0.0
+mod_ModLoaderMp 1.3.1v1
+
+- Type: Integrated Server
+- Is Modded: Unknown (can't tell)
+- Profiler Position: N/A (disabled)
+- Player Count: 0 / 8; []
+- World New World Entities: 0 total; []
+- World New World Players: 0 total; []
+- World New World Chunk Stats: ServerChunkCache: 0 Drop: 0

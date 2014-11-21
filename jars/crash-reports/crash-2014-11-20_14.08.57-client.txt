@@ -1,0 +1,40 @@
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 14-11-20 ÏÂÎç2:08
+Description: Unexpected error
+
+java.lang.NullPointerException
+	at net.minecraft.src.codebase1Block.buildBuilding(codebase1Block.java:319)
+	at net.minecraft.src.codebase1Block.buildTown(codebase1Block.java:125)
+	at net.minecraft.src.codebase1Block.onBlockActivated(codebase1Block.java:79)
+	at net.minecraft.src.PlayerControllerMP.onPlayerRightClick(PlayerControllerMP.java:306)
+	at net.minecraft.client.Minecraft.clickMouse(Minecraft.java:1260)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1651)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:771)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:704)
+	at java.lang.Thread.run(Thread.java:745)
+
+Relevant Details:
+- Minecraft Version: 1.3.1
+- Operating System: Windows 7 (amd64) version 6.1
+- Java Version: 1.8.0_25, Oracle Corporation
+- Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+- Memory: 779899240 bytes (743 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+- JVM Flags: 3 total; -Xincgc -Xms1024M -Xmx1024M
+- ModLoader: Mods loaded: 3
+ModLoader 1.3.1
+mod_codeTrip 1.0.0
+mod_ModLoaderMp 1.3.1v1
+
+- LWJGL: 2.8.3
+- OpenGL: Intel(R) HD Graphics 4000 GL version 4.0.0 - Build 9.17.10.2867, Intel
+- Is Modded: Probably not
+- Type: Client
+- Texture Pack: Default
+- Profiler Position: N/A (disabled)
+- World MpServer Entities: 1 total; [EntityClientPlayerMP['Player912'/0, l='MpServer', x=409.16, y=5.62, z=-78.97]]
+- World MpServer Players: 1 total; [EntityClientPlayerMP['Player912'/0, l='MpServer', x=409.16, y=5.62, z=-78.97]]
+- World MpServer Chunk Stats: MultiplayerChunkCache: 441
+- Forced Entities: 1 total; [EntityClientPlayerMP['Player912'/0, l='MpServer', x=409.16, y=5.62, z=-78.97]]
+- Retry Entities: 0 total; []

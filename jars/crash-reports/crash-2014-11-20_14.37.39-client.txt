@@ -1,0 +1,40 @@
+---- Minecraft Crash Report ----
+// Would you like a cupcake?
+
+Time: 14-11-20 ÏÂÎç2:37
+Description: Unexpected error
+
+java.lang.NullPointerException
+	at net.minecraft.src.codebase1Block.buildBuilding(codebase1Block.java:321)
+	at net.minecraft.src.codebase1Block.buildTown(codebase1Block.java:125)
+	at net.minecraft.src.codebase1Block.onBlockActivated(codebase1Block.java:79)
+	at net.minecraft.src.PlayerControllerMP.onPlayerRightClick(PlayerControllerMP.java:306)
+	at net.minecraft.client.Minecraft.clickMouse(Minecraft.java:1260)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1651)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:771)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:704)
+	at java.lang.Thread.run(Thread.java:745)
+
+Relevant Details:
+- Minecraft Version: 1.3.1
+- Operating System: Windows 7 (amd64) version 6.1
+- Java Version: 1.8.0_25, Oracle Corporation
+- Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+- Memory: 783496672 bytes (747 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+- JVM Flags: 3 total; -Xincgc -Xms1024M -Xmx1024M
+- ModLoader: Mods loaded: 3
+ModLoader 1.3.1
+mod_codeTrip 1.0.0
+mod_ModLoaderMp 1.3.1v1
+
+- LWJGL: 2.8.3
+- OpenGL: Intel(R) HD Graphics 4000 GL version 4.0.0 - Build 9.17.10.2867, Intel
+- Is Modded: Probably not
+- Type: Client
+- Texture Pack: Default
+- Profiler Position: N/A (disabled)
+- World MpServer Entities: 11 total; [EntityClientPlayerMP['Player983'/30, l='MpServer', x=-275.98, y=5.62, z=-1395.21], EntityVillager['Villager'/16, l='MpServer', x=-351.50, y=1.00, z=-1339.50], EntityVillager['Villager'/17, l='MpServer', x=-351.50, y=1.00, z=-1338.50], EntityVillager['Villager'/18, l='MpServer', x=-344.50, y=-244.47, z=-1351.50], EntityVillager['Villager'/19, l='MpServer', x=-351.50, y=-244.47, z=-1356.50], EntityVillager['Villager'/22, l='MpServer', x=-327.31, y=5.00, z=-1357.28], EntityVillager['Villager'/23, l='MpServer', x=-325.58, y=5.00, z=-1357.31], EntityVillager['Villager'/24, l='MpServer', x=-338.50, y=-244.47, z=-1319.50], EntityVillager['Villager'/25, l='MpServer', x=-337.50, y=-244.47, z=-1319.50], EntityVillager['Villager'/28, l='MpServer', x=-320.50, y=5.00, z=-1353.50], EntityVillager['Villager'/29, l='MpServer', x=-320.50, y=5.00, z=-1352.50]]
+- World MpServer Players: 1 total; [EntityClientPlayerMP['Player983'/30, l='MpServer', x=-275.98, y=5.62, z=-1395.21]]
+- World MpServer Chunk Stats: MultiplayerChunkCache: 441
+- Forced Entities: 11 total; [EntityVillager['Villager'/16, l='MpServer', x=-351.50, y=1.00, z=-1339.50], EntityVillager['Villager'/17, l='MpServer', x=-351.50, y=1.00, z=-1338.50], EntityVillager['Villager'/18, l='MpServer', x=-344.50, y=-244.47, z=-1351.50], EntityVillager['Villager'/19, l='MpServer', x=-351.50, y=-244.47, z=-1356.50], EntityVillager['Villager'/22, l='MpServer', x=-327.31, y=5.00, z=-1357.28], EntityVillager['Villager'/23, l='MpServer', x=-325.58, y=5.00, z=-1357.31], EntityVillager['Villager'/24, l='MpServer', x=-338.50, y=-244.47, z=-1319.50], EntityVillager['Villager'/25, l='MpServer', x=-337.50, y=-244.47, z=-1319.50], EntityVillager['Villager'/28, l='MpServer', x=-320.50, y=5.00, z=-1353.50], EntityClientPlayerMP['Player983'/30, l='MpServer', x=-275.98, y=5.62, z=-1395.21], EntityVillager['Villager'/29, l='MpServer', x=-320.50, y=5.00, z=-1352.50]]
+- Retry Entities: 0 total; []

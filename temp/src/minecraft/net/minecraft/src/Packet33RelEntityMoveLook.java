@@ -1,0 +1,57 @@
+// Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.kpdus.com/jad.html
+// Decompiler options: packimports(3) braces deadcode fieldsfirst 
+
+package net.minecraft.src;
+
+import java.io.*;
+
+// Referenced classes of package net.minecraft.src:
+//            Packet30Entity
+
+public class Packet33RelEntityMoveLook extends Packet30Entity
+{
+
+    public Packet33RelEntityMoveLook()
+    {
+        field_73549_g = true;
+    }
+
+    public Packet33RelEntityMoveLook(int p_i3329_1_, byte p_i3329_2_, byte p_i3329_3_, byte p_i3329_4_, byte p_i3329_5_, byte p_i3329_6_)
+    {
+        super(p_i3329_1_);
+        field_73552_b = p_i3329_2_;
+        field_73553_c = p_i3329_3_;
+        field_73550_d = p_i3329_4_;
+        field_73551_e = p_i3329_5_;
+        field_73548_f = p_i3329_6_;
+        field_73549_g = true;
+    }
+
+    public void func_73267_a(DataInputStream p_73267_1_)
+        throws IOException
+    {
+        super.func_73267_a(p_73267_1_);
+        field_73552_b = p_73267_1_.readByte();
+        field_73553_c = p_73267_1_.readByte();
+        field_73550_d = p_73267_1_.readByte();
+        field_73551_e = p_73267_1_.readByte();
+        field_73548_f = p_73267_1_.readByte();
+    }
+
+    public void func_73273_a(DataOutputStream p_73273_1_)
+        throws IOException
+    {
+        super.func_73273_a(p_73273_1_);
+        p_73273_1_.writeByte(field_73552_b);
+        p_73273_1_.writeByte(field_73553_c);
+        p_73273_1_.writeByte(field_73550_d);
+        p_73273_1_.writeByte(field_73551_e);
+        p_73273_1_.writeByte(field_73548_f);
+    }
+
+    public int func_73284_a()
+    {
+        return 9;
+    }
+}

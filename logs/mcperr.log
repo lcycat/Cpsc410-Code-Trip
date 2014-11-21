@@ -1,0 +1,27 @@
+09:02:49 - '"C:\Program Files\Java\jdk1.8.0_25\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\li...' failed : 1
+09:02:49 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime\startclient.py", line 30, in startclient
+  File "E:\cpsc410\CodeTrip\MCP\runtime\commands.py", line 1077, in startclient
+    self.runmc(forkcmd)
+  File "E:\cpsc410\CodeTrip\MCP\runtime\commands.py", line 1117, in runmc
+    raise CalledProcessError(process.returncode, forkcmd, output)
+CalledProcessError: Command '"C:\Program Files\Java\jdk1.8.0_25\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\lib;..\lib\*;..\jars\bin\minecraft.jar;..\jars\bin\jinput.jar;..\jars\bin\lwjgl.jar;..\jars\bin\lwjgl_util.jar" -Djava.library.path=..\jars\bin\natives Start' returned non-zero exit status 1
+09:09:43 - '"C:\Program Files\Java\jdk1.8.0_25\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\li...' failed : 1
+09:09:43 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime\startclient.py", line 30, in startclient
+  File "E:\cpsc410\CodeTrip\MCP\runtime\commands.py", line 1077, in startclient
+    self.runmc(forkcmd)
+  File "E:\cpsc410\CodeTrip\MCP\runtime\commands.py", line 1117, in runmc
+    raise CalledProcessError(process.returncode, forkcmd, output)
+CalledProcessError: Command '"C:\Program Files\Java\jdk1.8.0_25\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\lib;..\lib\*;..\jars\bin\minecraft.jar;..\jars\bin\jinput.jar;..\jars\bin\lwjgl.jar;..\jars\bin\lwjgl_util.jar" -Djava.library.path=..\jars\bin\natives Start' returned non-zero exit status 1
+09:33:38 - '"C:\Program Files\Java\jdk1.8.0_25\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\li...' failed : 1
+09:33:38 - FATAL ERROR
+Traceback (most recent call last):
+  File "runtime\startclient.py", line 30, in startclient
+  File "E:\cpsc410\CodeTrip\MCP\CPSC410-CodeTrip-Final\runtime\commands.py", line 1077, in startclient
+    self.runmc(forkcmd)
+  File "E:\cpsc410\CodeTrip\MCP\CPSC410-CodeTrip-Final\runtime\commands.py", line 1117, in runmc
+    raise CalledProcessError(process.returncode, forkcmd, output)
+CalledProcessError: Command '"C:\Program Files\Java\jdk1.8.0_25\bin\java" -Xincgc -Xms1024M -Xmx1024M -cp "..\bin\minecraft;..\lib;..\lib\*;..\jars\bin\minecraft.jar;..\jars\bin\jinput.jar;..\jars\bin\lwjgl.jar;..\jars\bin\lwjgl_util.jar" -Djava.library.path=..\jars\bin\natives Start' returned non-zero exit status 1
